@@ -76,3 +76,8 @@ ssh-be: ## ssh's into the be container
 code-style: ## Runs php-cs to fix code styling following Symfony rules
 	U_ID=${UID} docker exec -it --user ${UID} ${DOCKER_BE} php-cs-fixer fix src --rules=@Symfony
 #	U_ID=${UID} docker exec -it --user ${UID} ${DOCKER_BE} php-cs-fixer fix tests --rules=@Symfony
+
+generate-ssh-keys: ## generate ssh keys in container
+	U_ID=${UID} docker exec -it --user ${UID} ${DOCKER_BE} mkdir -p config/jwt
+	U_ID=${UID} docker exec -it --user ${UID} ${DOCKER_BE} openssl genpkey -pass pass:sf5-gastos-api -out config/jwt/private.pem -aes256 -algorithm rsa -pkeyopt rsa_keygen_bits:4096
+	U_ID=${UID} docker exec -it --user ${UID} ${DOCKER_BE} openssl pkey -in config/jwt/private.pem -out config/jwt/public.pem -pubout -passin pass:sf5-gastos-api

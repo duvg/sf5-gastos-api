@@ -87,8 +87,26 @@
     "laminas/laminas-zendframework-bridge": {
         "version": "1.0.4"
     },
+    "lcobucci/jwt": {
+        "version": "3.3.2"
+    },
+    "lexik/jwt-authentication-bundle": {
+        "version": "2.5",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "2.5",
+            "ref": "5b2157bcd5778166a5696e42f552ad36529a07a6"
+        },
+        "files": [
+            "config/packages/lexik_jwt_authentication.yaml"
+        ]
+    },
     "monolog/monolog": {
         "version": "2.1.0"
+    },
+    "namshi/jose": {
+        "version": "7.2.3"
     },
     "ocramius/package-versions": {
         "version": "1.8.0"
@@ -195,6 +213,9 @@
     "symfony/http-kernel": {
         "version": "v5.0.10"
     },
+    "symfony/inflector": {
+        "version": "v5.0.10"
+    },
     "symfony/mime": {
         "version": "v5.0.10"
     },
@@ -231,6 +252,9 @@
     "symfony/polyfill-php80": {
         "version": "v1.17.0"
     },
+    "symfony/property-access": {
+        "version": "v5.0.10"
+    },
     "symfony/routing": {
         "version": "4.2",
         "recipe": {
@@ -244,6 +268,30 @@
             "config/packages/routing.yaml",
             "config/routes.yaml"
         ]
+    },
+    "symfony/security-bundle": {
+        "version": "4.4",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "4.4",
+            "ref": "7b4408dc203049666fe23fabed23cbadc6d8440f"
+        },
+        "files": [
+            "config/packages/security.yaml"
+        ]
+    },
+    "symfony/security-core": {
+        "version": "v5.0.10"
+    },
+    "symfony/security-csrf": {
+        "version": "v5.0.10"
+    },
+    "symfony/security-guard": {
+        "version": "v5.0.10"
+    },
+    "symfony/security-http": {
+        "version": "v5.0.10"
     },
     "symfony/service-contracts": {
         "version": "v2.1.2"
