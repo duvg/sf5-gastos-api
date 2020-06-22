@@ -10,6 +10,6 @@
 ###< symfony/framework-bundle ###
 
 ###> Other files ###
-.idea
+.idea   
 .env.local
 ###> Other files ###
