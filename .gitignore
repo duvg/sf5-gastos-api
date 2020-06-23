@@ -12,6 +12,7 @@
 ###> Other files ###
 .idea
 .env.local
+.php_cs.cache
 ###> Other files ###
 
 ###> lexik/jwt-authentication-bundle ###
