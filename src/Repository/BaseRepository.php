@@ -32,7 +32,7 @@ abstract class BaseRepository
     // Save a entity
     protected function saveEntity($entity): void
     {
-        $this->getEntityManager()->persiste($entity);
+        $this->getEntityManager()->persist($entity);
         $this->getEntityManager()->flush();
     }
 
