@@ -1,0 +1,17 @@
+api_platform:
+    mapping:
+        paths:
+            - '%kernel.project_dir%/src/Doctrine/Mapping/Entity'
+            - '%kernel.project_dir%/config/api_platform/resources'
+    patch_formats:
+        json: ['application/merge-patch+json']
+    swagger:
+        versions: [3]
+        api_keys:
+            apiKey:
+                name: Authorization
+                type: header
+    title: 'SF5 Gastos API'
+    description: 'Api de gestión de gastos con Symfony 5.0 PHP 7.4 y API Platform'
+    version: 1.0
+    show_webby: false

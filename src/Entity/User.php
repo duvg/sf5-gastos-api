@@ -71,6 +71,11 @@ class User implements UserInterface
         return $this->roles;
     }
 
+    public function setRoles(array $roles)
+    {
+        $this->roles = $roles;
+    }
+
     public function getCreatedAt(): \DateTime
     {
         return $this->createdAt;
@@ -98,4 +103,11 @@ class User implements UserInterface
     public function eraseCredentials(): void
     {
     }
+
+    // Check if user is equals to user in token
+    public function equals(User $user): bool
+    {
+        return $this->getId() === $user->getId();
+    }
+
 }
