@@ -8,6 +8,7 @@ use App\Api\Action\RequestTransformer;
 use App\Api\Listener\PreWriteListener;
 use App\Entity\User;
 use App\Security\Validator\Role\RoleValidator;
+use App\Service\Password\EncoderService;
 use Symfony\Component\HttpKernel\Event\ViewEvent;
 use Symfony\Component\Security\Core\Encoder\EncoderFactoryInterface;
 
@@ -15,15 +16,19 @@ class UserPreWriteListener implements PreWriteListener
 {
     private const PUT_USER = 'api_users_put_item';
 
-    private EncoderFactoryInterface $encoderFactory;
+
 
     /** @var iterable|RoleValidator[] */
     private $roleValidators;
+    /**
+     * @var EncoderService
+     */
+    private $encoderService;
 
-    public function __construct(EncoderFactoryInterface $encoderFactory, iterable $roleValidators)
+    public function __construct(iterable $roleValidators, EncoderService $encoderService)
     {
-        $this->encoderFactory = $encoderFactory;
         $this->roleValidators = $roleValidators;
+        $this->encoderService = $encoderService;
     }
     public function onKernelView(ViewEvent $event): void
     {
@@ -41,11 +46,11 @@ class UserPreWriteListener implements PreWriteListener
 
             $user->setRoles($roles);
 
-            $plainTextPassword = RequestTransformer::getRequiredField($request, 'password');
-
-            $encoder = $this->encoderFactory->getEncoder($user);
-
-            $user->setPassword($encoder->encodePassword($plainTextPassword, null));
+            $user->setPassword(
+                $this->encoderService->generateEncodedPasswordForUser(
+                    $user,
+                    RequestTransformer::getRequiredField($request, 'password')
+                ));
         }
     }
 }

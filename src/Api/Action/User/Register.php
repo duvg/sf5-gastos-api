@@ -8,6 +8,7 @@ use App\Api\Action\RequestTransformer;
 use App\Entity\User;
 use App\Exception\User\UserAlreadyExistException;
 use App\Repository\UserRepository;
+use App\Service\Password\EncoderService;
 use Lexik\Bundle\JWTAuthenticationBundle\Services\JWTTokenManagerInterface;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
@@ -21,12 +22,16 @@ class Register
     private JWTTokenManagerInterface $JWTTokenManager;
 
     private EncoderFactoryInterface $encoderFactory;
+    /**
+     * @var EncoderService
+     */
+    private $encoderService;
 
-    public function __construct(UserRepository $userRepository, JWTTokenManagerInterface $JWTTokenManager, EncoderFactoryInterface $encoderFactory)
+    public function __construct(UserRepository $userRepository, JWTTokenManagerInterface $JWTTokenManager, EncoderService $encoderService)
     {
         $this->userRepository = $userRepository;
         $this->JWTTokenManager = $JWTTokenManager;
-        $this->encoderFactory = $encoderFactory;
+        $this->encoderService = $encoderService;
     }
 
     /**
@@ -49,13 +54,11 @@ class Register
         // Create user if not exist
         $user = new User($name, $email);
 
-        $encoder = $this->encoderFactory->getEncoder($user);
-
-        $user->setPassword($encoder->encodePassword($password, null));
+        $user->setPassword($this->encoderService->generateEncodedPasswordForUser($user, $password));
 
         $this->userRepository->save($user);
 
-        // Generate Tken
+        // Generate Token
         $jwt = $this->JWTTokenManager->create($user);
 
         return new JsonResponse(['token' => $jwt]);
