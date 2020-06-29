@@ -109,5 +109,4 @@ class User implements UserInterface
     {
         return $this->getId() === $user->getId();
     }
-
 }

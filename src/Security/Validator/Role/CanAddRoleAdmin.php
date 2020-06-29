@@ -28,6 +28,5 @@ class CanAddRoleAdmin implements RoleValidator
         }
 
         return $roles;
-
     }
 }

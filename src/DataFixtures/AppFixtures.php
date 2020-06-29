@@ -10,10 +10,6 @@ use Doctrine\Persistence\ObjectManager;
 
 class AppFixtures extends Fixture
 {
-
-    /**
-     * @var EncoderService
-     */
     private EncoderService $encoderService;
 
     public function __construct(EncoderService $encoderService)
@@ -47,8 +43,8 @@ class AppFixtures extends Fixture
                 'password' => 'password',
                  'roles' => [
                      Role::ROLE_ADMIN,
-                     Role::ROLE_USER
-                 ]
+                     Role::ROLE_USER,
+                 ],
             ],
             [
                 'id' => 'd781a25f-da6c-42ee-9261-7cc8ddd97002',
@@ -56,9 +52,9 @@ class AppFixtures extends Fixture
                 'email' => 'user@api.com',
                 'password' => 'password',
                 'roles' => [
-                    Role::ROLE_USER
-                ]
-            ]
+                    Role::ROLE_USER,
+                ],
+            ],
         ];
     }
 }

@@ -1784,3 +1784,1284 @@ unison: started
 [2020-06-28 20:44:15 -0500] Sync Log:  [END] Updating file tests/Functional/Api/User/DeleteUserTest.php
 [2020-06-28 20:44:15 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:44:15.30 on 28 Jun 2020
 [2020-06-28 20:44:15 -0500] Sync Log:  Synchronization complete at 20:44:15  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 22:47:47 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:47:46.95 on 28 Jun 2020
+[2020-06-28 22:47:47 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/.phpunit-7.5-0.md5 from /app_sync
+[2020-06-28 22:47:47 -0500] Sync Log:  [END] Deleting bin/.phpunit/.phpunit-7.5-0.md5
+[2020-06-28 22:47:47 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:47:46.95 on 28 Jun 2020
+[2020-06-28 22:47:47 -0500] Sync Log:  Synchronization complete at 22:47:46  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 22:47:49 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:47:48.15 on 28 Jun 2020
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/.editorconfig from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/.editorconfig
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/.gitattributes from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/.gitattributes
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/.github from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/.github
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/.php_cs.dist from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/.php_cs.dist
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/.travis.yml from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/.travis.yml
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/LICENSE from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/LICENSE
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/bin from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/bin
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/build.xml from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/build.xml
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/composer.json from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/composer.json
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/composer.lock from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/composer.lock
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/phive.xml from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/phive.xml
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/phpunit from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/phpunit
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/phpunit.xml from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/phpunit.xml
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/phpunit.xsd from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/phpunit.xsd
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Exception.php from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Exception.php
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Assert from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Assert
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Assert.php from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Assert.php
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/AssertionFailedError.php from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/AssertionFailedError.php
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/CodeCoverageException.php from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/CodeCoverageException.php
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/ArrayHasKey.php from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/ArrayHasKey.php
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/ArraySubset.php from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/ArraySubset.php
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/Attribute.php from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/Attribute.php
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/Callback.php from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/Callback.php
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/ClassHasAttribute.php from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/ClassHasAttribute.php
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/ClassHasStaticAttribute.php from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/ClassHasStaticAttribute.php
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/Composite.php from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/Composite.php
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/Constraint.php from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/Constraint.php
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/Count.php from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/Count.php
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/DirectoryExists.php from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/DirectoryExists.php
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/Exception.php from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/Exception.php
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/ExceptionCode.php from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/ExceptionCode.php
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/ExceptionMessage.php from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/ExceptionMessage.php
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/ExceptionMessageRegularExpression.php from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/ExceptionMessageRegularExpression.php
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/FileExists.php from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/FileExists.php
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/GreaterThan.php from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/GreaterThan.php
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/IsAnything.php from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/IsAnything.php
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/IsEmpty.php from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/IsEmpty.php
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/IsEqual.php from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/IsEqual.php
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/IsFalse.php from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/IsFalse.php
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/IsFinite.php from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/IsFinite.php
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/IsIdentical.php from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/IsIdentical.php
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/IsInfinite.php from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/IsInfinite.php
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/IsInstanceOf.php from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/IsInstanceOf.php
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/IsJson.php from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/IsJson.php
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/IsNan.php from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/IsNan.php
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/IsNull.php from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/IsNull.php
+[2020-06-28 22:47:49 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/IsReadable.php from /app_sync
+[2020-06-28 22:47:49 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint/IsReadable.php
+[2020-06-28 22:47:49 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:47:48.26 on 28 Jun 2020
+[2020-06-28 22:47:49 -0500] Sync Log:  Synchronization complete at 22:47:48  (47 items transferred, 0 skipped, 0 failed)
+[2020-06-28 22:47:50 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:47:49.32 on 28 Jun 2020
+[2020-06-28 22:47:50 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint from /app_sync
+[2020-06-28 22:47:50 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Constraint
+[2020-06-28 22:47:50 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/CoveredCodeNotExecutedException.php from /app_sync
+[2020-06-28 22:47:50 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/CoveredCodeNotExecutedException.php
+[2020-06-28 22:47:50 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/DataProviderTestSuite.php from /app_sync
+[2020-06-28 22:47:50 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/DataProviderTestSuite.php
+[2020-06-28 22:47:50 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Error from /app_sync
+[2020-06-28 22:47:50 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Error
+[2020-06-28 22:47:50 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Exception.php from /app_sync
+[2020-06-28 22:47:50 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/Exception.php
+[2020-06-28 22:47:50 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/ExceptionWrapper.php from /app_sync
+[2020-06-28 22:47:50 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/ExceptionWrapper.php
+[2020-06-28 22:47:50 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/ExpectationFailedException.php from /app_sync
+[2020-06-28 22:47:50 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/ExpectationFailedException.php
+[2020-06-28 22:47:50 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/IncompleteTest.php from /app_sync
+[2020-06-28 22:47:50 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/IncompleteTest.php
+[2020-06-28 22:47:50 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/IncompleteTestCase.php from /app_sync
+[2020-06-28 22:47:50 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/IncompleteTestCase.php
+[2020-06-28 22:47:50 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/IncompleteTestError.php from /app_sync
+[2020-06-28 22:47:50 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/IncompleteTestError.php
+[2020-06-28 22:47:50 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/InvalidCoversTargetException.php from /app_sync
+[2020-06-28 22:47:50 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/InvalidCoversTargetException.php
+[2020-06-28 22:47:50 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/InvalidParameterGroupException.php from /app_sync
+[2020-06-28 22:47:50 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/InvalidParameterGroupException.php
+[2020-06-28 22:47:50 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/MissingCoversAnnotationException.php from /app_sync
+[2020-06-28 22:47:50 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/MissingCoversAnnotationException.php
+[2020-06-28 22:47:50 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/MockObject/Builder from /app_sync
+[2020-06-28 22:47:50 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/MockObject/Builder
+[2020-06-28 22:47:50 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/MockObject/Exception from /app_sync
+[2020-06-28 22:47:50 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/MockObject/Exception
+[2020-06-28 22:47:50 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/MockObject/ForwardCompatibility from /app_sync
+[2020-06-28 22:47:50 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/MockObject/ForwardCompatibility
+[2020-06-28 22:47:50 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/MockObject/Generator from /app_sync
+[2020-06-28 22:47:50 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/MockObject/Generator
+[2020-06-28 22:47:50 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/MockObject/Generator.php from /app_sync
+[2020-06-28 22:47:50 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/MockObject/Generator.php
+[2020-06-28 22:47:50 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/MockObject/Invocation from /app_sync
+[2020-06-28 22:47:50 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/MockObject/Invocation
+[2020-06-28 22:47:50 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/MockObject/InvocationMocker.php from /app_sync
+[2020-06-28 22:47:50 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/MockObject/InvocationMocker.php
+[2020-06-28 22:47:50 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/MockObject/Invokable.php from /app_sync
+[2020-06-28 22:47:50 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/MockObject/Invokable.php
+[2020-06-28 22:47:50 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/MockObject/Matcher from /app_sync
+[2020-06-28 22:47:50 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework/MockObject/Matcher
+[2020-06-28 22:47:50 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:47:49.50 on 28 Jun 2020
+[2020-06-28 22:47:50 -0500] Sync Log:  Synchronization complete at 22:47:49  (22 items transferred, 0 skipped, 0 failed)
+[2020-06-28 22:47:51 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:47:50.55 on 28 Jun 2020
+[2020-06-28 22:47:51 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework from /app_sync
+[2020-06-28 22:47:51 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Framework
+[2020-06-28 22:47:51 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Runner from /app_sync
+[2020-06-28 22:47:51 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Runner
+[2020-06-28 22:47:51 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/TextUI from /app_sync
+[2020-06-28 22:47:51 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/TextUI
+[2020-06-28 22:47:51 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Util/Blacklist.php from /app_sync
+[2020-06-28 22:47:51 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Util/Blacklist.php
+[2020-06-28 22:47:51 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Util/Configuration.php from /app_sync
+[2020-06-28 22:47:51 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Util/Configuration.php
+[2020-06-28 22:47:51 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Util/ConfigurationGenerator.php from /app_sync
+[2020-06-28 22:47:51 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Util/ConfigurationGenerator.php
+[2020-06-28 22:47:51 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Util/ErrorHandler.php from /app_sync
+[2020-06-28 22:47:51 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Util/ErrorHandler.php
+[2020-06-28 22:47:51 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Util/FileLoader.php from /app_sync
+[2020-06-28 22:47:51 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Util/FileLoader.php
+[2020-06-28 22:47:51 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src/Util/Filesystem.php from /app_sync
+[2020-06-28 22:47:51 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src/Util/Filesystem.php
+[2020-06-28 22:47:51 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:47:50.71 on 28 Jun 2020
+[2020-06-28 22:47:51 -0500] Sync Log:  Synchronization complete at 22:47:50  (9 items transferred, 0 skipped, 0 failed)
+[2020-06-28 22:47:52 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:47:51.92 on 28 Jun 2020
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/src from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/src
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/3194.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/3194.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/3530.wsdl from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/3530.wsdl
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/AbstractMockTestClass.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/AbstractMockTestClass.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/AbstractTest.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/AbstractTest.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/AbstractTrait.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/AbstractTrait.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/AnInterface.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/AnInterface.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/AnInterfaceWithReturnType.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/AnInterfaceWithReturnType.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/AnotherInterface.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/AnotherInterface.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ArrayAccessible.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ArrayAccessible.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/AssertionExample.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/AssertionExample.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/AssertionExampleTest.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/AssertionExampleTest.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/Author.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/Author.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/BankAccount.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/BankAccount.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/BankAccountTest.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/BankAccountTest.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/BankAccountTest.test.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/BankAccountTest.test.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/BankAccountTest2.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/BankAccountTest2.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/Bar.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/Bar.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/BeforeAndAfterTest.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/BeforeAndAfterTest.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/BeforeClassAndAfterClassTest.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/BeforeClassAndAfterClassTest.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/BeforeClassWithOnlyDataProviderTest.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/BeforeClassWithOnlyDataProviderTest.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/Book.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/Book.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/Calculator.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/Calculator.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ChangeCurrentWorkingDirectoryTest.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ChangeCurrentWorkingDirectoryTest.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ClassThatImplementsSerializable.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ClassThatImplementsSerializable.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ClassWithAllPossibleReturnTypes.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ClassWithAllPossibleReturnTypes.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ClassWithNonPublicAttributes.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ClassWithNonPublicAttributes.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ClassWithScalarTypeDeclarations.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ClassWithScalarTypeDeclarations.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ClassWithSelfTypeHint.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ClassWithSelfTypeHint.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ClassWithStaticMethod.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ClassWithStaticMethod.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ClassWithToString.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ClassWithToString.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ClassWithVariadicArgumentMethod.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ClassWithVariadicArgumentMethod.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ClonedDependencyTest.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ClonedDependencyTest.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ConcreteTest.my.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ConcreteTest.my.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ConcreteTest.php from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ConcreteTest.php
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/bar.xml from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/bar.xml
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/configuration.colors.empty.xml from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/configuration.colors.empty.xml
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/configuration.colors.false.xml from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/configuration.colors.false.xml
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/configuration.colors.invalid.xml from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/configuration.colors.invalid.xml
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/configuration.colors.true.xml from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/configuration.colors.true.xml
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/configuration.columns.default.xml from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/configuration.columns.default.xml
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/configuration.custom-printer.xml from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/configuration.custom-printer.xml
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/configuration.defaulttestsuite.xml from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/configuration.defaulttestsuite.xml
+[2020-06-28 22:47:52 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/configuration.one-file-suite.xml from /app_sync
+[2020-06-28 22:47:52 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/configuration.one-file-suite.xml
+[2020-06-28 22:47:52 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:47:52.10 on 28 Jun 2020
+[2020-06-28 22:47:52 -0500] Sync Log:  Synchronization complete at 22:47:52  (44 items transferred, 0 skipped, 0 failed)
+[2020-06-28 22:47:54 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:47:53.21 on 28 Jun 2020
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageClassWithoutAnnotationsTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageClassWithoutAnnotationsTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageCoversOverridesCoversNothingTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageCoversOverridesCoversNothingTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageFunctionParenthesesTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageFunctionParenthesesTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageFunctionParenthesesWhitespaceTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageFunctionParenthesesWhitespaceTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageFunctionTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageFunctionTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageMethodNothingCoversMethod.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageMethodNothingCoversMethod.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageMethodNothingTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageMethodNothingTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageMethodOneLineAnnotationTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageMethodOneLineAnnotationTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageMethodParenthesesTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageMethodParenthesesTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageMethodParenthesesWhitespaceTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageMethodParenthesesWhitespaceTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageMethodTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageMethodTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageNamespacedFunctionTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageNamespacedFunctionTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageNoneTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageNoneTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageNotPrivateTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageNotPrivateTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageNotProtectedTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageNotProtectedTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageNotPublicTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageNotPublicTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoveragePrivateTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoveragePrivateTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageProtectedTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageProtectedTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoveragePublicTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoveragePublicTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageTwoDefaultClassAnnotations.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoverageTwoDefaultClassAnnotations.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoveredClass.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoveredClass.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoveredFunction.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CoveredFunction.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CustomPrinter.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/CustomPrinter.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DataProviderDebugTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DataProviderDebugTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DataProviderDependencyTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DataProviderDependencyTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DataProviderFilterTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DataProviderFilterTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DataProviderIncompleteTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DataProviderIncompleteTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DataProviderIssue2833 from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DataProviderIssue2833
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DataProviderIssue2859 from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DataProviderIssue2859
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DataProviderIssue2922 from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DataProviderIssue2922
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DataProviderSkippedTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DataProviderSkippedTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DataProviderTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DataProviderTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DataProviderTestDoxTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DataProviderTestDoxTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DataproviderExecutionOrderTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DataproviderExecutionOrderTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DataproviderExecutionOrderTest_result_cache.txt from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DataproviderExecutionOrderTest_result_cache.txt
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DependencyFailureTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DependencyFailureTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DependencySuccessTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DependencySuccessTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DependencyTestSuite.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DependencyTestSuite.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DoNoAssertionTestCase.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DoNoAssertionTestCase.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DoesNotPerformAssertionsButPerformingAssertionsTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DoesNotPerformAssertionsButPerformingAssertionsTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DoubleTestCase.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DoubleTestCase.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DummyBarTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DummyBarTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DummyException.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DummyException.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DummyFooTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/DummyFooTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/EmptyTestCaseTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/EmptyTestCaseTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ExampleTrait.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ExampleTrait.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ExceptionInAssertPostConditionsTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ExceptionInAssertPostConditionsTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ExceptionInAssertPreConditionsTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ExceptionInAssertPreConditionsTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ExceptionInSetUpTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ExceptionInSetUpTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ExceptionInTearDownAfterClassTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ExceptionInTearDownAfterClassTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ExceptionInTearDownTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ExceptionInTearDownTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ExceptionInTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ExceptionInTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ExceptionInTestDetectedInTeardown.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ExceptionInTestDetectedInTeardown.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ExceptionNamespaceTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ExceptionNamespaceTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ExceptionStackTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ExceptionStackTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ExceptionTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ExceptionTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ExceptionWithThrowable.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/ExceptionWithThrowable.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/Failure.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/Failure.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/FailureTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/FailureTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/FalsyConstraint.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/FalsyConstraint.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/FatalTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/FatalTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/FinalClass.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/FinalClass.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/Foo.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/Foo.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/FunctionCallback.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/FunctionCallback.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/Go ogle-Sea.rch.wsdl from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/Go ogle-Sea.rch.wsdl
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/GoogleSearch.wsdl from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/GoogleSearch.wsdl
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/IgnoreCodeCoverageClass.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/IgnoreCodeCoverageClass.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/IgnoreCodeCoverageClassTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/IgnoreCodeCoverageClassTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/IncompleteTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/IncompleteTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/Inheritance from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/Inheritance
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/InheritedTestCase.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/InheritedTestCase.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/IniTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/IniTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/InterfaceWithSemiReservedMethodName.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/InterfaceWithSemiReservedMethodName.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/InterfaceWithStaticMethod.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/InterfaceWithStaticMethod.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/IsolationTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/IsolationTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/JsonData from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/JsonData
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/MethodCallback.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/MethodCallback.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/MethodCallbackByReference.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/MethodCallbackByReference.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/MockRunner.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/MockRunner.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/MockTestInterface.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/MockTestInterface.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/Mockable.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/Mockable.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/MultiDependencyTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/MultiDependencyTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/MultiDependencyTest_result_cache.txt from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/MultiDependencyTest_result_cache.txt
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/MultipleDataProviderTest.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/MultipleDataProviderTest.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/MyCommand.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/MyCommand.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/MyTestListener.php from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/MyTestListener.php
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/configuration.suites.xml from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/configuration.suites.xml
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/expectedFileFormat.txt from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/expectedFileFormat.txt
+[2020-06-28 22:47:54 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/foo.xml from /app_sync
+[2020-06-28 22:47:54 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files/foo.xml
+[2020-06-28 22:47:54 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:47:53.71 on 28 Jun 2020
+[2020-06-28 22:47:54 -0500] Sync Log:  Synchronization complete at 22:47:53  (89 items transferred, 0 skipped, 0 failed)
+[2020-06-28 22:47:55 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:47:54.87 on 28 Jun 2020
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/_files
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/bootstrap.php from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/bootstrap.php
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/_files from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/_files
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/abstract-test-class.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/abstract-test-class.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/assertion.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/assertion.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/cache-result.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/cache-result.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/cli from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/cli
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/code-coverage-ignore.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/code-coverage-ignore.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/code-coverage-phpt.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/code-coverage-phpt.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/colors-always.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/colors-always.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/concrete-test-class.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/concrete-test-class.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/custom-printer-debug.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/custom-printer-debug.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/custom-printer-verbose.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/custom-printer-verbose.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/dataprovider-debug.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/dataprovider-debug.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/dataprovider-issue-2833.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/dataprovider-issue-2833.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/dataprovider-issue-2859.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/dataprovider-issue-2859.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/dataprovider-issue-2922.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/dataprovider-issue-2922.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/dataprovider-log-xml-isolation.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/dataprovider-log-xml-isolation.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/dataprovider-log-xml.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/dataprovider-log-xml.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/dataprovider-testdox.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/dataprovider-testdox.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/debug.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/debug.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/default-isolation.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/default-isolation.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/default.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/default.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/defaulttestsuite-using-testsuite.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/defaulttestsuite-using-testsuite.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/defaulttestsuite.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/defaulttestsuite.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/defects-first-order-via-cli.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/defects-first-order-via-cli.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/dependencies-clone.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/dependencies-clone.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/dependencies-isolation.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/dependencies-isolation.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/dependencies.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/dependencies.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/dependencies2-isolation.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/dependencies2-isolation.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/dependencies2.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/dependencies2.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/dependencies3-isolation.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/dependencies3-isolation.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/dependencies3.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/dependencies3.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/disable-code-coverage-ignore.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/disable-code-coverage-ignore.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/dump-xdebug-filter.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/dump-xdebug-filter.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/empty-testcase.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/empty-testcase.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/exception-stack.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/exception-stack.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/exclude-group-isolation.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/exclude-group-isolation.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/exclude-group.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/exclude-group.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/execution-order-options-via-config.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/execution-order-options-via-config.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/failure-isolation.phpt from /app_sync
+[2020-06-28 22:47:55 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/failure-isolation.phpt
+[2020-06-28 22:47:55 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:47:55.00 on 28 Jun 2020
+[2020-06-28 22:47:55 -0500] Sync Log:  Synchronization complete at 22:47:55  (41 items transferred, 0 skipped, 0 failed)
+[2020-06-28 22:47:57 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:47:56.20 on 28 Jun 2020
+[2020-06-28 22:47:57 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/failure-reverse-list.phpt from /app_sync
+[2020-06-28 22:47:57 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/failure-reverse-list.phpt
+[2020-06-28 22:47:57 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/filter-dataprovider-by-range-isolation.phpt from /app_sync
+[2020-06-28 22:47:57 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/filter-dataprovider-by-range-isolation.phpt
+[2020-06-28 22:47:57 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/filter-dataprovider-by-range.phpt from /app_sync
+[2020-06-28 22:47:57 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/filter-dataprovider-by-range.phpt
+[2020-06-28 22:47:57 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/filter-dataprovider-by-regexp-isolation.phpt from /app_sync
+[2020-06-28 22:47:57 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/filter-dataprovider-by-regexp-isolation.phpt
+[2020-06-28 22:47:57 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/filter-dataprovider-by-regexp.phpt from /app_sync
+[2020-06-28 22:47:57 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/filter-dataprovider-by-regexp.phpt
+[2020-06-28 22:47:57 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/filter-dataprovider-by-string-isolation.phpt from /app_sync
+[2020-06-28 22:47:57 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/filter-dataprovider-by-string-isolation.phpt
+[2020-06-28 22:47:57 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/filter-dataprovider-by-string.phpt from /app_sync
+[2020-06-28 22:47:57 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/filter-dataprovider-by-string.phpt
+[2020-06-28 22:47:57 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/filter-method-case-insensitive.phpt from /app_sync
+[2020-06-28 22:47:57 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/filter-method-case-insensitive.phpt
+[2020-06-28 22:47:57 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/filter-method-case-sensitive-no-result.phpt from /app_sync
+[2020-06-28 22:47:57 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/filter-method-case-sensitive-no-result.phpt
+[2020-06-28 22:47:57 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/filter-method-isolation.phpt from /app_sync
+[2020-06-28 22:47:57 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/filter-method-isolation.phpt
+[2020-06-28 22:47:57 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/filter-method.phpt from /app_sync
+[2020-06-28 22:47:57 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/filter-method.phpt
+[2020-06-28 22:47:57 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/filter-no-results.phpt from /app_sync
+[2020-06-28 22:47:57 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/filter-no-results.phpt
+[2020-06-28 22:47:57 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/forward-compatibility.phpt from /app_sync
+[2020-06-28 22:47:57 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/forward-compatibility.phpt
+[2020-06-28 22:47:57 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/group-isolation.phpt from /app_sync
+[2020-06-28 22:47:57 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/group-isolation.phpt
+[2020-06-28 22:47:57 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/group.phpt from /app_sync
+[2020-06-28 22:47:57 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/group.phpt
+[2020-06-28 22:47:57 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/help.phpt from /app_sync
+[2020-06-28 22:47:57 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/help.phpt
+[2020-06-28 22:47:57 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/help2.phpt from /app_sync
+[2020-06-28 22:47:57 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/help2.phpt
+[2020-06-28 22:47:57 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/hooks.phpt from /app_sync
+[2020-06-28 22:47:57 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/hooks.phpt
+[2020-06-28 22:47:57 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/ini-isolation.phpt from /app_sync
+[2020-06-28 22:47:57 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/ini-isolation.phpt
+[2020-06-28 22:47:57 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/list-groups.phpt from /app_sync
+[2020-06-28 22:47:57 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/list-groups.phpt
+[2020-06-28 22:47:57 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/list-suites.phpt from /app_sync
+[2020-06-28 22:47:57 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/list-suites.phpt
+[2020-06-28 22:47:57 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/list-tests-dataprovider.phpt from /app_sync
+[2020-06-28 22:47:57 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/list-tests-dataprovider.phpt
+[2020-06-28 22:47:57 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/list-tests-xml-dataprovider.phpt from /app_sync
+[2020-06-28 22:47:57 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/list-tests-xml-dataprovider.phpt
+[2020-06-28 22:47:57 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/log-junit-phpt.phpt from /app_sync
+[2020-06-28 22:47:57 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/log-junit-phpt.phpt
+[2020-06-28 22:47:57 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/log-junit.phpt from /app_sync
+[2020-06-28 22:47:57 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/log-junit.phpt
+[2020-06-28 22:47:57 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/log-teamcity-phpt.phpt from /app_sync
+[2020-06-28 22:47:57 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/log-teamcity-phpt.phpt
+[2020-06-28 22:47:57 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/log-teamcity.phpt from /app_sync
+[2020-06-28 22:47:57 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/log-teamcity.phpt
+[2020-06-28 22:47:57 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/mock-objects/generator from /app_sync
+[2020-06-28 22:47:57 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/mock-objects/generator
+[2020-06-28 22:47:57 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/mock-objects/mock-method from /app_sync
+[2020-06-28 22:47:57 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/mock-objects/mock-method
+[2020-06-28 22:47:57 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:47:56.42 on 28 Jun 2020
+[2020-06-28 22:47:57 -0500] Sync Log:  Synchronization complete at 22:47:56  (29 items transferred, 0 skipped, 0 failed)
+[2020-06-28 22:47:58 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:47:57.55 on 28 Jun 2020
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/mock-objects from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/mock-objects
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1149 from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1149
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1149.phpt from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1149.phpt
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1216 from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1216
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1216.phpt from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1216.phpt
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1265 from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1265
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1265.phpt from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1265.phpt
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1330 from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1330
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1330.phpt from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1330.phpt
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1335 from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1335
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1335.phpt from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1335.phpt
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1337 from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1337
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1337.phpt from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1337.phpt
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1348 from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1348
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1348.phpt from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1348.phpt
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1351 from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1351
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1351.phpt from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1351.phpt
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1374 from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1374
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1374.phpt from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1374.phpt
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1437 from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1437
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1437.phpt from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1437.phpt
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1468 from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1468
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1468.phpt from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1468.phpt
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1471 from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1471
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1471.phpt from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1471.phpt
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1472 from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1472
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1472.phpt from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1472.phpt
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1570 from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1570
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1570.phpt from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/1570.phpt
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/2085 from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/2085
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/2085-enforce-time-limit-options-via-config-without-invoker.phpt from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/2085-enforce-time-limit-options-via-config-without-invoker.phpt
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/2085-without-invoker.phpt from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/2085-without-invoker.phpt
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/2085.phpt from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/2085.phpt
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/2137 from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/2137
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/2137-filter.phpt from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/2137-filter.phpt
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/2137-no_filter.phpt from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/2137-no_filter.phpt
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/2145 from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/2145
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/2145.phpt from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/2145.phpt
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/2158 from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/2158
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/2158.phpt from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/2158.phpt
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/2366 from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/2366
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/2366.phpt from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/2366.phpt
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/2380 from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/2380
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/2380.phpt from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/2380.phpt
+[2020-06-28 22:47:58 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/2382/Issue2382Test.php from /app_sync
+[2020-06-28 22:47:58 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression/GitHub/2382/Issue2382Test.php
+[2020-06-28 22:47:58 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:47:57.72 on 28 Jun 2020
+[2020-06-28 22:47:58 -0500] Sync Log:  Synchronization complete at 22:47:57  (45 items transferred, 0 skipped, 0 failed)
+[2020-06-28 22:47:59 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:47:58.77 on 28 Jun 2020
+[2020-06-28 22:47:59 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression from /app_sync
+[2020-06-28 22:47:59 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/regression
+[2020-06-28 22:47:59 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/repeat.phpt from /app_sync
+[2020-06-28 22:47:59 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/repeat.phpt
+[2020-06-28 22:47:59 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/report-tests-performing-assertions-when-annotated-with-does-not-perform-assertions.phpt from /app_sync
+[2020-06-28 22:47:59 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/report-tests-performing-assertions-when-annotated-with-does-not-perform-assertions.phpt
+[2020-06-28 22:47:59 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/report-useless-tests-incomplete.phpt from /app_sync
+[2020-06-28 22:47:59 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/report-useless-tests-incomplete.phpt
+[2020-06-28 22:47:59 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/report-useless-tests-isolation.phpt from /app_sync
+[2020-06-28 22:47:59 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/report-useless-tests-isolation.phpt
+[2020-06-28 22:47:59 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/report-useless-tests.phpt from /app_sync
+[2020-06-28 22:47:59 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/report-useless-tests.phpt
+[2020-06-28 22:47:59 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/separate-processes-test.phpt from /app_sync
+[2020-06-28 22:47:59 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/separate-processes-test.phpt
+[2020-06-28 22:47:59 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/stop-on-defect-via-cli.phpt from /app_sync
+[2020-06-28 22:47:59 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/stop-on-defect-via-cli.phpt
+[2020-06-28 22:47:59 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/stop-on-defect-via-config.phpt from /app_sync
+[2020-06-28 22:47:59 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/stop-on-defect-via-config.phpt
+[2020-06-28 22:47:59 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/stop-on-error-via-cli.phpt from /app_sync
+[2020-06-28 22:47:59 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/stop-on-error-via-cli.phpt
+[2020-06-28 22:47:59 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/stop-on-error-via-config.phpt from /app_sync
+[2020-06-28 22:47:59 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/stop-on-error-via-config.phpt
+[2020-06-28 22:47:59 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/stop-on-incomplete-via-cli.phpt from /app_sync
+[2020-06-28 22:47:59 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/stop-on-incomplete-via-cli.phpt
+[2020-06-28 22:47:59 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/stop-on-incomplete-via-config.phpt from /app_sync
+[2020-06-28 22:47:59 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/stop-on-incomplete-via-config.phpt
+[2020-06-28 22:47:59 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/stop-on-warning-via-cli.phpt from /app_sync
+[2020-06-28 22:47:59 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests/end-to-end/stop-on-warning-via-cli.phpt
+[2020-06-28 22:47:59 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:47:58.85 on 28 Jun 2020
+[2020-06-28 22:47:59 -0500] Sync Log:  Synchronization complete at 22:47:58  (14 items transferred, 0 skipped, 0 failed)
+[2020-06-28 22:48:00 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:47:59.87 on 28 Jun 2020
+[2020-06-28 22:48:00 -0500] Sync Log:  [BGN] Deleting bin/.phpunit/phpunit-7.5-0/tests from /app_sync
+[2020-06-28 22:48:00 -0500] Sync Log:  [END] Deleting bin/.phpunit/phpunit-7.5-0/tests
+[2020-06-28 22:48:00 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:47:59.97 on 28 Jun 2020
+[2020-06-28 22:48:00 -0500] Sync Log:  Synchronization complete at 22:47:59  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 22:48:06 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:48:06.04 on 28 Jun 2020
+[2020-06-28 22:48:06 -0500] Sync Log:  [BGN] Deleting bin/.phpunit from /app_sync
+[2020-06-28 22:48:06 -0500] Sync Log:  [END] Deleting bin/.phpunit
+[2020-06-28 22:48:06 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:48:06.05 on 28 Jun 2020
+[2020-06-28 22:48:06 -0500] Sync Log:  Synchronization complete at 22:48:06  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 22:48:37 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:48:37.07 on 28 Jun 2020
+[2020-06-28 22:48:37 -0500] Sync Log:  [BGN] Copying bin/.phpunit from /app_sync to /host_sync
+[2020-06-28 22:48:37 -0500] Sync Log:  [END] Copying bin/.phpunit
+[2020-06-28 22:48:37 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:48:37.08 on 28 Jun 2020
+[2020-06-28 22:48:37 -0500] Sync Log:  Synchronization complete at 22:48:37  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 22:49:05 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:49:05.07 on 28 Jun 2020
+[2020-06-28 22:49:05 -0500] Sync Log:  [BGN] Copying bin/.phpunit/phpunit-7.5-0 from /app_sync to /host_sync
+[2020-06-28 22:49:05 -0500] Sync Log:  [END] Copying bin/.phpunit/phpunit-7.5-0
+[2020-06-28 22:49:05 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:49:05.08 on 28 Jun 2020
+[2020-06-28 22:49:05 -0500] Sync Log:  Synchronization complete at 22:49:05  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 22:49:08 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:49:07.24 on 28 Jun 2020
+[2020-06-28 22:49:08 -0500] Sync Log:  [BGN] Copying bin/.phpunit/phpunit-7.5-0/.editorconfig from /app_sync to /host_sync
+[2020-06-28 22:49:08 -0500] Sync Log:  [END] Copying bin/.phpunit/phpunit-7.5-0/.editorconfig
+[2020-06-28 22:49:08 -0500] Sync Log:  [BGN] Copying bin/.phpunit/phpunit-7.5-0/.gitattributes from /app_sync to /host_sync
+[2020-06-28 22:49:08 -0500] Sync Log:  [END] Copying bin/.phpunit/phpunit-7.5-0/.gitattributes
+[2020-06-28 22:49:08 -0500] Sync Log:  [BGN] Copying bin/.phpunit/phpunit-7.5-0/.github from /app_sync to /host_sync
+[2020-06-28 22:49:08 -0500] Sync Log:  [END] Copying bin/.phpunit/phpunit-7.5-0/.github
+[2020-06-28 22:49:08 -0500] Sync Log:  [BGN] Copying bin/.phpunit/phpunit-7.5-0/.php_cs.dist from /app_sync to /host_sync
+[2020-06-28 22:49:08 -0500] Sync Log:  [END] Copying bin/.phpunit/phpunit-7.5-0/.php_cs.dist
+[2020-06-28 22:49:08 -0500] Sync Log:  [BGN] Copying bin/.phpunit/phpunit-7.5-0/.travis.yml from /app_sync to /host_sync
+[2020-06-28 22:49:08 -0500] Sync Log:  [END] Copying bin/.phpunit/phpunit-7.5-0/.travis.yml
+[2020-06-28 22:49:08 -0500] Sync Log:  [BGN] Copying bin/.phpunit/phpunit-7.5-0/LICENSE from /app_sync to /host_sync
+[2020-06-28 22:49:08 -0500] Sync Log:  [END] Copying bin/.phpunit/phpunit-7.5-0/LICENSE
+[2020-06-28 22:49:08 -0500] Sync Log:  [BGN] Copying bin/.phpunit/phpunit-7.5-0/build.xml from /app_sync to /host_sync
+[2020-06-28 22:49:08 -0500] Sync Log:  [END] Copying bin/.phpunit/phpunit-7.5-0/build.xml
+[2020-06-28 22:49:08 -0500] Sync Log:  [BGN] Copying bin/.phpunit/phpunit-7.5-0/composer.json from /app_sync to /host_sync
+[2020-06-28 22:49:08 -0500] Sync Log:  [END] Copying bin/.phpunit/phpunit-7.5-0/composer.json
+[2020-06-28 22:49:08 -0500] Sync Log:  [BGN] Copying bin/.phpunit/phpunit-7.5-0/phive.xml from /app_sync to /host_sync
+[2020-06-28 22:49:08 -0500] Sync Log:  [END] Copying bin/.phpunit/phpunit-7.5-0/phive.xml
+[2020-06-28 22:49:08 -0500] Sync Log:  [BGN] Copying bin/.phpunit/phpunit-7.5-0/phpunit from /app_sync to /host_sync
+[2020-06-28 22:49:08 -0500] Sync Log:  [END] Copying bin/.phpunit/phpunit-7.5-0/phpunit
+[2020-06-28 22:49:08 -0500] Sync Log:  [BGN] Copying bin/.phpunit/phpunit-7.5-0/phpunit.xml from /app_sync to /host_sync
+[2020-06-28 22:49:08 -0500] Sync Log:  [END] Copying bin/.phpunit/phpunit-7.5-0/phpunit.xml
+[2020-06-28 22:49:08 -0500] Sync Log:  [BGN] Copying bin/.phpunit/phpunit-7.5-0/phpunit.xsd from /app_sync to /host_sync
+[2020-06-28 22:49:08 -0500] Sync Log:  [END] Copying bin/.phpunit/phpunit-7.5-0/phpunit.xsd
+[2020-06-28 22:49:08 -0500] Sync Log:  [BGN] Copying bin/.phpunit/phpunit-7.5-0/src from /app_sync to /host_sync
+[2020-06-28 22:49:12 -0500] Sync Log:  [END] Copying bin/.phpunit/phpunit-7.5-0/src
+[2020-06-28 22:49:12 -0500] Sync Log:  [BGN] Copying bin/.phpunit/phpunit-7.5-0/tests from /app_sync to /host_sync
+[2020-06-28 22:49:19 -0500] Sync Log:  [END] Copying bin/.phpunit/phpunit-7.5-0/tests
+[2020-06-28 22:49:19 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:49:18.97 on 28 Jun 2020
+[2020-06-28 22:49:19 -0500] Sync Log:  Synchronization complete at 22:49:18  (14 items transferred, 0 skipped, 0 failed)
+[2020-06-28 22:49:22 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:49:21.94 on 28 Jun 2020
+[2020-06-28 22:49:22 -0500] Sync Log:  [BGN] Updating file bin/.phpunit/phpunit-7.5-0/composer.json from /app_sync to /host_sync
+[2020-06-28 22:49:22 -0500] Sync Log:  [END] Updating file bin/.phpunit/phpunit-7.5-0/composer.json
+[2020-06-28 22:49:22 -0500] Sync Log:  [BGN] Copying bin/.phpunit/phpunit.xsd from /app_sync to /host_sync
+[2020-06-28 22:49:22 -0500] Sync Log:  [END] Copying bin/.phpunit/phpunit.xsd
+[2020-06-28 22:49:22 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:49:22.02 on 28 Jun 2020
+[2020-06-28 22:49:22 -0500] Sync Log:  Synchronization complete at 22:49:22  (2 items transferred, 0 skipped, 0 failed)
+[2020-06-28 22:49:25 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:49:24.54 on 28 Jun 2020
+[2020-06-28 22:49:25 -0500] Sync Log:  [BGN] Copying bin/.phpunit/phpunit-7.5-0/vendor from /app_sync to /host_sync
+[2020-06-28 22:49:25 -0500] Sync Log:  [END] Copying bin/.phpunit/phpunit-7.5-0/vendor
+[2020-06-28 22:49:25 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:49:24.55 on 28 Jun 2020
+[2020-06-28 22:49:25 -0500] Sync Log:  Synchronization complete at 22:49:24  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 22:49:27 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:49:26.59 on 28 Jun 2020
+[2020-06-28 22:49:27 -0500] Sync Log:  [BGN] Copying bin/.phpunit/.phpunit-7.5-0.md5 from /app_sync to /host_sync
+[2020-06-28 22:49:27 -0500] Sync Log:  [END] Copying bin/.phpunit/.phpunit-7.5-0.md5
+[2020-06-28 22:49:27 -0500] Sync Log:  [BGN] Copying bin/.phpunit/phpunit-7.5-0/bin from /app_sync to /host_sync
+[2020-06-28 22:49:27 -0500] Sync Log:  [END] Copying bin/.phpunit/phpunit-7.5-0/bin
+[2020-06-28 22:49:27 -0500] Sync Log:  [BGN] Copying bin/.phpunit/phpunit-7.5-0/composer.lock from /app_sync to /host_sync
+[2020-06-28 22:49:27 -0500] Sync Log:  [END] Copying bin/.phpunit/phpunit-7.5-0/composer.lock
+[2020-06-28 22:49:27 -0500] Sync Log:  [BGN] Updating file bin/.phpunit/phpunit-7.5-0/phpunit from /app_sync to /host_sync
+[2020-06-28 22:49:27 -0500] Sync Log:  [END] Updating file bin/.phpunit/phpunit-7.5-0/phpunit
+[2020-06-28 22:49:27 -0500] Sync Log:  [BGN] Updating file bin/.phpunit/phpunit-7.5-0/src/Framework/Assert.php from /app_sync to /host_sync
+[2020-06-28 22:49:27 -0500] Sync Log:  [END] Updating file bin/.phpunit/phpunit-7.5-0/src/Framework/Assert.php
+[2020-06-28 22:49:27 -0500] Sync Log:  [BGN] Updating file bin/.phpunit/phpunit-7.5-0/src/Framework/TestCase.php from /app_sync to /host_sync
+[2020-06-28 22:49:27 -0500] Sync Log:  [END] Updating file bin/.phpunit/phpunit-7.5-0/src/Framework/TestCase.php
+[2020-06-28 22:49:27 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:49:26.69 on 28 Jun 2020
+[2020-06-28 22:49:27 -0500] Sync Log:  Synchronization complete at 22:49:26  (6 items transferred, 0 skipped, 0 failed)
+[2020-06-28 22:52:09 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:52:08.90 on 28 Jun 2020
+[2020-06-28 22:52:09 -0500] Sync Log:  [BGN] Copying .env.test.local from /host_sync to /app_sync
+[2020-06-28 22:52:09 -0500] Sync Log:  [END] Copying .env.test.local
+[2020-06-28 22:52:09 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:52:08.91 on 28 Jun 2020
+[2020-06-28 22:52:09 -0500] Sync Log:  Synchronization complete at 22:52:08  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 22:52:31 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:52:30.59 on 28 Jun 2020
+[2020-06-28 22:52:31 -0500] Sync Log:  [BGN] Updating file .env.test.local from /host_sync to /app_sync
+[2020-06-28 22:52:31 -0500] Sync Log:  [END] Updating file .env.test.local
+[2020-06-28 22:52:31 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:52:30.59 on 28 Jun 2020
+[2020-06-28 22:52:31 -0500] Sync Log:  Synchronization complete at 22:52:30  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 22:52:45 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:52:45.39 on 28 Jun 2020
+[2020-06-28 22:52:45 -0500] Sync Log:  [BGN] Updating file .env.test.local from /host_sync to /app_sync
+[2020-06-28 22:52:45 -0500] Sync Log:  [END] Updating file .env.test.local
+[2020-06-28 22:52:45 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:52:45.39 on 28 Jun 2020
+[2020-06-28 22:52:45 -0500] Sync Log:  Synchronization complete at 22:52:45  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 22:59:33 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:59:32.14 on 28 Jun 2020
+[2020-06-28 22:59:33 -0500] Sync Log:  [BGN] Copying tests/Unit from /host_sync to /app_sync
+[2020-06-28 22:59:33 -0500] Sync Log:  [END] Copying tests/Unit
+[2020-06-28 22:59:33 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:59:32.14 on 28 Jun 2020
+[2020-06-28 22:59:33 -0500] Sync Log:  Synchronization complete at 22:59:32  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 22:59:49 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:59:48.78 on 28 Jun 2020
+[2020-06-28 22:59:49 -0500] Sync Log:  [BGN] Copying tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-28 22:59:49 -0500] Sync Log:  [END] Copying tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-28 22:59:49 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:59:48.79 on 28 Jun 2020
+[2020-06-28 22:59:49 -0500] Sync Log:  Synchronization complete at 22:59:48  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 22:59:59 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:59:58.75 on 28 Jun 2020
+[2020-06-28 22:59:59 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-28 22:59:59 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-28 22:59:59 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:59:58.76 on 28 Jun 2020
+[2020-06-28 22:59:59 -0500] Sync Log:  Synchronization complete at 22:59:58  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 23:00:13 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 23:00:12.86 on 28 Jun 2020
+[2020-06-28 23:00:13 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-28 23:00:13 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-28 23:00:13 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 23:00:12.88 on 28 Jun 2020
+[2020-06-28 23:00:13 -0500] Sync Log:  Synchronization complete at 23:00:12  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 23:03:20 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 23:03:19.56 on 28 Jun 2020
+[2020-06-28 23:03:20 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-28 23:03:20 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-28 23:03:20 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 23:03:19.59 on 28 Jun 2020
+[2020-06-28 23:03:20 -0500] Sync Log:  Synchronization complete at 23:03:19  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 23:07:31 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 23:07:31.09 on 28 Jun 2020
+[2020-06-28 23:07:31 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-28 23:07:31 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-28 23:07:31 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 23:07:31.12 on 28 Jun 2020
+[2020-06-28 23:07:31 -0500] Sync Log:  Synchronization complete at 23:07:31  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 23:08:19 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 23:08:18.76 on 28 Jun 2020
+[2020-06-28 23:08:19 -0500] Sync Log:  [BGN] Updating file src/Api/Action/User/Register.php from /host_sync to /app_sync
+[2020-06-28 23:08:19 -0500] Sync Log:  [END] Updating file src/Api/Action/User/Register.php
+[2020-06-28 23:08:19 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-28 23:08:19 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-28 23:08:19 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 23:08:18.79 on 28 Jun 2020
+[2020-06-28 23:08:19 -0500] Sync Log:  Synchronization complete at 23:08:18  (2 items transferred, 0 skipped, 0 failed)
+[2020-06-28 23:09:03 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 23:09:03.13 on 28 Jun 2020
+[2020-06-28 23:09:03 -0500] Sync Log:  [BGN] Updating file src/Api/Action/User/Register.php from /host_sync to /app_sync
+[2020-06-28 23:09:03 -0500] Sync Log:  [END] Updating file src/Api/Action/User/Register.php
+[2020-06-28 23:09:03 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 23:09:03.14 on 28 Jun 2020
+[2020-06-28 23:09:03 -0500] Sync Log:  Synchronization complete at 23:09:03  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 23:09:06 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 23:09:06.23 on 28 Jun 2020
+[2020-06-28 23:09:06 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-28 23:09:06 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-28 23:09:06 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 23:09:06.23 on 28 Jun 2020
+[2020-06-28 23:09:06 -0500] Sync Log:  Synchronization complete at 23:09:06  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 23:20:55 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 23:20:55.15 on 28 Jun 2020
+[2020-06-28 23:20:55 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-28 23:20:55 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-28 23:20:55 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 23:20:55.18 on 28 Jun 2020
+[2020-06-28 23:20:55 -0500] Sync Log:  Synchronization complete at 23:20:55  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 23:21:32 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 23:21:32.09 on 28 Jun 2020
+[2020-06-28 23:21:32 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-28 23:21:32 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-28 23:21:32 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 23:21:32.10 on 28 Jun 2020
+[2020-06-28 23:21:32 -0500] Sync Log:  Synchronization complete at 23:21:32  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 23:22:01 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 23:22:00.99 on 28 Jun 2020
+[2020-06-28 23:22:01 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-28 23:22:01 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-28 23:22:01 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 23:22:01.00 on 28 Jun 2020
+[2020-06-28 23:22:01 -0500] Sync Log:  Synchronization complete at 23:22:01  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 23:22:45 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 23:22:45.39 on 28 Jun 2020
+[2020-06-28 23:22:45 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-28 23:22:45 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-28 23:22:45 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 23:22:45.41 on 28 Jun 2020
+[2020-06-28 23:22:45 -0500] Sync Log:  Synchronization complete at 23:22:45  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 23:23:27 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 23:23:27.30 on 28 Jun 2020
+[2020-06-28 23:23:27 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-28 23:23:27 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-28 23:23:27 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 23:23:27.31 on 28 Jun 2020
+[2020-06-28 23:23:27 -0500] Sync Log:  Synchronization complete at 23:23:27  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 23:26:52 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 23:26:52.18 on 28 Jun 2020
+[2020-06-28 23:26:52 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-28 23:26:52 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-28 23:26:52 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 23:26:52.18 on 28 Jun 2020
+[2020-06-28 23:26:52 -0500] Sync Log:  Synchronization complete at 23:26:52  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 23:27:14 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 23:27:14.01 on 28 Jun 2020
+[2020-06-28 23:27:14 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-28 23:27:14 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-28 23:27:14 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 23:27:14.03 on 28 Jun 2020
+[2020-06-28 23:27:14 -0500] Sync Log:  Synchronization complete at 23:27:14  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 23:30:16 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 23:30:15.41 on 28 Jun 2020
+[2020-06-28 23:30:16 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-28 23:30:16 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-28 23:30:16 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 23:30:15.43 on 28 Jun 2020
+[2020-06-28 23:30:16 -0500] Sync Log:  Synchronization complete at 23:30:15  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 23:30:45 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 23:30:44.62 on 28 Jun 2020
+[2020-06-28 23:30:45 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-28 23:30:45 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-28 23:30:45 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 23:30:44.64 on 28 Jun 2020
+[2020-06-28 23:30:45 -0500] Sync Log:  Synchronization complete at 23:30:44  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 23:31:03 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 23:31:02.84 on 28 Jun 2020
+[2020-06-28 23:31:03 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-28 23:31:03 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-28 23:31:03 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 23:31:02.85 on 28 Jun 2020
+[2020-06-28 23:31:03 -0500] Sync Log:  Synchronization complete at 23:31:02  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 23:31:19 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 23:31:18.25 on 28 Jun 2020
+[2020-06-28 23:31:19 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-28 23:31:19 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-28 23:31:19 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 23:31:18.27 on 28 Jun 2020
+[2020-06-28 23:31:19 -0500] Sync Log:  Synchronization complete at 23:31:18  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 23:31:33 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 23:31:32.77 on 28 Jun 2020
+[2020-06-28 23:31:33 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-28 23:31:33 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-28 23:31:33 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 23:31:32.78 on 28 Jun 2020
+[2020-06-28 23:31:33 -0500] Sync Log:  Synchronization complete at 23:31:32  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 23:32:19 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 23:32:18.77 on 28 Jun 2020
+[2020-06-28 23:32:19 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-28 23:32:19 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-28 23:32:19 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 23:32:18.78 on 28 Jun 2020
+[2020-06-28 23:32:19 -0500] Sync Log:  Synchronization complete at 23:32:18  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 23:34:33 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 23:34:32.86 on 28 Jun 2020
+[2020-06-28 23:34:33 -0500] Sync Log:  [BGN] Updating file src/Api/Action/User/Register.php from /host_sync to /app_sync
+[2020-06-28 23:34:33 -0500] Sync Log:  [END] Updating file src/Api/Action/User/Register.php
+[2020-06-28 23:34:33 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-28 23:34:33 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-28 23:34:33 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 23:34:32.87 on 28 Jun 2020
+[2020-06-28 23:34:33 -0500] Sync Log:  Synchronization complete at 23:34:32  (2 items transferred, 0 skipped, 0 failed)
+[2020-06-28 23:53:23 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 23:53:23.40 on 28 Jun 2020
+[2020-06-28 23:53:23 -0500] Sync Log:  [BGN] Updating file src/Api/Action/User/Register.php from /host_sync to /app_sync
+[2020-06-28 23:53:23 -0500] Sync Log:  [END] Updating file src/Api/Action/User/Register.php
+[2020-06-28 23:53:23 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-28 23:53:23 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-28 23:53:23 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 23:53:23.42 on 28 Jun 2020
+[2020-06-28 23:53:23 -0500] Sync Log:  Synchronization complete at 23:53:23  (2 items transferred, 0 skipped, 0 failed)
+[2020-06-28 23:54:04 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 23:54:03.99 on 28 Jun 2020
+[2020-06-28 23:54:04 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-28 23:54:04 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-28 23:54:04 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 23:54:04.01 on 28 Jun 2020
+[2020-06-28 23:54:04 -0500] Sync Log:  Synchronization complete at 23:54:04  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 23:54:14 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 23:54:14.00 on 28 Jun 2020
+[2020-06-28 23:54:14 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-28 23:54:14 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-28 23:54:14 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 23:54:14.01 on 28 Jun 2020
+[2020-06-28 23:54:14 -0500] Sync Log:  Synchronization complete at 23:54:14  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 23:56:18 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 23:56:18.59 on 28 Jun 2020
+[2020-06-28 23:56:18 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-28 23:56:18 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-28 23:56:18 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 23:56:18.60 on 28 Jun 2020
+[2020-06-28 23:56:18 -0500] Sync Log:  Synchronization complete at 23:56:18  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-28 23:56:30 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 23:56:29.85 on 28 Jun 2020
+[2020-06-28 23:56:30 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-28 23:56:30 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-28 23:56:30 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 23:56:29.86 on 28 Jun 2020
+[2020-06-28 23:56:30 -0500] Sync Log:  Synchronization complete at 23:56:29  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 00:00:05 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:00:05.33 on 29 Jun 2020
+[2020-06-29 00:00:05 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-29 00:00:05 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-29 00:00:05 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:00:05.35 on 29 Jun 2020
+[2020-06-29 00:00:05 -0500] Sync Log:  Synchronization complete at 00:00:05  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 00:02:42 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:02:41.14 on 29 Jun 2020
+[2020-06-29 00:02:42 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-29 00:02:42 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-29 00:02:42 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:02:41.16 on 29 Jun 2020
+[2020-06-29 00:02:42 -0500] Sync Log:  Synchronization complete at 00:02:41  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 00:02:49 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:02:48.67 on 29 Jun 2020
+[2020-06-29 00:02:49 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-29 00:02:49 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-29 00:02:49 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:02:48.69 on 29 Jun 2020
+[2020-06-29 00:02:49 -0500] Sync Log:  Synchronization complete at 00:02:48  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 00:03:42 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:03:42.15 on 29 Jun 2020
+[2020-06-29 00:03:42 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-29 00:03:42 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-29 00:03:42 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:03:42.16 on 29 Jun 2020
+[2020-06-29 00:03:42 -0500] Sync Log:  Synchronization complete at 00:03:42  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 00:04:19 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:04:18.66 on 29 Jun 2020
+[2020-06-29 00:04:19 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-29 00:04:19 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-29 00:04:19 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:04:18.68 on 29 Jun 2020
+[2020-06-29 00:04:19 -0500] Sync Log:  Synchronization complete at 00:04:18  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 00:04:32 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:04:31.36 on 29 Jun 2020
+[2020-06-29 00:04:32 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-29 00:04:32 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-29 00:04:32 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:04:31.38 on 29 Jun 2020
+[2020-06-29 00:04:32 -0500] Sync Log:  Synchronization complete at 00:04:31  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 00:05:22 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:05:22.08 on 29 Jun 2020
+[2020-06-29 00:05:22 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-29 00:05:22 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-29 00:05:22 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:05:22.09 on 29 Jun 2020
+[2020-06-29 00:05:22 -0500] Sync Log:  Synchronization complete at 00:05:22  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 00:06:16 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:06:15.52 on 29 Jun 2020
+[2020-06-29 00:06:16 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-29 00:06:16 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-29 00:06:16 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:06:15.53 on 29 Jun 2020
+[2020-06-29 00:06:16 -0500] Sync Log:  Synchronization complete at 00:06:15  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 00:06:45 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:06:44.55 on 29 Jun 2020
+[2020-06-29 00:06:45 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-29 00:06:45 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-29 00:06:45 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:06:44.56 on 29 Jun 2020
+[2020-06-29 00:06:45 -0500] Sync Log:  Synchronization complete at 00:06:44  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 00:07:27 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:07:26.56 on 29 Jun 2020
+[2020-06-29 00:07:27 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-29 00:07:27 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-29 00:07:27 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:07:26.58 on 29 Jun 2020
+[2020-06-29 00:07:27 -0500] Sync Log:  Synchronization complete at 00:07:26  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 00:42:11 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:42:10.88 on 29 Jun 2020
+[2020-06-29 00:42:11 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-29 00:42:11 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-29 00:42:11 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:42:10.89 on 29 Jun 2020
+[2020-06-29 00:42:11 -0500] Sync Log:  Synchronization complete at 00:42:10  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 00:43:28 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:43:28.04 on 29 Jun 2020
+[2020-06-29 00:43:28 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-29 00:43:28 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-29 00:43:28 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:43:28.05 on 29 Jun 2020
+[2020-06-29 00:43:28 -0500] Sync Log:  Synchronization complete at 00:43:28  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 00:51:38 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:51:37.54 on 29 Jun 2020
+[2020-06-29 00:51:38 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-29 00:51:38 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-29 00:51:38 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:51:37.56 on 29 Jun 2020
+[2020-06-29 00:51:38 -0500] Sync Log:  Synchronization complete at 00:51:37  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 00:53:16 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:53:16.32 on 29 Jun 2020
+[2020-06-29 00:53:16 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-29 00:53:16 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-29 00:53:16 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:53:16.34 on 29 Jun 2020
+[2020-06-29 00:53:16 -0500] Sync Log:  Synchronization complete at 00:53:16  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 00:54:23 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:54:23.35 on 29 Jun 2020
+[2020-06-29 00:54:23 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-06-29 00:54:23 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-29 00:54:23 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:54:23.37 on 29 Jun 2020
+[2020-06-29 00:54:23 -0500] Sync Log:  Synchronization complete at 00:54:23  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 01:14:14 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:14:13.87 on 29 Jun 2020
+[2020-06-29 01:14:14 -0500] Sync Log:  [BGN] Copying tests/Unit/Security from /host_sync to /app_sync
+[2020-06-29 01:14:14 -0500] Sync Log:  [END] Copying tests/Unit/Security
+[2020-06-29 01:14:14 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:14:13.87 on 29 Jun 2020
+[2020-06-29 01:14:14 -0500] Sync Log:  Synchronization complete at 01:14:13  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 01:14:29 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:14:28.68 on 29 Jun 2020
+[2020-06-29 01:14:29 -0500] Sync Log:  [BGN] Copying tests/Unit/Security/Validator/Role/AreValidRoleTest.php from /host_sync to /app_sync
+[2020-06-29 01:14:29 -0500] Sync Log:  [END] Copying tests/Unit/Security/Validator/Role/AreValidRoleTest.php
+[2020-06-29 01:14:29 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:14:28.69 on 29 Jun 2020
+[2020-06-29 01:14:29 -0500] Sync Log:  Synchronization complete at 01:14:28  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 01:14:41 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:14:40.81 on 29 Jun 2020
+[2020-06-29 01:14:41 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php from /host_sync to /app_sync
+[2020-06-29 01:14:41 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php
+[2020-06-29 01:14:41 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:14:40.83 on 29 Jun 2020
+[2020-06-29 01:14:41 -0500] Sync Log:  Synchronization complete at 01:14:40  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 01:14:56 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:14:56.15 on 29 Jun 2020
+[2020-06-29 01:14:56 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php from /host_sync to /app_sync
+[2020-06-29 01:14:56 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php
+[2020-06-29 01:14:56 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:14:56.16 on 29 Jun 2020
+[2020-06-29 01:14:56 -0500] Sync Log:  Synchronization complete at 01:14:56  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 01:15:27 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:15:26.92 on 29 Jun 2020
+[2020-06-29 01:15:27 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php from /host_sync to /app_sync
+[2020-06-29 01:15:27 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php
+[2020-06-29 01:15:27 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:15:26.93 on 29 Jun 2020
+[2020-06-29 01:15:27 -0500] Sync Log:  Synchronization complete at 01:15:26  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 01:15:45 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:15:44.42 on 29 Jun 2020
+[2020-06-29 01:15:45 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php from /host_sync to /app_sync
+[2020-06-29 01:15:45 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php
+[2020-06-29 01:15:45 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:15:44.44 on 29 Jun 2020
+[2020-06-29 01:15:45 -0500] Sync Log:  Synchronization complete at 01:15:44  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 01:16:36 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:16:35.39 on 29 Jun 2020
+[2020-06-29 01:16:36 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php from /host_sync to /app_sync
+[2020-06-29 01:16:36 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php
+[2020-06-29 01:16:36 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:16:35.40 on 29 Jun 2020
+[2020-06-29 01:16:36 -0500] Sync Log:  Synchronization complete at 01:16:35  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 01:17:00 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:16:59.52 on 29 Jun 2020
+[2020-06-29 01:17:00 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php from /host_sync to /app_sync
+[2020-06-29 01:17:00 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php
+[2020-06-29 01:17:00 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:16:59.54 on 29 Jun 2020
+[2020-06-29 01:17:00 -0500] Sync Log:  Synchronization complete at 01:16:59  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 01:17:42 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:17:41.86 on 29 Jun 2020
+[2020-06-29 01:17:42 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php from /host_sync to /app_sync
+[2020-06-29 01:17:42 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php
+[2020-06-29 01:17:42 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:17:41.87 on 29 Jun 2020
+[2020-06-29 01:17:42 -0500] Sync Log:  Synchronization complete at 01:17:41  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 01:19:32 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:19:32.38 on 29 Jun 2020
+[2020-06-29 01:19:32 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php from /host_sync to /app_sync
+[2020-06-29 01:19:32 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php
+[2020-06-29 01:19:32 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:19:32.40 on 29 Jun 2020
+[2020-06-29 01:19:32 -0500] Sync Log:  Synchronization complete at 01:19:32  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 01:20:26 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:20:25.67 on 29 Jun 2020
+[2020-06-29 01:20:26 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php from /host_sync to /app_sync
+[2020-06-29 01:20:26 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php
+[2020-06-29 01:20:26 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:20:25.68 on 29 Jun 2020
+[2020-06-29 01:20:26 -0500] Sync Log:  Synchronization complete at 01:20:25  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 01:21:29 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:21:28.94 on 29 Jun 2020
+[2020-06-29 01:21:29 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php from /host_sync to /app_sync
+[2020-06-29 01:21:29 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php
+[2020-06-29 01:21:29 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:21:28.95 on 29 Jun 2020
+[2020-06-29 01:21:29 -0500] Sync Log:  Synchronization complete at 01:21:28  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 01:21:49 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:21:49.62 on 29 Jun 2020
+[2020-06-29 01:21:49 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php from /host_sync to /app_sync
+[2020-06-29 01:21:49 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php
+[2020-06-29 01:21:49 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:21:49.63 on 29 Jun 2020
+[2020-06-29 01:21:49 -0500] Sync Log:  Synchronization complete at 01:21:49  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 01:25:26 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:25:26.22 on 29 Jun 2020
+[2020-06-29 01:25:26 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php from /host_sync to /app_sync
+[2020-06-29 01:25:26 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php
+[2020-06-29 01:25:26 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:25:26.23 on 29 Jun 2020
+[2020-06-29 01:25:26 -0500] Sync Log:  Synchronization complete at 01:25:26  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 01:27:26 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:27:25.30 on 29 Jun 2020
+[2020-06-29 01:27:26 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php from /host_sync to /app_sync
+[2020-06-29 01:27:26 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php
+[2020-06-29 01:27:26 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:27:25.31 on 29 Jun 2020
+[2020-06-29 01:27:26 -0500] Sync Log:  Synchronization complete at 01:27:25  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 01:28:19 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:28:18.56 on 29 Jun 2020
+[2020-06-29 01:28:19 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php from /host_sync to /app_sync
+[2020-06-29 01:28:19 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php
+[2020-06-29 01:28:19 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:28:18.57 on 29 Jun 2020
+[2020-06-29 01:28:19 -0500] Sync Log:  Synchronization complete at 01:28:18  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 01:28:31 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:28:31.16 on 29 Jun 2020
+[2020-06-29 01:28:31 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php from /host_sync to /app_sync
+[2020-06-29 01:28:31 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php
+[2020-06-29 01:28:31 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:28:31.18 on 29 Jun 2020
+[2020-06-29 01:28:31 -0500] Sync Log:  Synchronization complete at 01:28:31  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 01:29:01 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:29:01.20 on 29 Jun 2020
+[2020-06-29 01:29:01 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php from /host_sync to /app_sync
+[2020-06-29 01:29:01 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php
+[2020-06-29 01:29:01 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:29:01.22 on 29 Jun 2020
+[2020-06-29 01:29:01 -0500] Sync Log:  Synchronization complete at 01:29:01  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 01:29:31 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:29:30.70 on 29 Jun 2020
+[2020-06-29 01:29:31 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php from /host_sync to /app_sync
+[2020-06-29 01:29:31 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php
+[2020-06-29 01:29:31 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:29:30.71 on 29 Jun 2020
+[2020-06-29 01:29:31 -0500] Sync Log:  Synchronization complete at 01:29:30  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 01:30:01 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:30:00.74 on 29 Jun 2020
+[2020-06-29 01:30:01 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php from /host_sync to /app_sync
+[2020-06-29 01:30:01 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php
+[2020-06-29 01:30:01 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:30:00.75 on 29 Jun 2020
+[2020-06-29 01:30:01 -0500] Sync Log:  Synchronization complete at 01:30:00  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 01:30:10 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:30:10.32 on 29 Jun 2020
+[2020-06-29 01:30:10 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php from /host_sync to /app_sync
+[2020-06-29 01:30:10 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php
+[2020-06-29 01:30:10 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:30:10.33 on 29 Jun 2020
+[2020-06-29 01:30:10 -0500] Sync Log:  Synchronization complete at 01:30:10  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 01:30:20 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:30:20.15 on 29 Jun 2020
+[2020-06-29 01:30:20 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php from /host_sync to /app_sync
+[2020-06-29 01:30:20 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php
+[2020-06-29 01:30:20 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:30:20.16 on 29 Jun 2020
+[2020-06-29 01:30:20 -0500] Sync Log:  Synchronization complete at 01:30:20  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 02:36:02 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:36:01.77 on 29 Jun 2020
+[2020-06-29 02:36:02 -0500] Sync Log:  [BGN] Copying tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php from /host_sync to /app_sync
+[2020-06-29 02:36:02 -0500] Sync Log:  [END] Copying tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php
+[2020-06-29 02:36:02 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:36:01.78 on 29 Jun 2020
+[2020-06-29 02:36:02 -0500] Sync Log:  Synchronization complete at 02:36:01  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 02:36:19 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:36:19.54 on 29 Jun 2020
+[2020-06-29 02:36:19 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php from /host_sync to /app_sync
+[2020-06-29 02:36:19 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php
+[2020-06-29 02:36:19 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:36:19.55 on 29 Jun 2020
+[2020-06-29 02:36:19 -0500] Sync Log:  Synchronization complete at 02:36:19  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 02:37:33 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:37:33.23 on 29 Jun 2020
+[2020-06-29 02:37:33 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php from /host_sync to /app_sync
+[2020-06-29 02:37:33 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php
+[2020-06-29 02:37:33 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:37:33.25 on 29 Jun 2020
+[2020-06-29 02:37:33 -0500] Sync Log:  Synchronization complete at 02:37:33  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 02:38:39 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:38:39.70 on 29 Jun 2020
+[2020-06-29 02:38:39 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php from /host_sync to /app_sync
+[2020-06-29 02:38:39 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php
+[2020-06-29 02:38:39 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:38:39.72 on 29 Jun 2020
+[2020-06-29 02:38:39 -0500] Sync Log:  Synchronization complete at 02:38:39  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 02:40:40 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:40:39.11 on 29 Jun 2020
+[2020-06-29 02:40:40 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php from /host_sync to /app_sync
+[2020-06-29 02:40:40 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php
+[2020-06-29 02:40:40 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:40:39.12 on 29 Jun 2020
+[2020-06-29 02:40:40 -0500] Sync Log:  Synchronization complete at 02:40:39  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 02:41:39 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:41:38.45 on 29 Jun 2020
+[2020-06-29 02:41:39 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php from /host_sync to /app_sync
+[2020-06-29 02:41:39 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php
+[2020-06-29 02:41:39 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:41:38.46 on 29 Jun 2020
+[2020-06-29 02:41:39 -0500] Sync Log:  Synchronization complete at 02:41:38  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 02:41:49 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:41:48.35 on 29 Jun 2020
+[2020-06-29 02:41:49 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php from /host_sync to /app_sync
+[2020-06-29 02:41:49 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php
+[2020-06-29 02:41:49 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:41:48.36 on 29 Jun 2020
+[2020-06-29 02:41:49 -0500] Sync Log:  Synchronization complete at 02:41:48  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 02:42:06 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:42:05.75 on 29 Jun 2020
+[2020-06-29 02:42:06 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php from /host_sync to /app_sync
+[2020-06-29 02:42:06 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php
+[2020-06-29 02:42:06 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:42:05.77 on 29 Jun 2020
+[2020-06-29 02:42:06 -0500] Sync Log:  Synchronization complete at 02:42:05  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 02:42:36 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:42:35.86 on 29 Jun 2020
+[2020-06-29 02:42:36 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php from /host_sync to /app_sync
+[2020-06-29 02:42:36 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php
+[2020-06-29 02:42:36 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:42:35.90 on 29 Jun 2020
+[2020-06-29 02:42:36 -0500] Sync Log:  Synchronization complete at 02:42:35  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 02:43:21 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:43:21.02 on 29 Jun 2020
+[2020-06-29 02:43:21 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php from /host_sync to /app_sync
+[2020-06-29 02:43:21 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php
+[2020-06-29 02:43:21 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:43:21.02 on 29 Jun 2020
+[2020-06-29 02:43:21 -0500] Sync Log:  Synchronization complete at 02:43:21  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 02:44:20 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:44:19.90 on 29 Jun 2020
+[2020-06-29 02:44:20 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php from /host_sync to /app_sync
+[2020-06-29 02:44:20 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php
+[2020-06-29 02:44:20 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:44:19.92 on 29 Jun 2020
+[2020-06-29 02:44:20 -0500] Sync Log:  Synchronization complete at 02:44:19  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 02:45:13 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:45:12.81 on 29 Jun 2020
+[2020-06-29 02:45:13 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php from /host_sync to /app_sync
+[2020-06-29 02:45:13 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php
+[2020-06-29 02:45:13 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:45:12.83 on 29 Jun 2020
+[2020-06-29 02:45:13 -0500] Sync Log:  Synchronization complete at 02:45:12  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 02:45:28 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:45:27.99 on 29 Jun 2020
+[2020-06-29 02:45:28 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php from /host_sync to /app_sync
+[2020-06-29 02:45:28 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php
+[2020-06-29 02:45:28 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:45:28.00 on 29 Jun 2020
+[2020-06-29 02:45:28 -0500] Sync Log:  Synchronization complete at 02:45:28  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 02:51:53 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:51:52.36 on 29 Jun 2020
+[2020-06-29 02:51:53 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php from /host_sync to /app_sync
+[2020-06-29 02:51:53 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php
+[2020-06-29 02:51:53 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:51:52.38 on 29 Jun 2020
+[2020-06-29 02:51:53 -0500] Sync Log:  Synchronization complete at 02:51:52  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 02:52:20 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:52:19.15 on 29 Jun 2020
+[2020-06-29 02:52:20 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php from /host_sync to /app_sync
+[2020-06-29 02:52:20 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php
+[2020-06-29 02:52:20 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:52:19.15 on 29 Jun 2020
+[2020-06-29 02:52:20 -0500] Sync Log:  Synchronization complete at 02:52:19  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 02:52:27 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:52:26.24 on 29 Jun 2020
+[2020-06-29 02:52:27 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php from /host_sync to /app_sync
+[2020-06-29 02:52:27 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php
+[2020-06-29 02:52:27 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:52:26.24 on 29 Jun 2020
+[2020-06-29 02:52:27 -0500] Sync Log:  Synchronization complete at 02:52:26  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 02:53:36 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:53:35.23 on 29 Jun 2020
+[2020-06-29 02:53:36 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php from /host_sync to /app_sync
+[2020-06-29 02:53:36 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php
+[2020-06-29 02:53:36 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:53:35.24 on 29 Jun 2020
+[2020-06-29 02:53:36 -0500] Sync Log:  Synchronization complete at 02:53:35  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 03:09:56 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 03:09:55.85 on 29 Jun 2020
+[2020-06-29 03:09:56 -0500] Sync Log:  [BGN] Updating file Makefile from /host_sync to /app_sync
+[2020-06-29 03:09:56 -0500] Sync Log:  [END] Updating file Makefile
+[2020-06-29 03:09:56 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 03:09:55.86 on 29 Jun 2020
+[2020-06-29 03:09:56 -0500] Sync Log:  Synchronization complete at 03:09:55  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 03:10:20 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 03:10:19.93 on 29 Jun 2020
+[2020-06-29 03:10:20 -0500] Sync Log:  [BGN] Updating file src/DataFixtures/AppFixtures.php from /app_sync to /host_sync
+[2020-06-29 03:10:20 -0500] Sync Log:  [END] Updating file src/DataFixtures/AppFixtures.php
+[2020-06-29 03:10:20 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 03:10:20.01 on 29 Jun 2020
+[2020-06-29 03:10:20 -0500] Sync Log:  Synchronization complete at 03:10:20  (1 item transferred, 0 skipped, 0 failed)
+[2020-06-29 03:10:21 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 03:10:21.02 on 29 Jun 2020
+[2020-06-29 03:10:21 -0500] Sync Log:  [BGN] Updating file src/Api/Listener/JWTCreatedListener.php from /app_sync to /host_sync
+[2020-06-29 03:10:21 -0500] Sync Log:  [END] Updating file src/Api/Listener/JWTCreatedListener.php
+[2020-06-29 03:10:21 -0500] Sync Log:  [BGN] Updating file src/Api/Listener/PreWriteListener.php from /app_sync to /host_sync
+[2020-06-29 03:10:21 -0500] Sync Log:  [END] Updating file src/Api/Listener/PreWriteListener.php
+[2020-06-29 03:10:21 -0500] Sync Log:  [BGN] Updating file src/Api/Listener/User/UserPreWriteListener.php from /app_sync to /host_sync
+[2020-06-29 03:10:21 -0500] Sync Log:  [END] Updating file src/Api/Listener/User/UserPreWriteListener.php
+[2020-06-29 03:10:21 -0500] Sync Log:  [BGN] Updating file src/Entity/User.php from /app_sync to /host_sync
+[2020-06-29 03:10:21 -0500] Sync Log:  [END] Updating file src/Entity/User.php
+[2020-06-29 03:10:21 -0500] Sync Log:  [BGN] Updating file src/Exception/Role/RequiredRoleToAddRoleAdminNotFoundException.php from /app_sync to /host_sync
+[2020-06-29 03:10:21 -0500] Sync Log:  [END] Updating file src/Exception/Role/RequiredRoleToAddRoleAdminNotFoundException.php
+[2020-06-29 03:10:21 -0500] Sync Log:  [BGN] Updating file src/Exception/Role/UnsupportedRoleException.php from /app_sync to /host_sync
+[2020-06-29 03:10:21 -0500] Sync Log:  [END] Updating file src/Exception/Role/UnsupportedRoleException.php
+[2020-06-29 03:10:21 -0500] Sync Log:  [BGN] Updating file src/Security/Authorization/Voter/BaseVoter.php from /app_sync to /host_sync
+[2020-06-29 03:10:21 -0500] Sync Log:  [END] Updating file src/Security/Authorization/Voter/BaseVoter.php
+[2020-06-29 03:10:21 -0500] Sync Log:  [BGN] Updating file src/Security/Authorization/Voter/UserVoter.php from /app_sync to /host_sync
+[2020-06-29 03:10:21 -0500] Sync Log:  [END] Updating file src/Security/Authorization/Voter/UserVoter.php
+[2020-06-29 03:10:21 -0500] Sync Log:  [BGN] Updating file src/Security/Role.php from /app_sync to /host_sync
+[2020-06-29 03:10:21 -0500] Sync Log:  [END] Updating file src/Security/Role.php
+[2020-06-29 03:10:21 -0500] Sync Log:  [BGN] Updating file src/Security/Validator/Role/AreValidRoles.php from /app_sync to /host_sync
+[2020-06-29 03:10:21 -0500] Sync Log:  [END] Updating file src/Security/Validator/Role/AreValidRoles.php
+[2020-06-29 03:10:21 -0500] Sync Log:  [BGN] Updating file src/Security/Validator/Role/CanAddRoleAdmin.php from /app_sync to /host_sync
+[2020-06-29 03:10:21 -0500] Sync Log:  [END] Updating file src/Security/Validator/Role/CanAddRoleAdmin.php
+[2020-06-29 03:10:21 -0500] Sync Log:  [BGN] Updating file src/Security/Validator/Role/RoleValidator.php from /app_sync to /host_sync
+[2020-06-29 03:10:21 -0500] Sync Log:  [END] Updating file src/Security/Validator/Role/RoleValidator.php
+[2020-06-29 03:10:21 -0500] Sync Log:  [BGN] Updating file src/Service/Password/EncoderService.php from /app_sync to /host_sync
+[2020-06-29 03:10:21 -0500] Sync Log:  [END] Updating file src/Service/Password/EncoderService.php
+[2020-06-29 03:10:21 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/User/DeleteUserTest.php from /app_sync to /host_sync
+[2020-06-29 03:10:21 -0500] Sync Log:  [END] Updating file tests/Functional/Api/User/DeleteUserTest.php
+[2020-06-29 03:10:21 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/User/GetUserTest.php from /app_sync to /host_sync
+[2020-06-29 03:10:22 -0500] Sync Log:  [END] Updating file tests/Functional/Api/User/GetUserTest.php
+[2020-06-29 03:10:22 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/User/PutUserTest.php from /app_sync to /host_sync
+[2020-06-29 03:10:22 -0500] Sync Log:  [END] Updating file tests/Functional/Api/User/PutUserTest.php
+[2020-06-29 03:10:22 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/User/UserTestBase.php from /app_sync to /host_sync
+[2020-06-29 03:10:22 -0500] Sync Log:  [END] Updating file tests/Functional/Api/User/UserTestBase.php
+[2020-06-29 03:10:22 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /app_sync to /host_sync
+[2020-06-29 03:10:22 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-06-29 03:10:22 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php from /app_sync to /host_sync
+[2020-06-29 03:10:22 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/AreValidRoleTest.php
+[2020-06-29 03:10:22 -0500] Sync Log:  [BGN] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php from /app_sync to /host_sync
+[2020-06-29 03:10:22 -0500] Sync Log:  [END] Updating file tests/Unit/Security/Validator/Role/CanAddRoleAdminTest.php
+[2020-06-29 03:10:22 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 03:10:21.64 on 29 Jun 2020
+[2020-06-29 03:10:22 -0500] Sync Log:  Synchronization complete at 03:10:21  (20 items transferred, 0 skipped, 0 failed)
+[2020-06-29 03:10:23 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 03:10:22.73 on 29 Jun 2020
+[2020-06-29 03:10:23 -0500] Sync Log:  [BGN] Copying .php_cs.cache from /app_sync to /host_sync
+[2020-06-29 03:10:23 -0500] Sync Log:  [END] Copying .php_cs.cache
+[2020-06-29 03:10:23 -0500] Sync Log:  [BGN] Updating file tests/Functional/TestBase.php from /app_sync to /host_sync
+[2020-06-29 03:10:23 -0500] Sync Log:  [END] Updating file tests/Functional/TestBase.php
+[2020-06-29 03:10:23 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 03:10:22.88 on 29 Jun 2020
+[2020-06-29 03:10:23 -0500] Sync Log:  Synchronization complete at 03:10:22  (2 items transferred, 0 skipped, 0 failed)

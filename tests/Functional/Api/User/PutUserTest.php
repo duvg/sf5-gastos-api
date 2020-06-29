@@ -9,15 +9,15 @@ use Symfony\Component\HttpFoundation\JsonResponse;
 
 class PutUserTest extends UserTestBase
 {
-     public function testPutUserWithAdmin(): void
-     {
-         $payload = [
+    public function testPutUserWithAdmin(): void
+    {
+        $payload = [
              'name' => 'Test name',
              'password' => 'password2',
              'roles' => [
                  Role::ROLE_ADMIN,
-                 Role::ROLE_USER
-             ]
+                 Role::ROLE_USER,
+             ],
          ];
 
         self::$admin->request('PUT', \sprintf('%s/%s.%s', $this->endpoint, self::IDS['user_id'], self::FORMAT), [], [], [], \json_encode($payload));
@@ -29,59 +29,59 @@ class PutUserTest extends UserTestBase
         $this->assertEquals(self::IDS['user_id'], $responseData['id']);
         $this->assertEquals($payload['name'], $responseData['name']);
         $this->assertEquals($payload['roles'], $responseData['roles']);
-     }
+    }
 
-     public function testPutAdminWithUser(): void
-     {
-         $payload = [
+    public function testPutAdminWithUser(): void
+    {
+        $payload = [
              'name' => 'New User',
              'password' => 'password2',
              'roles' => [
                  Role::ROLE_ADMIN,
-                 Role::ROLE_USER
-             ]
+                 Role::ROLE_USER,
+             ],
          ];
 
-         self::$user->request('PUT', \sprintf('%s/%s.%s', $this->endpoint, self::IDS['admin_id'], self::FORMAT ));
+        self::$user->request('PUT', \sprintf('%s/%s.%s', $this->endpoint, self::IDS['admin_id'], self::FORMAT));
 
-         $response = self::$user->getResponse();
+        $response = self::$user->getResponse();
 
-         $this->assertEquals(JsonResponse::HTTP_FORBIDDEN, $response->getStatusCode());
-     }
+        $this->assertEquals(JsonResponse::HTTP_FORBIDDEN, $response->getStatusCode());
+    }
 
-     public function testPutUserWithAdminAndFakeRole(): void
-     {
-         $payload = [
+    public function testPutUserWithAdminAndFakeRole(): void
+    {
+        $payload = [
              'name' => 'New name',
              'password' => 'password2',
              'roles' => [
                  Role::ROLE_ADMIN,
-                 'ROLE_FAKE'
-             ]
+                 'ROLE_FAKE',
+             ],
          ];
 
-         self::$admin->request('PUT', \sprintf('%s/%s.%s', $this->endpoint, self::IDS['user_id'], self::FORMAT));
+        self::$admin->request('PUT', \sprintf('%s/%s.%s', $this->endpoint, self::IDS['user_id'], self::FORMAT));
 
-         $response = self::$admin->getResponse();
-         $responseData = $this->getResponseData($response);
+        $response = self::$admin->getResponse();
+        $responseData = $this->getResponseData($response);
 
-         $this->assertEquals(JsonResponse::HTTP_BAD_REQUEST, $response->getStatusCode());
-     }
+        $this->assertEquals(JsonResponse::HTTP_BAD_REQUEST, $response->getStatusCode());
+    }
 
-     public function testADdAdminRoleWithUser(): void
-     {
-         $payload = [
+    public function testADdAdminRoleWithUser(): void
+    {
+        $payload = [
              'name' => 'New user',
              'password' => 'password2',
              'roles' => [
-                 Role::ROLE_ADMIN
-             ]
+                 Role::ROLE_ADMIN,
+             ],
          ];
 
-         self::$user->request('PUT', \sprintf('%s/%s.%s', $this->endpoint, self::IDS['user_id'], self::FORMAT));
+        self::$user->request('PUT', \sprintf('%s/%s.%s', $this->endpoint, self::IDS['user_id'], self::FORMAT));
 
-         $response = self::$user->getResponse();
+        $response = self::$user->getResponse();
 
-         $this->assertEquals(JsonResponse::HTTP_BAD_REQUEST, $response->getStatusCode());
-     }
+        $this->assertEquals(JsonResponse::HTTP_BAD_REQUEST, $response->getStatusCode());
+    }
 }

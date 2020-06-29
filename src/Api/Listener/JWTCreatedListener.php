@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace App\Api\Listener;
 
-
 use http\Client\Curl\User;
 use Lexik\Bundle\JWTAuthenticationBundle\Event\JWTCreatedEvent;
 
@@ -23,7 +22,5 @@ class JWTCreatedListener
         unset($payload['roles']);
 
         $event->setData($payload);
-
-
     }
 }

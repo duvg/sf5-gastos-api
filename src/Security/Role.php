@@ -13,7 +13,7 @@ abstract class Role
     {
         return [
             self::ROLE_ADMIN,
-            self::ROLE_USER
+            self::ROLE_USER,
         ];
     }
 }

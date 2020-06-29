@@ -8,11 +8,9 @@ use App\Api\Action\RequestTransformer;
 use App\Exception\Role\UnsupportedRoleException;
 use App\Security\Role;
 use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\Security\Core\Exception\UnsupportedUserException;
 
 class AreValidRoles implements RoleValidator
 {
-
     public function validate(Request $request): array
     {
         $roles = \array_unique(RequestTransformer::getRequiredField($request, 'roles'));
@@ -24,6 +22,5 @@ class AreValidRoles implements RoleValidator
         }, $roles);
 
         return $roles;
-
     }
 }

@@ -4,24 +4,23 @@ declare(strict_types=1);
 
 namespace App\Tests\Functional;
 
-
 use App\DataFixtures\AppFixtures;
 use Hautelook\AliceBundle\PhpUnit\RecreateDatabaseTrait;
 use Liip\TestFixturesBundle\Test\FixturesTrait;
-
 use Symfony\Bundle\FrameworkBundle\KernelBrowser;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 use Symfony\Component\HttpFoundation\Response;
 
 class TestBase extends WebTestCase
 {
-    use FixturesTrait, RecreateDatabaseTrait;
+    use FixturesTrait;
+    use RecreateDatabaseTrait;
 
     protected const FORMAT = 'jsonld';
 
     protected const IDS = [
         'admin_id' => 'd781a25f-da6c-42ee-9261-7cc8ddd97001',
-        'user_id' => 'd781a25f-da6c-42ee-9261-7cc8ddd97002'
+        'user_id' => 'd781a25f-da6c-42ee-9261-7cc8ddd97002',
     ];
 
     private static ?KernelBrowser $client = null;
@@ -58,7 +57,7 @@ class TestBase extends WebTestCase
             '/api/v1/login_check',
             [
                 '_email' => $username,
-                '_password' => $password
+                '_password' => $password,
             ]
         );
 
@@ -66,7 +65,7 @@ class TestBase extends WebTestCase
 
         $client->setServerParameters([
             'HTTP_Authorization' => \sprintf('Bearer %s', $data['token']),
-            'CONTENT_TYPE' => 'application/json'
+            'CONTENT_TYPE' => 'application/json',
         ]);
     }
 
@@ -74,5 +73,4 @@ class TestBase extends WebTestCase
     {
         return  json_decode($response->getContent(), true);
     }
-
 }
