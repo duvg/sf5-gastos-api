@@ -16,12 +16,12 @@ class Group
 
     private User $owner;
 
-    private \DateTime $createdAt;
+    private ?\DateTime $createdAt = null;
 
-    private \DateTime $updatedAt;
+    private ?\DateTime $updatedAt = null;
 
     /** @var Collection|User[] */
-    private Collection $users;
+    private ?Collection $users = null;
 
     /**
      * Group constructor.
@@ -36,6 +36,7 @@ class Group
         $this->createdAt = new \DateTime();
         $this->updatedAt = new \DateTime();
         $this->users = new ArrayCollection();
+        $this->markAsUpdated();
     }
 
     public function getId(): ?string
@@ -84,5 +85,10 @@ class Group
         $this->users->add($user);
 
         $user->addGroup($this);
+    }
+
+    public function isOwnedBy(User $user): bool
+    {
+        return $this->getOwner()->getId() === $user->getId();
     }
 }

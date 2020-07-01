@@ -16,11 +16,11 @@ class User implements UserInterface
     protected string $email;
     protected string $password;
     protected array $roles;
-    protected \DateTime $createdAt;
-    protected \DateTime $updatedAt;
+    protected ?\DateTime $createdAt = null;
+    protected ?\DateTime $updatedAt = null;
 
-    /** @var Collection|Group */
-    protected Collection $groups;
+    /** @var Collection|Group[] */
+    protected ?Collection $groups = null;
 
     /**
      * @throws \Exception
@@ -124,6 +124,6 @@ class User implements UserInterface
 
     public function addGroup(Group $group): void
     {
-        $this->group->add($group);
+        $this->groups->add($group);
     }
 }
