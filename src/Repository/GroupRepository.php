@@ -15,7 +15,7 @@ class GroupRepository extends BaseRepository
         return Group::class;
     }
 
-    public function finOneById(string $id): ?Group
+    public function findOneById(string $id): ?Group
     {
         /** @var Group $group */
         $group = $this->objectRepository->find($id);
@@ -32,6 +32,11 @@ class GroupRepository extends BaseRepository
         }
 
         return false;
+    }
+
+    public function save(Group $group): void
+    {
+        $this->saveEntity($group);
     }
 
 

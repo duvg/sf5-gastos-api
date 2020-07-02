@@ -7,6 +7,7 @@ namespace App\Doctrine\Extension;
 
 use ApiPlatform\Core\Bridge\Doctrine\Orm\Extension\QueryCollectionExtensionInterface;
 use ApiPlatform\Core\Bridge\Doctrine\Orm\Util\QueryNameGeneratorInterface;
+use App\Entity\Group;
 use App\Entity\User;
 use App\Security\Role;
 use Doctrine\ORM\QueryBuilder;
@@ -29,12 +30,11 @@ class DoctrineUserExtension implements QueryCollectionExtensionInterface
      */
     private Group $group;
 
-    public function __construct(TokenStorageInterface $tokenStorage, Security $security, Group $group)
+    public function __construct(TokenStorageInterface $tokenStorage, Security $security)
     {
 
         $this->tokenStorage = $tokenStorage;
         $this->security = $security;
-        $this->group = $group;
     }
 
     public function applyToCollection(QueryBuilder $queryBuilder, QueryNameGeneratorInterface $queryNameGenerator, string $resourceClass, string $operationName = null)

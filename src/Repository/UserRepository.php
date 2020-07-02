@@ -13,6 +13,14 @@ class UserRepository extends BaseRepository
         return User::class;
     }
 
+    public function findOneById(string $id): ?User
+    {
+        /** @var User $user */
+        $user = $this->objectRepository->find($id);
+
+        return $user;
+    }
+
     public function findOneByEmail(string $email): ?User
     {
         /** @var User $user */
