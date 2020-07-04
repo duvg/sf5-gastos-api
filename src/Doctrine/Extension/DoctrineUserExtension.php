@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace App\Doctrine\Extension;
 
-
 use ApiPlatform\Core\Bridge\Doctrine\Orm\Extension\QueryCollectionExtensionInterface;
 use ApiPlatform\Core\Bridge\Doctrine\Orm\Util\QueryNameGeneratorInterface;
 use App\Entity\Group;
@@ -14,25 +13,16 @@ use Doctrine\ORM\QueryBuilder;
 use Symfony\Component\Security\Core\Authentication\Token\Storage\TokenStorageInterface;
 use Symfony\Component\Security\Core\Security;
 
-
 class DoctrineUserExtension implements QueryCollectionExtensionInterface
 {
-    /**
-     * @var TokenStorageInterface
-     */
     private TokenStorageInterface $tokenStorage;
-    /**
-     * @var Security
-     */
+
     private Security $security;
-    /**
-     * @var Group
-     */
+
     private Group $group;
 
     public function __construct(TokenStorageInterface $tokenStorage, Security $security)
     {
-
         $this->tokenStorage = $tokenStorage;
         $this->security = $security;
     }

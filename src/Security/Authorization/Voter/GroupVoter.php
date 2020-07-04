@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\Security\Authorization\Voter;
-
 
 use App\Entity\Group;
 use App\Entity\User;
@@ -61,7 +59,7 @@ class GroupVoter extends BaseVoter
             self::GROUP_READ,
             self::GROUP_CREATE,
             self::GROUP_UPDATE,
-            self::GROUP_DELETE
+            self::GROUP_DELETE,
         ];
     }
 }

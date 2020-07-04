@@ -12,9 +12,6 @@ abstract class BaseVoter extends Voter
 {
     protected Security $security;
 
-    /**
-     * @var GroupRepository
-     */
     protected GroupRepository $groupRepository;
 
     public function __construct(Security $security, GroupRepository $groupRepository)

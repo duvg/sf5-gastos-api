@@ -12,6 +12,7 @@
 ###> Other files ###
 .idea
 .env.local
+.env.test
 .php_cs.cache
 bin/.phpunit
 ###> Other files ###

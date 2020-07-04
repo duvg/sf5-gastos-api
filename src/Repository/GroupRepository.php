@@ -9,7 +9,6 @@ use App\Entity\User;
 
 class GroupRepository extends BaseRepository
 {
-
     protected static function entityClass(): string
     {
         return Group::class;
@@ -38,6 +37,4 @@ class GroupRepository extends BaseRepository
     {
         $this->saveEntity($group);
     }
-
-
 }

@@ -11,17 +11,13 @@ use App\Repository\UserRepository;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Exception\BadRequestHttpException;
+use Symfony\Component\HttpKernel\Exception\ConflictHttpException;
 use Symfony\Component\Routing\Annotation\Route;
 
 class AddUser
 {
-    /**
-     * @var UserRepository
-     */
     private UserRepository $userRepository;
-    /**
-     * @var GroupRepository
-     */
+
     private GroupRepository $groupRepository;
 
     public function __construct(UserRepository $userRepository, GroupRepository $groupRepository)
@@ -32,9 +28,6 @@ class AddUser
 
     /**
      * @Route("/groups/add_user", methods={"POST"})
-     * @param Request $request
-     * @param User $user
-     * @return JsonResponse
      */
     public function __invoke(Request $request, User $user): JsonResponse
     {
@@ -55,6 +48,11 @@ class AddUser
 
         if (null === $newUser) {
             throw new BadRequestHttpException('User not found');
+        }
+
+        // Check user is not member
+        if ($this->groupRepository->userIsMember($group, $newUser)) {
+            throw new ConflictHttpException('This user is already of this group');
         }
 
         $group->addUser($newUser);

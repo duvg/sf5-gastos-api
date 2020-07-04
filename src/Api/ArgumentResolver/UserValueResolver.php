@@ -1,8 +1,6 @@
 <?php
 
-
 namespace App\Api\ArgumentResolver;
-
 
 use App\Entity\User;
 use App\Repository\UserRepository;
@@ -14,14 +12,8 @@ use Symfony\Component\Security\Core\Authentication\Token\TokenInterface;
 
 class UserValueResolver implements ArgumentValueResolverInterface
 {
-
-    /**
-     * @var TokenStorageInterface
-     */
     private TokenStorageInterface $tokenStorage;
-    /**
-     * @var UserRepository
-     */
+
     private UserRepository $userRepository;
 
     public function __construct(TokenStorageInterface $tokenStorage, UserRepository $userRepository)

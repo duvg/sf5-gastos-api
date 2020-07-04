@@ -11,14 +11,10 @@ use App\Exception\Group\CannotAddAnotherOwnerException;
 use Symfony\Component\HttpKernel\Event\ViewEvent;
 use Symfony\Component\Security\Core\Authentication\Token\Storage\TokenStorageInterface;
 
-
 class GroupPreWriteListener implements PreWriteListener
 {
     private const POST_GROUP = 'api_groups_post_collection';
 
-    /**
-     * @var TokenStorageInterface
-     */
     private TokenStorageInterface $tokenStorage;
 
     public function __construct(TokenStorageInterface $tokenStorage)
@@ -26,7 +22,7 @@ class GroupPreWriteListener implements PreWriteListener
         $this->tokenStorage = $tokenStorage;
     }
 
-    /** @var User $tokenUser */
+    /** @var User */
     public function onKernelView(ViewEvent $event): void
     {
         $tokenUser = $this->tokenStorage->getToken()->getUser();

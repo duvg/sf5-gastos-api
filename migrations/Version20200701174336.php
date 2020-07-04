@@ -32,6 +32,7 @@ final class Version20200701174336 extends AbstractMigration
             'CREATE TABLE user_group_user (
                 user_id CHAR(36) NOT NULL,
                 group_id CHAR(36) NOT NULL,
+                UNIQUE (user_id, group_id),
                 INDEX IDX_user_group_user_user_id (user_id),
                 INDEX IDX_user_group_user_group_id (group_id),
                 CONSTRAINT FK_user_group_user_user_id FOREIGN KEY (user_id) REFERENCES user (id) ON UPDATE CASCADE ON DELETE CASCADE,
