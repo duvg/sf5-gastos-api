@@ -7,22 +7,16 @@ namespace App\Tests\Unit\Api\Action\User;
 use App\Api\Action\User\Register;
 use App\Entity\User;
 use App\Exception\User\UserAlreadyExistException;
-use App\Repository\UserRepository;
 use App\Service\Password\EncoderService;
+use App\Tests\Unit\Api\Action\TestBase;
 use Lexik\Bundle\JWTAuthenticationBundle\Services\JWTTokenManagerInterface;
-use PHPUnit\Framework\TestCase;
 use Prophecy\Argument;
 use Prophecy\Prophecy\ObjectProphecy;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 
-class RegisterTest extends TestCase
+class RegisterTest extends TestBase
 {
-    /** @var ObjectProphecy|UserRepository */
-    private $userRepositoryProphecy;
-
-    private UserRepository $userRepository;
-
     /** @var ObjectProphecy|JWTTokenManagerInterface */
     private $JWTTokenManagerProphecy;
 
@@ -37,9 +31,6 @@ class RegisterTest extends TestCase
 
     public function setUp(): void
     {
-        $this->userRepositoryProphecy = $this->prophesize(UserRepository::class);
-        $this->userRepository = $this->userRepositoryProphecy->reveal();
-
         $this->JWTTokenManagerProphecy = $this->prophesize(JWTTokenManagerInterface::class);
         $this->JWTTokenManager = $this->JWTTokenManagerProphecy->reveal();
 
