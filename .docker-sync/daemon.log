@@ -5372,3 +5372,828 @@ unison: started
 [2020-07-04 03:39:48 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
 [2020-07-04 03:39:48 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 03:39:48.03 on 04 Jul 2020
 [2020-07-04 03:39:48 -0500] Sync Log:  Synchronization complete at 03:39:48  (8 items transferred, 0 skipped, 0 failed)
+[2020-07-04 03:40:53 -0500] Sync Log:  Error response from daemon: Bad response from Docker engine
+          ok  Starting native_osx for sync sf5-gastos-api-be-sync
+          ok  sf5-gastos-api-be-sync container still running, restarting unison in container
+unison: stopped
+unison: started
+     success  Sync container started
+     success  Showing unison logs from your sync container: sf5-gastos-api-be-sync
+[2020-07-04 18:49:51 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-07-04 18:49:51 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 03:39:48.03 on 04 Jul 2020
+[2020-07-04 18:49:51 -0500] Sync Log:  Synchronization complete at 03:39:48  (8 items transferred, 0 skipped, 0 failed)
+[2020-07-04 18:49:51 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:49:43.97 on 04 Jul 2020
+[2020-07-04 18:49:51 -0500] Sync Log:  [BGN] Updating file .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-07-04 18:49:51 -0500] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2020-07-04 18:49:51 -0500] Sync Log:  [BGN] Updating file .docker-sync/daemon.pid from /host_sync to /app_sync
+[2020-07-04 18:49:51 -0500] Sync Log:  [END] Updating file .docker-sync/daemon.pid
+[2020-07-04 18:49:51 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:49:43.99 on 04 Jul 2020
+[2020-07-04 18:49:51 -0500] Sync Log:  Synchronization complete at 18:49:44  (2 items transferred, 0 skipped, 0 failed)
+[2020-07-04 18:49:56 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:49:56.66 on 04 Jul 2020
+[2020-07-04 18:49:56 -0500] Sync Log:  [BGN] Updating file .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-07-04 18:49:56 -0500] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2020-07-04 18:49:56 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:49:56.68 on 04 Jul 2020
+[2020-07-04 18:49:56 -0500] Sync Log:  Synchronization complete at 18:49:56  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 19:05:46 -0500] Sync Log:  Error response from daemon: Bad response from Docker engine
+          ok  Starting native_osx for sync sf5-gastos-api-be-sync
+          ok  sf5-gastos-api-be-sync container still running, restarting unison in container
+unison: stopped
+unison: started
+     success  Sync container started
+     success  Showing unison logs from your sync container: sf5-gastos-api-be-sync
+[2020-07-04 19:24:13 -0500] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2020-07-04 19:24:13 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:49:56.68 on 04 Jul 2020
+[2020-07-04 19:24:13 -0500] Sync Log:  Synchronization complete at 18:49:56  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 19:24:13 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:24:05.20 on 04 Jul 2020
+[2020-07-04 19:24:13 -0500] Sync Log:  [BGN] Updating file .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-07-04 19:24:13 -0500] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2020-07-04 19:24:13 -0500] Sync Log:  [BGN] Updating file .docker-sync/daemon.pid from /host_sync to /app_sync
+[2020-07-04 19:24:13 -0500] Sync Log:  [END] Updating file .docker-sync/daemon.pid
+[2020-07-04 19:24:13 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:24:05.23 on 04 Jul 2020
+[2020-07-04 19:24:13 -0500] Sync Log:  Synchronization complete at 19:24:05  (2 items transferred, 0 skipped, 0 failed)
+[2020-07-04 19:24:17 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:24:16.68 on 04 Jul 2020
+[2020-07-04 19:24:17 -0500] Sync Log:  [BGN] Updating file .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-07-04 19:24:17 -0500] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2020-07-04 19:24:17 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:24:16.70 on 04 Jul 2020
+[2020-07-04 19:24:17 -0500] Sync Log:  Synchronization complete at 19:24:16  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 19:35:52 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:35:52.86 on 04 Jul 2020
+[2020-07-04 19:35:52 -0500] Sync Log:  [BGN] Copying src/Service/Group from /host_sync to /app_sync
+[2020-07-04 19:35:52 -0500] Sync Log:  [END] Copying src/Service/Group
+[2020-07-04 19:35:52 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:35:52.86 on 04 Jul 2020
+[2020-07-04 19:35:52 -0500] Sync Log:  Synchronization complete at 19:35:52  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 19:36:07 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:36:07.13 on 04 Jul 2020
+[2020-07-04 19:36:07 -0500] Sync Log:  [BGN] Copying src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 19:36:07 -0500] Sync Log:  [END] Copying src/Service/Group/GroupService.php
+[2020-07-04 19:36:07 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:36:07.13 on 04 Jul 2020
+[2020-07-04 19:36:07 -0500] Sync Log:  Synchronization complete at 19:36:07  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 19:37:28 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:37:28.52 on 04 Jul 2020
+[2020-07-04 19:37:28 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 19:37:28 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 19:37:28 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:37:28.53 on 04 Jul 2020
+[2020-07-04 19:37:28 -0500] Sync Log:  Synchronization complete at 19:37:28  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 19:41:05 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:41:04.99 on 04 Jul 2020
+[2020-07-04 19:41:05 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 19:41:05 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 19:41:05 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:41:05.01 on 04 Jul 2020
+[2020-07-04 19:41:05 -0500] Sync Log:  Synchronization complete at 19:41:05  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 19:42:47 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:42:46.64 on 04 Jul 2020
+[2020-07-04 19:42:47 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 19:42:47 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 19:42:47 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:42:46.65 on 04 Jul 2020
+[2020-07-04 19:42:47 -0500] Sync Log:  Synchronization complete at 19:42:46  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 19:43:25 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:43:24.56 on 04 Jul 2020
+[2020-07-04 19:43:25 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 19:43:25 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 19:43:25 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:43:24.57 on 04 Jul 2020
+[2020-07-04 19:43:25 -0500] Sync Log:  Synchronization complete at 19:43:24  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 19:43:44 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:43:44.49 on 04 Jul 2020
+[2020-07-04 19:43:44 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 19:43:44 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 19:43:44 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:43:44.51 on 04 Jul 2020
+[2020-07-04 19:43:44 -0500] Sync Log:  Synchronization complete at 19:43:44  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 19:44:16 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:44:15.86 on 04 Jul 2020
+[2020-07-04 19:44:16 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 19:44:16 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 19:44:16 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:44:15.87 on 04 Jul 2020
+[2020-07-04 19:44:16 -0500] Sync Log:  Synchronization complete at 19:44:15  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 19:48:28 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:48:28.35 on 04 Jul 2020
+[2020-07-04 19:48:28 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 19:48:28 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 19:48:28 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:48:28.36 on 04 Jul 2020
+[2020-07-04 19:48:28 -0500] Sync Log:  Synchronization complete at 19:48:28  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 19:49:39 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:49:38.34 on 04 Jul 2020
+[2020-07-04 19:49:39 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 19:49:39 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 19:49:39 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:49:38.35 on 04 Jul 2020
+[2020-07-04 19:49:39 -0500] Sync Log:  Synchronization complete at 19:49:38  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 19:50:06 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:50:05.70 on 04 Jul 2020
+[2020-07-04 19:50:06 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 19:50:06 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 19:50:06 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:50:05.73 on 04 Jul 2020
+[2020-07-04 19:50:06 -0500] Sync Log:  Synchronization complete at 19:50:05  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 19:50:48 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:50:48.05 on 04 Jul 2020
+[2020-07-04 19:50:48 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 19:50:48 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 19:50:48 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:50:48.06 on 04 Jul 2020
+[2020-07-04 19:50:48 -0500] Sync Log:  Synchronization complete at 19:50:48  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 19:55:03 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:55:02.78 on 04 Jul 2020
+[2020-07-04 19:55:03 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 19:55:03 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 19:55:03 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:55:02.78 on 04 Jul 2020
+[2020-07-04 19:55:03 -0500] Sync Log:  Synchronization complete at 19:55:02  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 19:56:26 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:56:26.26 on 04 Jul 2020
+[2020-07-04 19:56:26 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 19:56:26 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 19:56:26 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:56:26.28 on 04 Jul 2020
+[2020-07-04 19:56:26 -0500] Sync Log:  Synchronization complete at 19:56:26  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 19:57:54 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:57:54.36 on 04 Jul 2020
+[2020-07-04 19:57:54 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 19:57:54 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 19:57:54 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:57:54.36 on 04 Jul 2020
+[2020-07-04 19:57:54 -0500] Sync Log:  Synchronization complete at 19:57:54  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 19:58:09 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:58:09.02 on 04 Jul 2020
+[2020-07-04 19:58:09 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 19:58:09 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 19:58:09 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:58:09.03 on 04 Jul 2020
+[2020-07-04 19:58:09 -0500] Sync Log:  Synchronization complete at 19:58:09  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 19:59:00 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:58:59.96 on 04 Jul 2020
+[2020-07-04 19:59:00 -0500] Sync Log:  [BGN] Updating file src/Api/Action/Group/AddUser.php from /host_sync to /app_sync
+[2020-07-04 19:59:00 -0500] Sync Log:  [END] Updating file src/Api/Action/Group/AddUser.php
+[2020-07-04 19:59:00 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:58:59.99 on 04 Jul 2020
+[2020-07-04 19:59:00 -0500] Sync Log:  Synchronization complete at 19:58:59  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 19:59:21 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:59:21.02 on 04 Jul 2020
+[2020-07-04 19:59:21 -0500] Sync Log:  [BGN] Updating file src/Api/Action/Group/AddUser.php from /host_sync to /app_sync
+[2020-07-04 19:59:21 -0500] Sync Log:  [END] Updating file src/Api/Action/Group/AddUser.php
+[2020-07-04 19:59:21 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:59:21.03 on 04 Jul 2020
+[2020-07-04 19:59:21 -0500] Sync Log:  Synchronization complete at 19:59:21  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:00:04 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:00:03.91 on 04 Jul 2020
+[2020-07-04 20:00:04 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 20:00:04 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 20:00:04 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:00:03.92 on 04 Jul 2020
+[2020-07-04 20:00:04 -0500] Sync Log:  Synchronization complete at 20:00:03  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:00:22 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:00:21.96 on 04 Jul 2020
+[2020-07-04 20:00:22 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 20:00:22 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 20:00:22 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:00:21.97 on 04 Jul 2020
+[2020-07-04 20:00:22 -0500] Sync Log:  Synchronization complete at 20:00:21  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:01:39 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:01:39.23 on 04 Jul 2020
+[2020-07-04 20:01:39 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 20:01:39 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 20:01:39 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:01:39.24 on 04 Jul 2020
+[2020-07-04 20:01:39 -0500] Sync Log:  Synchronization complete at 20:01:39  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:01:56 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:01:56.82 on 04 Jul 2020
+[2020-07-04 20:01:56 -0500] Sync Log:  [BGN] Updating file src/Api/Action/Group/AddUser.php from /host_sync to /app_sync
+[2020-07-04 20:01:56 -0500] Sync Log:  [END] Updating file src/Api/Action/Group/AddUser.php
+[2020-07-04 20:01:56 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:01:56.83 on 04 Jul 2020
+[2020-07-04 20:01:56 -0500] Sync Log:  Synchronization complete at 20:01:56  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:02:22 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:02:22.45 on 04 Jul 2020
+[2020-07-04 20:02:23 -0500] Sync Log:  [BGN] Updating file src/Api/Action/Group/AddUser.php from /host_sync to /app_sync
+[2020-07-04 20:02:23 -0500] Sync Log:  [END] Updating file src/Api/Action/Group/AddUser.php
+[2020-07-04 20:02:23 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:02:22.46 on 04 Jul 2020
+[2020-07-04 20:02:23 -0500] Sync Log:  Synchronization complete at 20:02:22  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:02:37 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:02:37.95 on 04 Jul 2020
+[2020-07-04 20:02:37 -0500] Sync Log:  [BGN] Updating file src/Api/Action/Group/AddUser.php from /host_sync to /app_sync
+[2020-07-04 20:02:37 -0500] Sync Log:  [END] Updating file src/Api/Action/Group/AddUser.php
+[2020-07-04 20:02:37 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:02:37.96 on 04 Jul 2020
+[2020-07-04 20:02:37 -0500] Sync Log:  Synchronization complete at 20:02:37  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:03:11 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:03:10.20 on 04 Jul 2020
+[2020-07-04 20:03:11 -0500] Sync Log:  [BGN] Updating file src/Api/Action/Group/AddUser.php from /host_sync to /app_sync
+[2020-07-04 20:03:11 -0500] Sync Log:  [END] Updating file src/Api/Action/Group/AddUser.php
+[2020-07-04 20:03:11 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:03:10.25 on 04 Jul 2020
+[2020-07-04 20:03:11 -0500] Sync Log:  Synchronization complete at 20:03:10  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:03:34 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:03:33.68 on 04 Jul 2020
+[2020-07-04 20:03:34 -0500] Sync Log:  [BGN] Updating file src/Api/Action/Group/AddUser.php from /host_sync to /app_sync
+[2020-07-04 20:03:34 -0500] Sync Log:  [END] Updating file src/Api/Action/Group/AddUser.php
+[2020-07-04 20:03:34 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:03:33.70 on 04 Jul 2020
+[2020-07-04 20:03:34 -0500] Sync Log:  Synchronization complete at 20:03:33  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:04:07 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:04:06.50 on 04 Jul 2020
+[2020-07-04 20:04:07 -0500] Sync Log:  [BGN] Updating file src/Api/Action/Group/AddUser.php from /host_sync to /app_sync
+[2020-07-04 20:04:07 -0500] Sync Log:  [END] Updating file src/Api/Action/Group/AddUser.php
+[2020-07-04 20:04:07 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:04:06.51 on 04 Jul 2020
+[2020-07-04 20:04:07 -0500] Sync Log:  Synchronization complete at 20:04:06  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:04:32 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:04:32.01 on 04 Jul 2020
+[2020-07-04 20:04:32 -0500] Sync Log:  [BGN] Updating file src/Api/Action/Group/AddUser.php from /host_sync to /app_sync
+[2020-07-04 20:04:32 -0500] Sync Log:  [END] Updating file src/Api/Action/Group/AddUser.php
+[2020-07-04 20:04:32 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:04:32.03 on 04 Jul 2020
+[2020-07-04 20:04:32 -0500] Sync Log:  Synchronization complete at 20:04:32  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:10:14 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:10:14.05 on 04 Jul 2020
+[2020-07-04 20:10:14 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 20:10:14 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 20:10:14 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:10:14.06 on 04 Jul 2020
+[2020-07-04 20:10:14 -0500] Sync Log:  Synchronization complete at 20:10:14  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:10:30 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:10:29.86 on 04 Jul 2020
+[2020-07-04 20:10:30 -0500] Sync Log:  [BGN] Copying src/Api/Action/Group/RemoveUser.php from /host_sync to /app_sync
+[2020-07-04 20:10:30 -0500] Sync Log:  [END] Copying src/Api/Action/Group/RemoveUser.php
+[2020-07-04 20:10:30 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:10:29.86 on 04 Jul 2020
+[2020-07-04 20:10:30 -0500] Sync Log:  Synchronization complete at 20:10:29  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:11:08 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:11:07.91 on 04 Jul 2020
+[2020-07-04 20:11:08 -0500] Sync Log:  [BGN] Updating file src/Api/Action/Group/RemoveUser.php from /host_sync to /app_sync
+[2020-07-04 20:11:08 -0500] Sync Log:  [END] Updating file src/Api/Action/Group/RemoveUser.php
+[2020-07-04 20:11:08 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:11:07.93 on 04 Jul 2020
+[2020-07-04 20:11:08 -0500] Sync Log:  Synchronization complete at 20:11:07  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:11:42 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:11:42.76 on 04 Jul 2020
+[2020-07-04 20:11:42 -0500] Sync Log:  [BGN] Updating file src/Api/Action/Group/RemoveUser.php from /host_sync to /app_sync
+[2020-07-04 20:11:42 -0500] Sync Log:  [END] Updating file src/Api/Action/Group/RemoveUser.php
+[2020-07-04 20:11:42 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:11:42.78 on 04 Jul 2020
+[2020-07-04 20:11:42 -0500] Sync Log:  Synchronization complete at 20:11:42  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:12:07 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:12:07.41 on 04 Jul 2020
+[2020-07-04 20:12:07 -0500] Sync Log:  [BGN] Updating file src/Api/Action/Group/RemoveUser.php from /host_sync to /app_sync
+[2020-07-04 20:12:07 -0500] Sync Log:  [END] Updating file src/Api/Action/Group/RemoveUser.php
+[2020-07-04 20:12:07 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:12:07.42 on 04 Jul 2020
+[2020-07-04 20:12:07 -0500] Sync Log:  Synchronization complete at 20:12:07  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:13:31 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:13:30.75 on 04 Jul 2020
+[2020-07-04 20:13:31 -0500] Sync Log:  [BGN] Updating file src/Api/Action/Group/RemoveUser.php from /host_sync to /app_sync
+[2020-07-04 20:13:31 -0500] Sync Log:  [END] Updating file src/Api/Action/Group/RemoveUser.php
+[2020-07-04 20:13:31 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 20:13:31 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 20:13:31 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:13:30.77 on 04 Jul 2020
+[2020-07-04 20:13:31 -0500] Sync Log:  Synchronization complete at 20:13:30  (2 items transferred, 0 skipped, 0 failed)
+[2020-07-04 20:14:05 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:14:04.75 on 04 Jul 2020
+[2020-07-04 20:14:05 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 20:14:05 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 20:14:05 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:14:04.77 on 04 Jul 2020
+[2020-07-04 20:14:05 -0500] Sync Log:  Synchronization complete at 20:14:04  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:14:34 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:14:33.45 on 04 Jul 2020
+[2020-07-04 20:14:34 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 20:14:34 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 20:14:34 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:14:33.46 on 04 Jul 2020
+[2020-07-04 20:14:34 -0500] Sync Log:  Synchronization complete at 20:14:33  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:17:01 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:17:00.85 on 04 Jul 2020
+[2020-07-04 20:17:01 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 20:17:01 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 20:17:01 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:17:00.85 on 04 Jul 2020
+[2020-07-04 20:17:01 -0500] Sync Log:  Synchronization complete at 20:17:00  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:18:03 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:18:03.02 on 04 Jul 2020
+[2020-07-04 20:18:03 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 20:18:03 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 20:18:03 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:18:03.03 on 04 Jul 2020
+[2020-07-04 20:18:03 -0500] Sync Log:  Synchronization complete at 20:18:03  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:18:18 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:18:18.13 on 04 Jul 2020
+[2020-07-04 20:18:18 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 20:18:18 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 20:18:18 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:18:18.13 on 04 Jul 2020
+[2020-07-04 20:18:18 -0500] Sync Log:  Synchronization complete at 20:18:18  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:19:10 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:19:09.86 on 04 Jul 2020
+[2020-07-04 20:19:10 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 20:19:10 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 20:19:10 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:19:09.87 on 04 Jul 2020
+[2020-07-04 20:19:10 -0500] Sync Log:  Synchronization complete at 20:19:09  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:20:06 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:20:06.01 on 04 Jul 2020
+[2020-07-04 20:20:06 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 20:20:06 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 20:20:06 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:20:06.03 on 04 Jul 2020
+[2020-07-04 20:20:06 -0500] Sync Log:  Synchronization complete at 20:20:06  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:20:11 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:20:11.25 on 04 Jul 2020
+[2020-07-04 20:20:11 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 20:20:11 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 20:20:11 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:20:11.27 on 04 Jul 2020
+[2020-07-04 20:20:11 -0500] Sync Log:  Synchronization complete at 20:20:11  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:20:23 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:20:23.41 on 04 Jul 2020
+[2020-07-04 20:20:23 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 20:20:23 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 20:20:23 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:20:23.42 on 04 Jul 2020
+[2020-07-04 20:20:23 -0500] Sync Log:  Synchronization complete at 20:20:23  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:21:12 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:21:12.74 on 04 Jul 2020
+[2020-07-04 20:21:12 -0500] Sync Log:  [BGN] Deleting src/Exception/Group/UserDoesNotExistException.php from /app_sync
+[2020-07-04 20:21:12 -0500] Sync Log:  [END] Deleting src/Exception/Group/UserDoesNotExistException.php
+[2020-07-04 20:21:12 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:21:12.74 on 04 Jul 2020
+[2020-07-04 20:21:12 -0500] Sync Log:  Synchronization complete at 20:21:12  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:21:13 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:21:13.76 on 04 Jul 2020
+[2020-07-04 20:21:13 -0500] Sync Log:  [BGN] Copying src/Exception/User/UserDoesNotExistException.php from /host_sync to /app_sync
+[2020-07-04 20:21:13 -0500] Sync Log:  [END] Copying src/Exception/User/UserDoesNotExistException.php
+[2020-07-04 20:21:13 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:21:13.77 on 04 Jul 2020
+[2020-07-04 20:21:13 -0500] Sync Log:  Synchronization complete at 20:21:13  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:21:49 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:21:49.56 on 04 Jul 2020
+[2020-07-04 20:21:49 -0500] Sync Log:  [BGN] Copying src/Exception/Group/UserNotMemberOfGroupException.php from /host_sync to /app_sync
+[2020-07-04 20:21:49 -0500] Sync Log:  [END] Copying src/Exception/Group/UserNotMemberOfGroupException.php
+[2020-07-04 20:21:49 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:21:49.56 on 04 Jul 2020
+[2020-07-04 20:21:49 -0500] Sync Log:  Synchronization complete at 20:21:49  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:22:55 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:22:55.23 on 04 Jul 2020
+[2020-07-04 20:22:56 -0500] Sync Log:  [BGN] Updating file src/Exception/Group/UserNotMemberOfGroupException.php from /host_sync to /app_sync
+[2020-07-04 20:22:56 -0500] Sync Log:  [END] Updating file src/Exception/Group/UserNotMemberOfGroupException.php
+[2020-07-04 20:22:56 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:22:55.24 on 04 Jul 2020
+[2020-07-04 20:22:56 -0500] Sync Log:  Synchronization complete at 20:22:55  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:23:27 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:23:26.50 on 04 Jul 2020
+[2020-07-04 20:23:27 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 20:23:27 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 20:23:27 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:23:26.51 on 04 Jul 2020
+[2020-07-04 20:23:27 -0500] Sync Log:  Synchronization complete at 20:23:26  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:24:07 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:24:06.87 on 04 Jul 2020
+[2020-07-04 20:24:07 -0500] Sync Log:  [BGN] Updating file src/Entity/Group.php from /host_sync to /app_sync
+[2020-07-04 20:24:07 -0500] Sync Log:  [END] Updating file src/Entity/Group.php
+[2020-07-04 20:24:07 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 20:24:07 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 20:24:07 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:24:06.89 on 04 Jul 2020
+[2020-07-04 20:24:07 -0500] Sync Log:  Synchronization complete at 20:24:06  (2 items transferred, 0 skipped, 0 failed)
+[2020-07-04 20:24:29 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:24:28.65 on 04 Jul 2020
+[2020-07-04 20:24:29 -0500] Sync Log:  [BGN] Updating file src/Entity/Group.php from /host_sync to /app_sync
+[2020-07-04 20:24:29 -0500] Sync Log:  [END] Updating file src/Entity/Group.php
+[2020-07-04 20:24:29 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:24:28.65 on 04 Jul 2020
+[2020-07-04 20:24:29 -0500] Sync Log:  Synchronization complete at 20:24:28  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:24:50 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:24:49.94 on 04 Jul 2020
+[2020-07-04 20:24:50 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 20:24:50 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 20:24:50 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:24:49.95 on 04 Jul 2020
+[2020-07-04 20:24:50 -0500] Sync Log:  Synchronization complete at 20:24:49  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:25:00 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:25:00.05 on 04 Jul 2020
+[2020-07-04 20:25:00 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 20:25:00 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 20:25:00 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:25:00.06 on 04 Jul 2020
+[2020-07-04 20:25:00 -0500] Sync Log:  Synchronization complete at 20:25:00  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:25:47 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:25:46.79 on 04 Jul 2020
+[2020-07-04 20:25:47 -0500] Sync Log:  [BGN] Updating file src/Api/Action/Group/RemoveUser.php from /host_sync to /app_sync
+[2020-07-04 20:25:47 -0500] Sync Log:  [END] Updating file src/Api/Action/Group/RemoveUser.php
+[2020-07-04 20:25:47 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:25:46.81 on 04 Jul 2020
+[2020-07-04 20:25:47 -0500] Sync Log:  Synchronization complete at 20:25:46  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:25:53 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:25:53.03 on 04 Jul 2020
+[2020-07-04 20:25:53 -0500] Sync Log:  [BGN] Updating file src/Api/Action/Group/RemoveUser.php from /host_sync to /app_sync
+[2020-07-04 20:25:53 -0500] Sync Log:  [END] Updating file src/Api/Action/Group/RemoveUser.php
+[2020-07-04 20:25:53 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:25:53.04 on 04 Jul 2020
+[2020-07-04 20:25:53 -0500] Sync Log:  Synchronization complete at 20:25:53  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:26:33 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:26:32.81 on 04 Jul 2020
+[2020-07-04 20:26:33 -0500] Sync Log:  [BGN] Updating file src/Api/Action/Group/RemoveUser.php from /host_sync to /app_sync
+[2020-07-04 20:26:33 -0500] Sync Log:  [END] Updating file src/Api/Action/Group/RemoveUser.php
+[2020-07-04 20:26:33 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:26:32.83 on 04 Jul 2020
+[2020-07-04 20:26:33 -0500] Sync Log:  Synchronization complete at 20:26:32  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:26:40 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:26:39.59 on 04 Jul 2020
+[2020-07-04 20:26:40 -0500] Sync Log:  [BGN] Updating file src/Api/Action/Group/RemoveUser.php from /host_sync to /app_sync
+[2020-07-04 20:26:40 -0500] Sync Log:  [END] Updating file src/Api/Action/Group/RemoveUser.php
+[2020-07-04 20:26:40 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:26:39.59 on 04 Jul 2020
+[2020-07-04 20:26:40 -0500] Sync Log:  Synchronization complete at 20:26:39  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:27:00 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:27:00.15 on 04 Jul 2020
+[2020-07-04 20:27:00 -0500] Sync Log:  [BGN] Updating file src/Api/Action/Group/RemoveUser.php from /host_sync to /app_sync
+[2020-07-04 20:27:00 -0500] Sync Log:  [END] Updating file src/Api/Action/Group/RemoveUser.php
+[2020-07-04 20:27:00 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:27:00.16 on 04 Jul 2020
+[2020-07-04 20:27:00 -0500] Sync Log:  Synchronization complete at 20:27:00  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:47:41 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:47:40.54 on 04 Jul 2020
+[2020-07-04 20:47:41 -0500] Sync Log:  [BGN] Deleting src/Exception/User/UserDoesNotExistException.php from /app_sync
+[2020-07-04 20:47:41 -0500] Sync Log:  [END] Deleting src/Exception/User/UserDoesNotExistException.php
+[2020-07-04 20:47:41 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:47:40.55 on 04 Jul 2020
+[2020-07-04 20:47:41 -0500] Sync Log:  Synchronization complete at 20:47:40  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:47:42 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:47:41.57 on 04 Jul 2020
+[2020-07-04 20:47:42 -0500] Sync Log:  [BGN] Copying src/Exception/Group/UserDoesNotExistException.php from /host_sync to /app_sync
+[2020-07-04 20:47:42 -0500] Sync Log:  [END] Copying src/Exception/Group/UserDoesNotExistException.php
+[2020-07-04 20:47:42 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:47:41.58 on 04 Jul 2020
+[2020-07-04 20:47:42 -0500] Sync Log:  Synchronization complete at 20:47:41  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:51:13 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:51:13.08 on 04 Jul 2020
+[2020-07-04 20:51:13 -0500] Sync Log:  [BGN] Updating file src/Api/Action/Group/RemoveUser.php from /host_sync to /app_sync
+[2020-07-04 20:51:13 -0500] Sync Log:  [END] Updating file src/Api/Action/Group/RemoveUser.php
+[2020-07-04 20:51:13 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:51:13.10 on 04 Jul 2020
+[2020-07-04 20:51:13 -0500] Sync Log:  Synchronization complete at 20:51:13  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:51:28 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:51:28.41 on 04 Jul 2020
+[2020-07-04 20:51:28 -0500] Sync Log:  [BGN] Updating file src/Api/Action/Group/RemoveUser.php from /host_sync to /app_sync
+[2020-07-04 20:51:28 -0500] Sync Log:  [END] Updating file src/Api/Action/Group/RemoveUser.php
+[2020-07-04 20:51:28 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:51:28.41 on 04 Jul 2020
+[2020-07-04 20:51:28 -0500] Sync Log:  Synchronization complete at 20:51:28  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:52:10 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:52:10.00 on 04 Jul 2020
+[2020-07-04 20:52:10 -0500] Sync Log:  [BGN] Updating file src/Api/Action/Group/RemoveUser.php from /host_sync to /app_sync
+[2020-07-04 20:52:10 -0500] Sync Log:  [END] Updating file src/Api/Action/Group/RemoveUser.php
+[2020-07-04 20:52:10 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:52:10.01 on 04 Jul 2020
+[2020-07-04 20:52:10 -0500] Sync Log:  Synchronization complete at 20:52:10  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:53:17 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:53:17.15 on 04 Jul 2020
+[2020-07-04 20:53:17 -0500] Sync Log:  [BGN] Updating file src/Api/Action/Group/RemoveUser.php from /host_sync to /app_sync
+[2020-07-04 20:53:17 -0500] Sync Log:  [END] Updating file src/Api/Action/Group/RemoveUser.php
+[2020-07-04 20:53:17 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:53:17.17 on 04 Jul 2020
+[2020-07-04 20:53:17 -0500] Sync Log:  Synchronization complete at 20:53:17  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:57:06 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:57:06.46 on 04 Jul 2020
+[2020-07-04 20:57:06 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 20:57:06 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 20:57:06 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:57:06.47 on 04 Jul 2020
+[2020-07-04 20:57:06 -0500] Sync Log:  Synchronization complete at 20:57:06  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:57:14 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:57:14.09 on 04 Jul 2020
+[2020-07-04 20:57:14 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 20:57:14 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 20:57:14 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:57:14.11 on 04 Jul 2020
+[2020-07-04 20:57:14 -0500] Sync Log:  Synchronization complete at 20:57:14  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:58:16 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:58:15.43 on 04 Jul 2020
+[2020-07-04 20:58:16 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 20:58:16 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 20:58:16 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:58:15.44 on 04 Jul 2020
+[2020-07-04 20:58:16 -0500] Sync Log:  Synchronization complete at 20:58:15  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 20:58:25 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:58:24.78 on 04 Jul 2020
+[2020-07-04 20:58:25 -0500] Sync Log:  [BGN] Updating file src/Exception/Group/GroupDoesNotExistException.php from /host_sync to /app_sync
+[2020-07-04 20:58:25 -0500] Sync Log:  [END] Updating file src/Exception/Group/GroupDoesNotExistException.php
+[2020-07-04 20:58:25 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:58:24.79 on 04 Jul 2020
+[2020-07-04 20:58:25 -0500] Sync Log:  Synchronization complete at 20:58:24  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 21:01:25 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 21:01:24.37 on 04 Jul 2020
+[2020-07-04 21:01:25 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 21:01:25 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 21:01:25 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 21:01:24.38 on 04 Jul 2020
+[2020-07-04 21:01:25 -0500] Sync Log:  Synchronization complete at 21:01:24  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 21:09:16 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 21:09:16.03 on 04 Jul 2020
+[2020-07-04 21:09:16 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 21:09:16 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 21:09:16 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 21:09:16.04 on 04 Jul 2020
+[2020-07-04 21:09:16 -0500] Sync Log:  Synchronization complete at 21:09:16  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-04 21:10:00 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 21:09:59.27 on 04 Jul 2020
+[2020-07-04 21:10:00 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-04 21:10:00 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-04 21:10:00 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 21:09:59.28 on 04 Jul 2020
+[2020-07-04 21:10:00 -0500] Sync Log:  Synchronization complete at 21:09:59  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 01:12:27 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:12:27.08 on 05 Jul 2020
+[2020-07-05 01:12:27 -0500] Sync Log:  [BGN] Updating file src/Entity/User.php from /host_sync to /app_sync
+[2020-07-05 01:12:27 -0500] Sync Log:  [END] Updating file src/Entity/User.php
+[2020-07-05 01:12:27 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:12:27.09 on 05 Jul 2020
+[2020-07-05 01:12:27 -0500] Sync Log:  Synchronization complete at 01:12:27  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 01:13:37 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:13:37.77 on 05 Jul 2020
+[2020-07-05 01:13:38 -0500] Sync Log:  [BGN] Updating file src/Entity/User.php from /host_sync to /app_sync
+[2020-07-05 01:13:38 -0500] Sync Log:  [END] Updating file src/Entity/User.php
+[2020-07-05 01:13:38 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:13:37.79 on 05 Jul 2020
+[2020-07-05 01:13:38 -0500] Sync Log:  Synchronization complete at 01:13:37  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 01:14:59 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:14:58.38 on 05 Jul 2020
+[2020-07-05 01:14:59 -0500] Sync Log:  [BGN] Updating file src/Entity/Group.php from /host_sync to /app_sync
+[2020-07-05 01:14:59 -0500] Sync Log:  [END] Updating file src/Entity/Group.php
+[2020-07-05 01:14:59 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:14:58.40 on 05 Jul 2020
+[2020-07-05 01:14:59 -0500] Sync Log:  Synchronization complete at 01:14:58  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 01:19:23 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:19:23.33 on 05 Jul 2020
+[2020-07-05 01:19:23 -0500] Sync Log:  [BGN] Copying tests/Unit/Service from /host_sync to /app_sync
+[2020-07-05 01:19:23 -0500] Sync Log:  [END] Copying tests/Unit/Service
+[2020-07-05 01:19:23 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:19:23.33 on 05 Jul 2020
+[2020-07-05 01:19:23 -0500] Sync Log:  Synchronization complete at 01:19:23  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 01:19:37 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:19:36.87 on 05 Jul 2020
+[2020-07-05 01:19:37 -0500] Sync Log:  [BGN] Copying tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 01:19:37 -0500] Sync Log:  [END] Copying tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 01:19:37 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:19:36.90 on 05 Jul 2020
+[2020-07-05 01:19:37 -0500] Sync Log:  Synchronization complete at 01:19:36  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 01:21:46 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:21:46.29 on 05 Jul 2020
+[2020-07-05 01:21:46 -0500] Sync Log:  [BGN] Deleting tests/Unit/Api/Action/TestBase.php from /app_sync
+[2020-07-05 01:21:46 -0500] Sync Log:  [END] Deleting tests/Unit/Api/Action/TestBase.php
+[2020-07-05 01:21:46 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:21:46.29 on 05 Jul 2020
+[2020-07-05 01:21:46 -0500] Sync Log:  Synchronization complete at 01:21:46  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 01:21:47 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:21:47.32 on 05 Jul 2020
+[2020-07-05 01:21:47 -0500] Sync Log:  [BGN] Copying tests/Unit/TestBase.php from /host_sync to /app_sync
+[2020-07-05 01:21:47 -0500] Sync Log:  [END] Copying tests/Unit/TestBase.php
+[2020-07-05 01:21:47 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:21:47.33 on 05 Jul 2020
+[2020-07-05 01:21:47 -0500] Sync Log:  Synchronization complete at 01:21:47  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 01:22:02 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:22:01.60 on 05 Jul 2020
+[2020-07-05 01:22:02 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/User/RegisterTest.php from /host_sync to /app_sync
+[2020-07-05 01:22:02 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/User/RegisterTest.php
+[2020-07-05 01:22:02 -0500] Sync Log:  [BGN] Updating file tests/Unit/TestBase.php from /host_sync to /app_sync
+[2020-07-05 01:22:02 -0500] Sync Log:  [END] Updating file tests/Unit/TestBase.php
+[2020-07-05 01:22:02 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:22:01.63 on 05 Jul 2020
+[2020-07-05 01:22:02 -0500] Sync Log:  Synchronization complete at 01:22:01  (2 items transferred, 0 skipped, 0 failed)
+[2020-07-05 01:22:03 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:22:02.67 on 05 Jul 2020
+[2020-07-05 01:22:03 -0500] Sync Log:  [BGN] Updating file tests/Unit/Api/Action/Group/AddUserTest.php from /host_sync to /app_sync
+[2020-07-05 01:22:03 -0500] Sync Log:  [END] Updating file tests/Unit/Api/Action/Group/AddUserTest.php
+[2020-07-05 01:22:03 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:22:02.68 on 05 Jul 2020
+[2020-07-05 01:22:03 -0500] Sync Log:  Synchronization complete at 01:22:02  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 01:22:28 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:22:28.21 on 05 Jul 2020
+[2020-07-05 01:22:28 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 01:22:28 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 01:22:28 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:22:28.22 on 05 Jul 2020
+[2020-07-05 01:22:28 -0500] Sync Log:  Synchronization complete at 01:22:28  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 01:24:05 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:24:04.79 on 05 Jul 2020
+[2020-07-05 01:24:05 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 01:24:05 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 01:24:05 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:24:04.80 on 05 Jul 2020
+[2020-07-05 01:24:05 -0500] Sync Log:  Synchronization complete at 01:24:04  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 01:26:22 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:26:22.71 on 05 Jul 2020
+[2020-07-05 01:26:22 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 01:26:22 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 01:26:22 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:26:22.72 on 05 Jul 2020
+[2020-07-05 01:26:22 -0500] Sync Log:  Synchronization complete at 01:26:22  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 01:29:36 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:29:36.29 on 05 Jul 2020
+[2020-07-05 01:29:36 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 01:29:36 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 01:29:36 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:29:36.29 on 05 Jul 2020
+[2020-07-05 01:29:36 -0500] Sync Log:  Synchronization complete at 01:29:36  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 01:31:43 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:31:43.15 on 05 Jul 2020
+[2020-07-05 01:31:43 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 01:31:43 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 01:31:43 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:31:43.17 on 05 Jul 2020
+[2020-07-05 01:31:43 -0500] Sync Log:  Synchronization complete at 01:31:43  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 01:31:54 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:31:54.29 on 05 Jul 2020
+[2020-07-05 01:31:54 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 01:31:54 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 01:31:54 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:31:54.30 on 05 Jul 2020
+[2020-07-05 01:31:54 -0500] Sync Log:  Synchronization complete at 01:31:54  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 01:32:21 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:32:20.55 on 05 Jul 2020
+[2020-07-05 01:32:21 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 01:32:21 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 01:32:21 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:32:20.56 on 05 Jul 2020
+[2020-07-05 01:32:21 -0500] Sync Log:  Synchronization complete at 01:32:20  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 01:32:26 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:32:26.20 on 05 Jul 2020
+[2020-07-05 01:32:26 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 01:32:26 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 01:32:26 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:32:26.21 on 05 Jul 2020
+[2020-07-05 01:32:26 -0500] Sync Log:  Synchronization complete at 01:32:26  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 01:33:41 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:33:41.21 on 05 Jul 2020
+[2020-07-05 01:33:41 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 01:33:41 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 01:33:41 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:33:41.23 on 05 Jul 2020
+[2020-07-05 01:33:41 -0500] Sync Log:  Synchronization complete at 01:33:41  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 01:34:02 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:34:02.51 on 05 Jul 2020
+[2020-07-05 01:34:02 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 01:34:02 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 01:34:02 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:34:02.53 on 05 Jul 2020
+[2020-07-05 01:34:02 -0500] Sync Log:  Synchronization complete at 01:34:02  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 01:34:22 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:34:22.15 on 05 Jul 2020
+[2020-07-05 01:34:22 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 01:34:22 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 01:34:22 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:34:22.16 on 05 Jul 2020
+[2020-07-05 01:34:22 -0500] Sync Log:  Synchronization complete at 01:34:22  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 01:34:48 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:34:47.93 on 05 Jul 2020
+[2020-07-05 01:34:48 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 01:34:48 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 01:34:48 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:34:47.95 on 05 Jul 2020
+[2020-07-05 01:34:48 -0500] Sync Log:  Synchronization complete at 01:34:47  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 01:35:59 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:35:59.76 on 05 Jul 2020
+[2020-07-05 01:35:59 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 01:35:59 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 01:35:59 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:35:59.77 on 05 Jul 2020
+[2020-07-05 01:35:59 -0500] Sync Log:  Synchronization complete at 01:35:59  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 01:37:59 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:37:58.08 on 05 Jul 2020
+[2020-07-05 01:37:59 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 01:37:59 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 01:37:59 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:37:58.09 on 05 Jul 2020
+[2020-07-05 01:37:59 -0500] Sync Log:  Synchronization complete at 01:37:58  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 01:38:49 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:38:48.50 on 05 Jul 2020
+[2020-07-05 01:38:49 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 01:38:49 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 01:38:49 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:38:48.51 on 05 Jul 2020
+[2020-07-05 01:38:49 -0500] Sync Log:  Synchronization complete at 01:38:48  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 01:41:38 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:41:37.84 on 05 Jul 2020
+[2020-07-05 01:41:38 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 01:41:38 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 01:41:38 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:41:37.84 on 05 Jul 2020
+[2020-07-05 01:41:38 -0500] Sync Log:  Synchronization complete at 01:41:37  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 02:08:35 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:08:35.01 on 05 Jul 2020
+[2020-07-05 02:08:35 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 02:08:35 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 02:08:35 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:08:35.03 on 05 Jul 2020
+[2020-07-05 02:08:35 -0500] Sync Log:  Synchronization complete at 02:08:35  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 02:08:41 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:08:40.95 on 05 Jul 2020
+[2020-07-05 02:08:41 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 02:08:41 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 02:08:41 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:08:40.96 on 05 Jul 2020
+[2020-07-05 02:08:41 -0500] Sync Log:  Synchronization complete at 02:08:40  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 02:09:08 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:09:07.87 on 05 Jul 2020
+[2020-07-05 02:09:08 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 02:09:08 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 02:09:08 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:09:07.87 on 05 Jul 2020
+[2020-07-05 02:09:08 -0500] Sync Log:  Synchronization complete at 02:09:07  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 02:09:38 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:09:38.01 on 05 Jul 2020
+[2020-07-05 02:09:38 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 02:09:38 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 02:09:38 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:09:38.02 on 05 Jul 2020
+[2020-07-05 02:09:38 -0500] Sync Log:  Synchronization complete at 02:09:38  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 02:28:57 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:28:57.57 on 05 Jul 2020
+[2020-07-05 02:28:58 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-05 02:28:58 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-05 02:28:58 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:28:57.59 on 05 Jul 2020
+[2020-07-05 02:28:58 -0500] Sync Log:  Synchronization complete at 02:28:57  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 02:30:09 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:30:08.79 on 05 Jul 2020
+[2020-07-05 02:30:09 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 02:30:09 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 02:30:09 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:30:08.79 on 05 Jul 2020
+[2020-07-05 02:30:09 -0500] Sync Log:  Synchronization complete at 02:30:08  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 02:31:00 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:31:00.08 on 05 Jul 2020
+[2020-07-05 02:31:00 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 02:31:00 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 02:31:00 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:31:00.10 on 05 Jul 2020
+[2020-07-05 02:31:00 -0500] Sync Log:  Synchronization complete at 02:31:00  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 02:31:12 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:31:11.24 on 05 Jul 2020
+[2020-07-05 02:31:12 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-05 02:31:12 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-05 02:31:12 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:31:11.27 on 05 Jul 2020
+[2020-07-05 02:31:12 -0500] Sync Log:  Synchronization complete at 02:31:11  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 02:32:49 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:32:48.78 on 05 Jul 2020
+[2020-07-05 02:32:49 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 02:32:49 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 02:32:49 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:32:48.79 on 05 Jul 2020
+[2020-07-05 02:32:49 -0500] Sync Log:  Synchronization complete at 02:32:48  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 02:33:42 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:33:42.21 on 05 Jul 2020
+[2020-07-05 02:33:42 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 02:33:42 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 02:33:42 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:33:42.22 on 05 Jul 2020
+[2020-07-05 02:33:42 -0500] Sync Log:  Synchronization complete at 02:33:42  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 02:34:08 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:34:07.55 on 05 Jul 2020
+[2020-07-05 02:34:08 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 02:34:08 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 02:34:08 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:34:07.57 on 05 Jul 2020
+[2020-07-05 02:34:08 -0500] Sync Log:  Synchronization complete at 02:34:07  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 02:35:26 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:35:25.93 on 05 Jul 2020
+[2020-07-05 02:35:26 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 02:35:26 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 02:35:26 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:35:25.94 on 05 Jul 2020
+[2020-07-05 02:35:26 -0500] Sync Log:  Synchronization complete at 02:35:25  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 02:37:20 -0500] Sync Log:  Error response from daemon: Bad response from Docker engine
+          ok  Starting native_osx for sync sf5-gastos-api-be-sync
+          ok  sf5-gastos-api-be-sync container still running, restarting unison in container
+unison: stopped
+unison: started
+     success  Sync container started
+     success  Showing unison logs from your sync container: sf5-gastos-api-be-sync
+[2020-07-05 16:09:08 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 16:09:08 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:35:25.94 on 05 Jul 2020
+[2020-07-05 16:09:08 -0500] Sync Log:  Synchronization complete at 02:35:25  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 16:09:08 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:09:00.12 on 05 Jul 2020
+[2020-07-05 16:09:08 -0500] Sync Log:  [BGN] Updating file .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-07-05 16:09:08 -0500] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2020-07-05 16:09:08 -0500] Sync Log:  [BGN] Updating file .docker-sync/daemon.pid from /host_sync to /app_sync
+[2020-07-05 16:09:08 -0500] Sync Log:  [END] Updating file .docker-sync/daemon.pid
+[2020-07-05 16:09:08 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:09:00.15 on 05 Jul 2020
+[2020-07-05 16:09:08 -0500] Sync Log:  Synchronization complete at 16:09:00  (2 items transferred, 0 skipped, 0 failed)
+[2020-07-05 16:09:09 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:09:08.89 on 05 Jul 2020
+[2020-07-05 16:09:09 -0500] Sync Log:  [BGN] Updating file .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-07-05 16:09:09 -0500] Sync Log:  Failed: The source file /host_sync/.docker-sync/daemon.log
+[2020-07-05 16:09:09 -0500] Sync Log:  has been modified during synchronization.  Transfer aborted.
+[2020-07-05 16:09:09 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:09:08.91 on 05 Jul 2020
+[2020-07-05 16:09:09 -0500] Sync Log:  Synchronization incomplete at 16:09:08  (0 items transferred, 0 skipped, 1 failed)
+[2020-07-05 16:09:09 -0500] Sync Log:    failed: .docker-sync/daemon.log
+[2020-07-05 16:09:11 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 16:09:10.93 on 05 Jul 2020
+[2020-07-05 16:09:11 -0500] Sync Log:  [BGN] Updating file .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-07-05 16:09:11 -0500] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2020-07-05 16:09:11 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 16:09:10.94 on 05 Jul 2020
+[2020-07-05 16:09:11 -0500] Sync Log:  Synchronization complete at 16:09:10  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 19:36:37 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:36:37.46 on 05 Jul 2020
+[2020-07-05 19:36:37 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 19:36:37 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 19:36:37 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:36:37.46 on 05 Jul 2020
+[2020-07-05 19:36:37 -0500] Sync Log:  Synchronization complete at 19:36:37  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 19:37:00 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:37:00.48 on 05 Jul 2020
+[2020-07-05 19:37:00 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 19:37:00 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 19:37:00 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:37:00.50 on 05 Jul 2020
+[2020-07-05 19:37:00 -0500] Sync Log:  Synchronization complete at 19:37:00  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 19:40:34 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:40:33.14 on 05 Jul 2020
+[2020-07-05 19:40:34 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 19:40:34 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 19:40:34 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:40:33.14 on 05 Jul 2020
+[2020-07-05 19:40:34 -0500] Sync Log:  Synchronization complete at 19:40:33  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 20:28:55 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:28:54.67 on 05 Jul 2020
+[2020-07-05 20:28:55 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 20:28:55 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 20:28:55 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:28:54.68 on 05 Jul 2020
+[2020-07-05 20:28:55 -0500] Sync Log:  Synchronization complete at 20:28:54  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 20:29:47 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:29:46.51 on 05 Jul 2020
+[2020-07-05 20:29:47 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 20:29:47 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 20:29:47 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:29:46.52 on 05 Jul 2020
+[2020-07-05 20:29:47 -0500] Sync Log:  Synchronization complete at 20:29:46  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 20:30:05 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:30:05.05 on 05 Jul 2020
+[2020-07-05 20:30:05 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 20:30:05 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 20:30:05 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:30:05.06 on 05 Jul 2020
+[2020-07-05 20:30:05 -0500] Sync Log:  Synchronization complete at 20:30:05  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 20:30:37 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:30:36.67 on 05 Jul 2020
+[2020-07-05 20:30:37 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 20:30:37 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 20:30:37 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:30:36.68 on 05 Jul 2020
+[2020-07-05 20:30:37 -0500] Sync Log:  Synchronization complete at 20:30:36  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 20:31:46 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:31:45.99 on 05 Jul 2020
+[2020-07-05 20:31:46 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 20:31:46 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 20:31:46 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:31:46.00 on 05 Jul 2020
+[2020-07-05 20:31:46 -0500] Sync Log:  Synchronization complete at 20:31:46  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 20:32:20 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:32:19.64 on 05 Jul 2020
+[2020-07-05 20:32:20 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 20:32:20 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 20:32:20 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:32:19.65 on 05 Jul 2020
+[2020-07-05 20:32:20 -0500] Sync Log:  Synchronization complete at 20:32:19  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 20:32:51 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:32:50.92 on 05 Jul 2020
+[2020-07-05 20:32:51 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 20:32:51 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 20:32:51 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:32:50.93 on 05 Jul 2020
+[2020-07-05 20:32:51 -0500] Sync Log:  Synchronization complete at 20:32:50  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 20:33:58 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:33:58.63 on 05 Jul 2020
+[2020-07-05 20:33:58 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 20:33:58 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 20:33:58 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:33:58.64 on 05 Jul 2020
+[2020-07-05 20:33:58 -0500] Sync Log:  Synchronization complete at 20:33:58  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 20:34:08 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:34:08.07 on 05 Jul 2020
+[2020-07-05 20:34:08 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 20:34:08 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 20:34:08 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:34:08.08 on 05 Jul 2020
+[2020-07-05 20:34:08 -0500] Sync Log:  Synchronization complete at 20:34:08  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 20:34:25 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:34:25.24 on 05 Jul 2020
+[2020-07-05 20:34:25 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 20:34:25 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 20:34:25 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:34:25.24 on 05 Jul 2020
+[2020-07-05 20:34:25 -0500] Sync Log:  Synchronization complete at 20:34:25  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 20:35:11 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:35:11.08 on 05 Jul 2020
+[2020-07-05 20:35:11 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 20:35:11 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 20:35:11 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:35:11.08 on 05 Jul 2020
+[2020-07-05 20:35:11 -0500] Sync Log:  Synchronization complete at 20:35:11  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 20:35:54 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:35:54.41 on 05 Jul 2020
+[2020-07-05 20:35:54 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 20:35:54 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 20:35:54 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:35:54.42 on 05 Jul 2020
+[2020-07-05 20:35:54 -0500] Sync Log:  Synchronization complete at 20:35:54  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-05 20:36:05 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:36:05.27 on 05 Jul 2020
+[2020-07-05 20:36:05 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-05 20:36:05 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-05 20:36:05 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:36:05.28 on 05 Jul 2020
+[2020-07-05 20:36:05 -0500] Sync Log:  Synchronization complete at 20:36:05  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-06 01:08:24 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:08:23.55 on 06 Jul 2020
+[2020-07-06 01:08:24 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-06 01:08:24 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-06 01:08:24 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:08:23.56 on 06 Jul 2020
+[2020-07-06 01:08:24 -0500] Sync Log:  Synchronization complete at 01:08:23  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-06 01:14:20 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:14:19.63 on 06 Jul 2020
+[2020-07-06 01:14:20 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-06 01:14:20 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-06 01:14:20 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:14:19.64 on 06 Jul 2020
+[2020-07-06 01:14:20 -0500] Sync Log:  Synchronization complete at 01:14:19  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-06 01:15:07 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:15:06.41 on 06 Jul 2020
+[2020-07-06 01:15:07 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-06 01:15:07 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-06 01:15:07 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:15:06.42 on 06 Jul 2020
+[2020-07-06 01:15:07 -0500] Sync Log:  Synchronization complete at 01:15:06  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-06 01:16:09 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:16:09.17 on 06 Jul 2020
+[2020-07-06 01:16:09 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-06 01:16:09 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-06 01:16:09 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:16:09.17 on 06 Jul 2020
+[2020-07-06 01:16:09 -0500] Sync Log:  Synchronization complete at 01:16:09  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-06 01:16:25 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:16:25.02 on 06 Jul 2020
+[2020-07-06 01:16:25 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-06 01:16:25 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-06 01:16:25 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:16:25.03 on 06 Jul 2020
+[2020-07-06 01:16:25 -0500] Sync Log:  Synchronization complete at 01:16:25  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-06 01:24:45 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:24:45.12 on 06 Jul 2020
+[2020-07-06 01:24:45 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-06 01:24:45 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-06 01:24:45 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:24:45.13 on 06 Jul 2020
+[2020-07-06 01:24:45 -0500] Sync Log:  Synchronization complete at 01:24:45  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-06 01:26:42 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:26:42.06 on 06 Jul 2020
+[2020-07-06 01:26:42 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-06 01:26:42 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-06 01:26:42 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:26:42.07 on 06 Jul 2020
+[2020-07-06 01:26:42 -0500] Sync Log:  Synchronization complete at 01:26:42  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-06 01:28:25 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:28:24.54 on 06 Jul 2020
+[2020-07-06 01:28:25 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-06 01:28:25 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-06 01:28:25 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:28:24.54 on 06 Jul 2020
+[2020-07-06 01:28:25 -0500] Sync Log:  Synchronization complete at 01:28:24  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-06 01:28:48 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:28:47.66 on 06 Jul 2020
+[2020-07-06 01:28:48 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-06 01:28:48 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-06 01:28:48 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:28:47.66 on 06 Jul 2020
+[2020-07-06 01:28:48 -0500] Sync Log:  Synchronization complete at 01:28:47  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-06 01:33:55 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:33:54.80 on 06 Jul 2020
+[2020-07-06 01:33:55 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-06 01:33:55 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-06 01:33:55 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:33:54.80 on 06 Jul 2020
+[2020-07-06 01:33:55 -0500] Sync Log:  Synchronization complete at 01:33:54  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-06 01:34:25 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:34:25.12 on 06 Jul 2020
+[2020-07-06 01:34:25 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-06 01:34:25 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-06 01:34:25 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:34:25.13 on 06 Jul 2020
+[2020-07-06 01:34:25 -0500] Sync Log:  Synchronization complete at 01:34:25  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-06 01:52:06 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:52:05.76 on 06 Jul 2020
+[2020-07-06 01:52:06 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-06 01:52:06 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-06 01:52:06 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:52:05.76 on 06 Jul 2020
+[2020-07-06 01:52:06 -0500] Sync Log:  Synchronization complete at 01:52:05  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-06 01:53:16 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:53:16.40 on 06 Jul 2020
+[2020-07-06 01:53:16 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-06 01:53:16 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-06 01:53:16 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:53:16.41 on 06 Jul 2020
+[2020-07-06 01:53:16 -0500] Sync Log:  Synchronization complete at 01:53:16  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-06 01:53:39 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:53:38.71 on 06 Jul 2020
+[2020-07-06 01:53:39 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-06 01:53:39 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-06 01:53:39 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:53:38.72 on 06 Jul 2020
+[2020-07-06 01:53:39 -0500] Sync Log:  Synchronization complete at 01:53:38  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-06 01:53:42 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:53:42.26 on 06 Jul 2020
+[2020-07-06 01:53:42 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-06 01:53:42 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-06 01:53:42 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:53:42.27 on 06 Jul 2020
+[2020-07-06 01:53:42 -0500] Sync Log:  Synchronization complete at 01:53:42  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-06 01:53:44 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:53:44.29 on 06 Jul 2020
+[2020-07-06 01:53:44 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /host_sync to /app_sync
+[2020-07-06 01:53:44 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-06 01:53:44 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:53:44.30 on 06 Jul 2020
+[2020-07-06 01:53:44 -0500] Sync Log:  Synchronization complete at 01:53:44  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-06 01:55:18 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:55:18.24 on 06 Jul 2020
+[2020-07-06 01:55:18 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-06 01:55:18 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-06 01:55:18 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:55:18.24 on 06 Jul 2020
+[2020-07-06 01:55:18 -0500] Sync Log:  Synchronization complete at 01:55:18  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-06 01:56:17 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:56:16.78 on 06 Jul 2020
+[2020-07-06 01:56:17 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-06 01:56:17 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-06 01:56:17 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:56:16.79 on 06 Jul 2020
+[2020-07-06 01:56:17 -0500] Sync Log:  Synchronization complete at 01:56:16  (1 item transferred, 0 skipped, 0 failed)
+          ok  Starting native_osx for sync sf5-gastos-api-be-sync
+          ok  sf5-gastos-api-be-sync container still running, restarting unison in container
+unison: stopped
+unison: started
+     success  Sync container started
+     success  Showing unison logs from your sync container: sf5-gastos-api-be-sync
+[2020-07-06 15:43:21 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:55:18.24 on 06 Jul 2020
+[2020-07-06 15:43:21 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-06 15:43:21 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-06 15:43:21 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:55:18.24 on 06 Jul 2020
+[2020-07-06 15:43:21 -0500] Sync Log:  Synchronization complete at 01:55:18  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-06 15:43:21 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:56:16.78 on 06 Jul 2020
+[2020-07-06 15:43:21 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /host_sync to /app_sync
+[2020-07-06 15:43:21 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-06 15:43:21 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:56:16.79 on 06 Jul 2020
+[2020-07-06 15:43:21 -0500] Sync Log:  Synchronization complete at 01:56:16  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-06 15:43:27 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 15:43:27.21 on 06 Jul 2020
+[2020-07-06 15:43:27 -0500] Sync Log:  [BGN] Updating file .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-07-06 15:43:27 -0500] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2020-07-06 15:43:27 -0500] Sync Log:  [BGN] Updating file .docker-sync/daemon.pid from /host_sync to /app_sync
+[2020-07-06 15:43:27 -0500] Sync Log:  [END] Updating file .docker-sync/daemon.pid
+[2020-07-06 15:43:27 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 15:43:27.25 on 06 Jul 2020
+[2020-07-06 15:43:27 -0500] Sync Log:  Synchronization complete at 15:43:27  (2 items transferred, 0 skipped, 0 failed)
+[2020-07-06 15:43:30 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 15:43:29.73 on 06 Jul 2020
+[2020-07-06 15:43:30 -0500] Sync Log:  [BGN] Updating file src/Api/Action/Group/AddUser.php from /app_sync to /host_sync
+[2020-07-06 15:43:30 -0500] Sync Log:  [END] Updating file src/Api/Action/Group/AddUser.php
+[2020-07-06 15:43:30 -0500] Sync Log:  [BGN] Updating file src/Api/Action/Group/RemoveUser.php from /app_sync to /host_sync
+[2020-07-06 15:43:30 -0500] Sync Log:  [END] Updating file src/Api/Action/Group/RemoveUser.php
+[2020-07-06 15:43:30 -0500] Sync Log:  [BGN] Updating file src/Exception/Group/UserNotMemberOfGroupException.php from /app_sync to /host_sync
+[2020-07-06 15:43:30 -0500] Sync Log:  [END] Updating file src/Exception/Group/UserNotMemberOfGroupException.php
+[2020-07-06 15:43:30 -0500] Sync Log:  [BGN] Updating file src/Service/Group/GroupService.php from /app_sync to /host_sync
+[2020-07-06 15:43:30 -0500] Sync Log:  [END] Updating file src/Service/Group/GroupService.php
+[2020-07-06 15:43:30 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 15:43:29.99 on 06 Jul 2020
+[2020-07-06 15:43:30 -0500] Sync Log:  Synchronization complete at 15:43:29  (4 items transferred, 0 skipped, 0 failed)
+[2020-07-06 15:43:31 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 15:43:31.02 on 06 Jul 2020
+[2020-07-06 15:43:31 -0500] Sync Log:  [BGN] Updating file .php_cs.cache from /app_sync to /host_sync
+[2020-07-06 15:43:31 -0500] Sync Log:  [END] Updating file .php_cs.cache
+[2020-07-06 15:43:31 -0500] Sync Log:  [BGN] Updating file tests/Unit/Service/Group/GroupServiceTest.php from /app_sync to /host_sync
+[2020-07-06 15:43:31 -0500] Sync Log:  [END] Updating file tests/Unit/Service/Group/GroupServiceTest.php
+[2020-07-06 15:43:31 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 15:43:31.14 on 06 Jul 2020
+[2020-07-06 15:43:31 -0500] Sync Log:  Synchronization complete at 15:43:31  (2 items transferred, 0 skipped, 0 failed)

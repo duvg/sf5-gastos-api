@@ -8,7 +8,7 @@ use App\Api\Action\User\Register;
 use App\Entity\User;
 use App\Exception\User\UserAlreadyExistException;
 use App\Service\Password\EncoderService;
-use App\Tests\Unit\Api\Action\TestBase;
+use App\Tests\Unit\TestBase;
 use Lexik\Bundle\JWTAuthenticationBundle\Services\JWTTokenManagerInterface;
 use Prophecy\Argument;
 use Prophecy\Prophecy\ObjectProphecy;

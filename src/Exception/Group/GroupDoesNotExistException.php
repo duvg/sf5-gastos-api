@@ -6,7 +6,7 @@ use Symfony\Component\HttpKernel\Exception\BadRequestHttpException;
 
 class GroupDoesNotExistException extends BadRequestHttpException
 {
-    private const MESSAGE = 'Gruop with ID %s doesnot exist';
+    private const MESSAGE = 'Gruop with ID %s does not exist';
 
     public static function fromGroupId(string $groupId): self
     {

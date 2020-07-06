@@ -9,7 +9,7 @@ use App\Exception\Group\CannotAddUsersToGroupException;
 use App\Exception\Group\GroupDoesNotExistException;
 use App\Exception\Group\UserAlreadyMemberOfGroupException;
 use App\Exception\Group\UserDoesNotExistException;
-use App\Tests\Unit\Api\Action\TestBase;
+use App\Tests\Unit\TestBase;
 use Prophecy\Argument;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;

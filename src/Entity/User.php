@@ -128,4 +128,9 @@ class User implements UserInterface
     {
         $this->groups->add($group);
     }
+
+    public function removeGroup(Group $group): void
+    {
+        $this->groups->removeElement($group);
+    }
 }

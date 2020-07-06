@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Tests\Unit\Api\Action;
+namespace App\Tests\Unit;
 
 use App\Repository\GroupRepository;
 use App\Repository\UserRepository;
