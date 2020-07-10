@@ -23,6 +23,9 @@ class Group
     /** @var Collection|User[] */
     private ?Collection $users = null;
 
+    /** @var Collection|Category[] */
+    private ?Collection $categories = null;
+
     /**
      * Group constructor.
      *
@@ -36,6 +39,7 @@ class Group
         $this->createdAt = new \DateTime();
         $this->updatedAt = new \DateTime();
         $this->users = new ArrayCollection();
+        $this->categories = new ArrayCollection();
         $this->markAsUpdated();
     }
 
@@ -97,5 +101,13 @@ class Group
     public function isOwnedBy(User $user): bool
     {
         return $this->getOwner()->getId() === $user->getId();
+    }
+
+    /**
+     * @return Collection|Category[]
+     */
+    public function getCategories(): Collection
+    {
+        return $this->categories;
     }
 }

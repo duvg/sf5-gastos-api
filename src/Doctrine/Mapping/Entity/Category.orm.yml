@@ -1,24 +1,18 @@
-App\Entity\Group:
+App\Entity\Category:
   type: entity
-  table: user_group
+  table: category
 
   id:
     id:
       type: string
 
-  oneToMany:
-    categories:
-      targetEntity: Category
-      mappedBy: group
-
   manyToOne:
-    owner:
+    user:
       targetEntity: User
-
-  manyToMany:
-    users:
-      targetEntity: User
-      mappedBy: groups
+      inversedBy: categories
+    group:
+      targetEntity: Group
+      inversedBy: categories
 
   fields:
     name:

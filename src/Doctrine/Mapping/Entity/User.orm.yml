@@ -6,10 +6,16 @@ App\Entity\User:
       id:
         type: string
 
+    oneToMany:
+      categories:
+        targetEntity: Category
+        mappedBy: user
+
     manyToMany:
       groups:
         targetEntity: Group
         inversedBy: users
+        cascade: [remove]
         joinTable:
           name: user_group_user
 

@@ -13,15 +13,24 @@ use Symfony\Component\Security\Core\User\UserInterface;
 class User implements UserInterface
 {
     protected ?string $id;
+
     protected string $name;
+
     protected string $email;
+
     protected string $password;
+
     protected array $roles;
+
     protected ?\DateTime $createdAt = null;
+
     protected ?\DateTime $updatedAt = null;
 
     /** @var Collection|Group[] */
     protected ?Collection $groups = null;
+
+    /** @var Collection|Category[] */
+    protected ?Collection $categories = null;
 
     /**
      * @throws \Exception
@@ -34,6 +43,7 @@ class User implements UserInterface
         $this->roles[] = Role::ROLE_USER;
         $this->createdAt = new \DateTime();
         $this->groups = new ArrayCollection();
+        $this->categories = new ArrayCollection();
         $this->markAsUpdated();
     }
 
@@ -132,5 +142,13 @@ class User implements UserInterface
     public function removeGroup(Group $group): void
     {
         $this->groups->removeElement($group);
+    }
+
+    /**
+     * @return Collection|Category[]
+     */
+    public function getCategories(): Collection
+    {
+        return $this->categories;
     }
 }

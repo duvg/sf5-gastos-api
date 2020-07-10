@@ -31,6 +31,7 @@ class RegisterTest extends TestBase
 
     public function setUp(): void
     {
+        parent::setUp();
         $this->JWTTokenManagerProphecy = $this->prophesize(JWTTokenManagerInterface::class);
         $this->JWTTokenManager = $this->JWTTokenManagerProphecy->reveal();
 
