@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Tests\Functional\Api\Group;
+namespace App\Tests\Functional\Api\Category;
 
 use Symfony\Component\HttpFoundation\JsonResponse;
 
-class GetGroupTest extends GroupTestBase
+class GetCategoryTest extends CategoryTestBase
 {
-    public function testGetGroupsForAdmin(): void
+    public function testGetCategoriesForAdmin(): void
     {
         self::$admin->request('GET', \sprintf('%s.%s', $this->endpoint, self::FORMAT));
 
@@ -17,7 +17,7 @@ class GetGroupTest extends GroupTestBase
         $this->assertCount(2, $responseData['hydra:member']);
     }
 
-    public function testGetGroupForUser(): void
+    public function testGetCategoriesForUser(): void
     {
         self::$user->request('GET', \sprintf('%s.%s', $this->endpoint, self::FORMAT));
 
@@ -26,23 +26,22 @@ class GetGroupTest extends GroupTestBase
         $this->assertEquals(JsonResponse::HTTP_FORBIDDEN, $response->getStatusCode());
     }
 
-    public function testGetUserGroupWithAdmin(): void
+    public function testGetUserCategoriesWithAdmin(): void
     {
-        self::$admin->request('GET', \sprintf('%s/%s.%s', $this->endpoint, self::IDS['user_group_id'], self::FORMAT));
+        self::$admin->request('GET', \sprintf('%s/%s.%s', $this->endpoint, self::IDS['user_category_id'], self::FORMAT));
 
         $response = self::$admin->getResponse();
         $responseData = $this->getResponseData($response);
 
         $this->assertEquals(JsonResponse::HTTP_OK, $response->getStatusCode());
-        $this->assertEquals(self::IDS['user_group_id'], $responseData['id']);
+        $this->assertEquals(self::IDS['user_category_id'], $responseData['id']);
     }
 
-    public function testGetUserGroupWithUser(): void
+    public function testGetUserCategoriesWithUser(): void
     {
-        self::$user->request('GET', \sprintf('%s/%s.%s', $this->endpoint, self::IDS['admin_group_id'], self::FORMAT));
+        self::$user->request('GET', \sprintf('%s/%s.%s', $this->endpoint, self::IDS['admin_category_id'], self::FORMAT));
 
         $response = self::$user->getResponse();
-        $responseData = $this->getResponseData($response);
 
         $this->assertEquals(JsonResponse::HTTP_FORBIDDEN, $response->getStatusCode());
     }

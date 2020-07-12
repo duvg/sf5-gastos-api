@@ -6,8 +6,10 @@ namespace App\Doctrine\Extension;
 
 use ApiPlatform\Core\Bridge\Doctrine\Orm\Extension\QueryCollectionExtensionInterface;
 use ApiPlatform\Core\Bridge\Doctrine\Orm\Util\QueryNameGeneratorInterface;
+use App\Entity\Category;
 use App\Entity\Group;
 use App\Entity\User;
+use App\Repository\GroupRepository;
 use App\Security\Role;
 use Doctrine\ORM\QueryBuilder;
 use Symfony\Component\Security\Core\Authentication\Token\Storage\TokenStorageInterface;
@@ -19,12 +21,13 @@ class DoctrineUserExtension implements QueryCollectionExtensionInterface
 
     private Security $security;
 
-    private Group $group;
+    private GroupRepository $groupRepository;
 
-    public function __construct(TokenStorageInterface $tokenStorage, Security $security)
+    public function __construct(TokenStorageInterface $tokenStorage, Security $security, GroupRepository $groupRepository)
     {
         $this->tokenStorage = $tokenStorage;
         $this->security = $security;
+        $this->groupRepository = $groupRepository;
     }
 
     public function applyToCollection(QueryBuilder $queryBuilder, QueryNameGeneratorInterface $queryNameGenerator, string $resourceClass, string $operationName = null)
@@ -47,10 +50,38 @@ class DoctrineUserExtension implements QueryCollectionExtensionInterface
             $qb->andWhere(\sprintf('%s.%s = :currentUser', $rootAlias, $this->getResources()[$resourceClass]));
             $qb->setParameter('currentUser', $user);
         }
+
+        if (Category::class === $resourceClass) {
+            $parameterId = '';
+            if (null !== $qb->getParameters()[0]) {
+                $parameterId = $qb->getParameters()[0]->getValue();
+            }
+
+            if ($this->isGroupAndUserIsMember($parameterId, $user)) {
+                $qb->andWhere(\sprintf('%s.group = :parameterId', $rootAlias));
+                $qb->setParameter('parameterId', $parameterId);
+            } else {
+                $qb->andWhere('%s.%s = :currentUser', $rootAlias, $this->getResources()[$resourceClass]);
+                $qb->andWhere('%s.group IS NULL', $rootAlias);
+                $qb->setParameter(':currentUser', $user);
+            }
+        }
     }
 
     private function getResources(): array
     {
-        return [Group::class => 'owner'];
+        return [
+            Group::class => 'owner',
+            Category::class => 'user',
+        ];
+    }
+
+    private function isGroupAndUserIsMember(string $parameterId, User $user): bool
+    {
+        if (null !== $group = $this->groupRepository->findOneById($parameterId)) {
+            return $this->groupRepository->userIsMember($group, $user);
+        }
+
+        return false;
     }
 }

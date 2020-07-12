@@ -10,6 +10,7 @@ App\Entity\User:
       categories:
         targetEntity: Category
         mappedBy: user
+        cascade: [remove]
 
     manyToMany:
       groups:

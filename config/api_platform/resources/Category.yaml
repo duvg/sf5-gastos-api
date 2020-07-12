@@ -1,46 +1,49 @@
-App\Entity\Group:
+App\Entity\Category:
   attributes:
     normalization_context:
-      groups: ['group_read']
+      groups: ['category_read']
   collectionOperations:
     get:
       method: 'GET'
-      security: 'is_granted("GROUP_READ")'
+      security: 'is_granted("CATEGORY_READ")'
     post:
       method: 'POST'
-      security: 'is_granted("GROUP_CREATE")'
+      security: 'is_granted("CATEGORY_CREATE")'
       denormalization_context:
-        groups: ['group_post']
+        groups: ['category_post']
       swagger_context:
         parameters:
           - in: body
-            name: group
-            description: The group to create
+            name: category
+            description: The category to create
             schema:
               type: object
               required:
                 - name
-                - owner
+                - user
+                - group
               properties:
                 name:
                   type: string
-                owner:
+                user:
+                  type: string
+                group:
                   type: string
 
   itemOperations:
     get:
       method: 'GET'
-      security: 'is_granted("GROUP_READ", object)'
+      security: 'is_granted("CATEGORY_READ", object)'
     put:
       method: 'PUT'
-      security: 'is_granted("GROUP_UPDATE", object)'
+      security: 'is_granted("CATEGORY_UPDATE", object)'
       denormalization_context:
-        groups: ['group_put']
+        groups: ['category_put']
       swagger_context:
         parameters:
           - in: body
-            name: group
-            description: The group to update
+            name: category
+            description: The category to update
             schema:
               type: object
               required:
@@ -51,11 +54,4 @@ App\Entity\Group:
 
     delete:
       method: 'DELETE'
-      security: 'is_granted("GROUP_DELETE", object)'
-
-  properties:
-    categories:
-      subresource:
-        subresourceClass: 'App\Entity\Category'
-        collection: true
-        maxDepth: 1
+      security: 'is_granted("CATEGORY_DELETE", object)'

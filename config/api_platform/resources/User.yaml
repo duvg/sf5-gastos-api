@@ -45,3 +45,8 @@ App\Entity\User:
         subresourceClass: 'App\Entity\User'
         collection: true
         maxDepth: 1
+    categories:
+      subresource:
+        subresourceClass: 'App\Entity\Category'
+        collection: true
+        maxDepth: 1

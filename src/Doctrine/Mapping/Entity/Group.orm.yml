@@ -10,6 +10,7 @@ App\Entity\Group:
     categories:
       targetEntity: Category
       mappedBy: group
+      cascade: [remove]
 
   manyToOne:
     owner:
@@ -19,6 +20,7 @@ App\Entity\Group:
     users:
       targetEntity: User
       mappedBy: groups
+      cascade: [remove]
 
   fields:
     name:

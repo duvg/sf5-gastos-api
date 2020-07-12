@@ -1,6 +1,6 @@
 
 ###> symfony/framework-bundle ###
-/.env.local
+/.env.test
 /.env.local.php
 /.env.*.local
 /config/secrets/prod/prod.decrypt.private.php
@@ -11,7 +11,7 @@
 
 ###> Other files ###
 .idea
-.env.local
+.env.test
 .env.test
 .php_cs.cache
 bin/.phpunit

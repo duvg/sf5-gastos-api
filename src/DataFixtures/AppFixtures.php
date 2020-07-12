@@ -2,6 +2,7 @@
 
 namespace App\DataFixtures;
 
+use App\Entity\Category;
 use App\Entity\Group;
 use App\Entity\User;
 use App\Security\Role;
@@ -35,6 +36,17 @@ class AppFixtures extends Fixture
                 $group->addUser($user);
 
                 $manager->persist($group);
+
+                foreach ($userData['categories'] as $categoryData) {
+                    $category = new Category(
+                        $categoryData['name'],
+                        $user,
+                        $group,
+                        $categoryData['id']
+                    );
+
+                    $manager->persist($category);
+                }
             }
         }
 
@@ -59,6 +71,12 @@ class AppFixtures extends Fixture
                         'name' => 'Admin\'s Group',
                     ],
                 ],
+                'categories' => [
+                    [
+                        'id' => 'd781a25f-da6c-42ee-9261-7cc8ddd97005',
+                        'name' => 'Admin\'s Category',
+                    ],
+                ],
             ],
             [
                 'id' => 'd781a25f-da6c-42ee-9261-7cc8ddd97002',
@@ -72,6 +90,12 @@ class AppFixtures extends Fixture
                     [
                         'id' => 'd781a25f-da6c-42ee-9261-7cc8ddd97004',
                         'name' => 'User\'s Group',
+                    ],
+                ],
+                'categories' => [
+                    [
+                        'id' => 'd781a25f-da6c-42ee-9261-7cc8ddd97006',
+                        'name' => 'User\'s Category',
                     ],
                 ],
             ],

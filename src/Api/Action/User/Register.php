@@ -41,6 +41,7 @@ class Register
      */
     public function __invoke(Request $request): JsonResponse
     {
+        phpinfo();
         $name = RequestTransformer::getRequiredField($request, 'name');
         $email = RequestTransformer::getRequiredField($request, 'email');
         $password = RequestTransformer::getRequiredField($request, 'password');

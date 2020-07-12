@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace App\Entity;
 
+use Ramsey\Uuid\Uuid;
+
 class Category
 {
     private string $id;
@@ -17,6 +19,17 @@ class Category
     private ?\DateTime $createdAt = null;
 
     private ?\DateTime $updatedAt = null;
+
+    public function __construct(string $name, User $user = null, ?Group $group = null, $id = null)
+    {
+        $this->id = $id ?? Uuid::uuid4()->toString();
+        $this->name = $name;
+        $this->user = $user;
+        $this->group = $group;
+        $this->createdAt = new \DateTime();
+        $this->updatedAt = new \DateTime();
+        $this->markAsUpdated();
+    }
 
     public function getName(): string
     {
