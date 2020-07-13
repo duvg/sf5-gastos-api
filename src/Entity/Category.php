@@ -71,10 +71,19 @@ class Category
         $this->updatedAt = new \DateTime();
     }
 
-    public function isOwnedByUser(User $user): bool
+    public function isOwnedBy(User $user): bool
     {
         if (null !== $this->getUser()) {
             return $this->getUser()->getId() === $user->getId();
+        }
+
+        return false;
+    }
+
+    public function isOwnedByGroup(Group $group): bool
+    {
+        if (null !== $this->getGroup()) {
+            return $this->getGroup()->getId() === $group->getId();
         }
 
         return false;

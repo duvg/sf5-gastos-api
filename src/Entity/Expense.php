@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Entity;
 
 use Ramsey\Uuid\Uuid;
@@ -98,5 +100,10 @@ class Expense
     public function markAsUpdated(): void
     {
         $this->updatedAt = new \DateTime();
+    }
+
+    public function isOwnedBy(User $user): bool
+    {
+        return $this->getUser()->getId() === $user->getId();
     }
 }

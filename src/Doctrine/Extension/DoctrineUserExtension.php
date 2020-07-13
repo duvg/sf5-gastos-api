@@ -7,6 +7,7 @@ namespace App\Doctrine\Extension;
 use ApiPlatform\Core\Bridge\Doctrine\Orm\Extension\QueryCollectionExtensionInterface;
 use ApiPlatform\Core\Bridge\Doctrine\Orm\Util\QueryNameGeneratorInterface;
 use App\Entity\Category;
+use App\Entity\Expense;
 use App\Entity\Group;
 use App\Entity\User;
 use App\Repository\GroupRepository;
@@ -51,7 +52,7 @@ class DoctrineUserExtension implements QueryCollectionExtensionInterface
             $qb->setParameter('currentUser', $user);
         }
 
-        if (Category::class === $resourceClass) {
+        if (Category::class === $resourceClass || Expense::class === $resourceClass) {
             $parameterId = '';
             if (null !== $qb->getParameters()[0]) {
                 $parameterId = $qb->getParameters()[0]->getValue();
@@ -73,6 +74,7 @@ class DoctrineUserExtension implements QueryCollectionExtensionInterface
         return [
             Group::class => 'owner',
             Category::class => 'user',
+            Expense::class => 'user',
         ];
     }
 

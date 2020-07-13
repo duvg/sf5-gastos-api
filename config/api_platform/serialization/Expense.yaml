@@ -1,0 +1,18 @@
+App\Entity\Expense:
+  attributes:
+    id:
+      groups: ['expense_read']
+    category:
+      groups: ['expense_read', 'expense_post', 'expense_put']
+    user:
+      groups: ['expense_read', 'expense_post']
+    group:
+      groups: ['expense_read', 'expense_post']
+    amount:
+      groups: ['expense_read', 'expense_post', 'expense_put']
+    description:
+      groups: ['expense_read', 'expense_post', 'expense_put']
+    createdAt:
+      groups: ['group_read']
+    updatedAt:
+      groups: ['group_read']

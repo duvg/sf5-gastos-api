@@ -50,3 +50,8 @@ App\Entity\User:
         subresourceClass: 'App\Entity\Category'
         collection: true
         maxDepth: 1
+    expenses:
+      subresource:
+        subresourceClass: 'App\Entity\Expense'
+        collection: true
+        maxDepth: 1

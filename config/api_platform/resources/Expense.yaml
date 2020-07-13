@@ -1,0 +1,71 @@
+App\Entity\Expense:
+  attributes:
+    normalization_context:
+      groups: ['expense_read']
+  collectionOperations:
+    get:
+      method: 'GET'
+      security: 'is_granted("EXPENSE_READ")'
+    post:
+      method: 'POST'
+      security: 'is_granted("EXPENSE_CREATE")'
+      denormalization_context:
+        groups: ['expense_post']
+      swagger_context:
+        parameters:
+          - in: body
+            name: expense
+            description: The expense to create
+            schema:
+              type: object
+              required:
+                - category
+                - user
+                - group
+                - amount
+                - description
+              properties:
+                category:
+                  type: string
+                user:
+                  type: string
+                group:
+                  type: string
+                amount:
+                  type: number
+                  format: float
+                description:
+                  type: string
+
+  itemOperations:
+    get:
+      method: 'GET'
+      security: 'is_granted("EXPENSE_READ", object)'
+    put:
+      method: 'PUT'
+      security: 'is_granted("EXPENSE_UPDATE", object)'
+      denormalization_context:
+        groups: ['expense_put']
+      swagger_context:
+        parameters:
+          - in: body
+            name: expense
+            description: The expense to update
+            schema:
+              type: object
+              required:
+                - category
+                - amount
+                - description
+              properties:
+                category:
+                  type: string
+                amount:
+                  type: number
+                  format: float
+                description:
+                  type: string
+
+    delete:
+      method: 'DELETE'
+      security: 'is_granted("EXPENSE_DELETE", object)'

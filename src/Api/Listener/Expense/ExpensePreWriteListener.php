@@ -2,20 +2,21 @@
 
 declare(strict_types=1);
 
-namespace App\Api\Listener\Category;
+namespace App\Api\Listener\Expense;
 
 use App\Api\Listener\PreWriteListener;
-use App\Entity\Category;
+use App\Entity\Expense;
 use App\Entity\User;
+use App\Exception\Category\CannotAddCategoryException;
 use App\Exception\Common\CannotAddAnotherUserAsOwnerException;
 use App\Exception\Group\UserNotMemberOfGroupException;
 use App\Repository\GroupRepository;
 use Symfony\Component\HttpKernel\Event\ViewEvent;
 use Symfony\Component\Security\Core\Authentication\Token\Storage\TokenStorageInterface;
 
-class CategoryPreWriteListener implements PreWriteListener
+class ExpensePreWriteListener implements PreWriteListener
 {
-    private const POST_CATEGORY = 'api_categories_post_collection';
+    private const POST_EXPENSE = 'api_expenses_post_collection';
 
     private TokenStorageInterface $tokenStorage;
 
@@ -34,24 +35,30 @@ class CategoryPreWriteListener implements PreWriteListener
 
         $request = $event->getRequest();
 
-        if (self::POST_CATEGORY === $request->get('_route')) {
-            /** @var Category $category */
-            $category = $event->getControllerResult();
+        if (self::POST_EXPENSE === $request->get('_route')) {
+            /** @var Expense $expense */
+            $expense = $event->getControllerResult();
 
-            if (null !== $category->getGroup()) {
-                if (!$this->groupRepository->userIsMember($category->getGroup(), $tokenUser)) {
+            if (null !== $group = $expense->getGroup()) {
+                if (!$this->groupRepository->userIsMember($group, $tokenUser)) {
                     throw UserNotMemberOfGroupException::create();
                 }
 
-                if ($category->getUser()->getId() !== $tokenUser->getId()) {
+                if ($expense->getUser()->getId() !== $tokenUser->getId()) {
                     throw CannotAddAnotherUserAsOwnerException::create();
                 }
 
-                return;
+                if (!$expense->getCategory()->isOwnedByGroup($group)) {
+                    throw CannotAddCategoryException::create();
+                }
             }
 
-            if ($category->getUser()->getId() !== $tokenUser->getId()) {
+            if ($expense->getUser()->getId() !== $tokenUser->getId()) {
                 throw CannotAddAnotherUserAsOwnerException::create();
+            }
+
+            if (!$expense->getCategory()->isOwnedByGroup($tokenUser)) {
+                throw CannotAddCategoryException::create();
             }
         }
     }
