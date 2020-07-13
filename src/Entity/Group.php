@@ -26,6 +26,9 @@ class Group
     /** @var Collection|Category[] */
     private ?Collection $categories = null;
 
+    /** @var Collection|Expense[] */
+    private ?Collection $expenses;
+
     /**
      * Group constructor.
      *
@@ -40,6 +43,7 @@ class Group
         $this->updatedAt = new \DateTime();
         $this->users = new ArrayCollection();
         $this->categories = new ArrayCollection();
+        $this->expenses = new ArrayCollection();
         $this->markAsUpdated();
     }
 
@@ -109,5 +113,13 @@ class Group
     public function getCategories(): Collection
     {
         return $this->categories;
+    }
+
+    /**
+     * @return Collection|Expense[]
+     */
+    public function getExpenses(): Collection
+    {
+        return $this->expenses;
     }
 }

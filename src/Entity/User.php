@@ -32,6 +32,9 @@ class User implements UserInterface
     /** @var Collection|Category[] */
     protected ?Collection $categories = null;
 
+    /** @var Collection|Expense[] */
+    protected ?Collection $expenses = null;
+
     /**
      * @throws \Exception
      */
@@ -44,6 +47,7 @@ class User implements UserInterface
         $this->createdAt = new \DateTime();
         $this->groups = new ArrayCollection();
         $this->categories = new ArrayCollection();
+        $this->expenses = new ArrayCollection();
         $this->markAsUpdated();
     }
 
@@ -150,5 +154,13 @@ class User implements UserInterface
     public function getCategories(): Collection
     {
         return $this->categories;
+    }
+
+    /**
+     * @return Collection|Expense[]
+     */
+    public function getExpenses(): Collection
+    {
+        return $this->expenses;
     }
 }
