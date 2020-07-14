@@ -37,6 +37,9 @@ App\Entity\User:
       roles:
         type: simple_array
         nullable: false
+      active:
+        type: boolean
+        nullable: flase
       createdAt:
         type: datetime
         nullable: false

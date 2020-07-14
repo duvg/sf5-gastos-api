@@ -22,6 +22,8 @@ class User implements UserInterface
 
     protected array $roles;
 
+    protected bool $active;
+
     protected ?\DateTime $createdAt = null;
 
     protected ?\DateTime $updatedAt = null;
@@ -44,6 +46,7 @@ class User implements UserInterface
         $this->name = $name;
         $this->email = $email;
         $this->roles[] = Role::ROLE_USER;
+        $this->active = true;
         $this->createdAt = new \DateTime();
         $this->groups = new ArrayCollection();
         $this->categories = new ArrayCollection();
@@ -162,5 +165,10 @@ class User implements UserInterface
     public function getExpenses(): Collection
     {
         return $this->expenses;
+    }
+
+    public function isActive(): bool
+    {
+        return $this->active;
     }
 }
