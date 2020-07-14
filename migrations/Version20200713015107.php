@@ -26,7 +26,7 @@ final class Version20200713015107 extends AbstractMigration
                     user_id CHAR(36) NOT NULL,
                     group_id CHAR(36) DEFAULT NULL,
                     amount DECIMAL(8,2) NOT NULL,
-                    description TINYTEXT DEFAULT  NULL,
+                    description TINYTEXT DEFAULT NULL,
                     created_at DATETIME NOT NULL,
                     updated_at DATETIME NOT NULL,
                     INDEX IDX_expense_category_id (category_id),

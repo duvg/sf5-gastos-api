@@ -24,7 +24,7 @@ App\Entity\Expense:
       nullable: false
     description:
       type: string
-      nullable: false
+      nullable: true
     createdAt:
       type: datetime
       nullable: false

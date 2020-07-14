@@ -17,6 +17,7 @@ use Symfony\Component\Security\Core\Authentication\Token\Storage\TokenStorageInt
 class ExpensePreWriteListener implements PreWriteListener
 {
     private const POST_EXPENSE = 'api_expenses_post_collection';
+    private const PUT_EXPENSE = 'api_expenses_put_item';
 
     private TokenStorageInterface $tokenStorage;
 
@@ -57,7 +58,22 @@ class ExpensePreWriteListener implements PreWriteListener
                 throw CannotAddAnotherUserAsOwnerException::create();
             }
 
-            if (!$expense->getCategory()->isOwnedByGroup($tokenUser)) {
+            if (!$expense->getCategory()->isOwnedBy($tokenUser)) {
+                throw CannotAddCategoryException::create();
+            }
+        }
+
+        if (self::PUT_EXPENSE === $request->get('_route')) {
+            /** @var Expense $expense */
+            $expense = $event->getControllerResult();
+
+            if (null !== $group = $expense->getGroup()) {
+                if (!$expense->getCategory()->isOwnedByGroup($group)) {
+                    throw CannotAddCategoryException::create();
+                }
+            }
+
+            if (!$expense->getCategory()->isOwnedBy($tokenUser)) {
                 throw CannotAddCategoryException::create();
             }
         }

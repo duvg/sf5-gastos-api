@@ -62,8 +62,8 @@ class DoctrineUserExtension implements QueryCollectionExtensionInterface
                 $qb->andWhere(\sprintf('%s.group = :parameterId', $rootAlias));
                 $qb->setParameter('parameterId', $parameterId);
             } else {
-                $qb->andWhere('%s.%s = :currentUser', $rootAlias, $this->getResources()[$resourceClass]);
-                $qb->andWhere('%s.group IS NULL', $rootAlias);
+                $qb->andWhere(\sprintf('%s.%s = :currentUser', $rootAlias, $this->getResources()[$resourceClass]));
+                $qb->andWhere(\sprintf('%s.group IS NULL', $rootAlias));
                 $qb->setParameter(':currentUser', $user);
             }
         }

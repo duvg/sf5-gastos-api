@@ -1,12 +1,14 @@
 <?php
 
-namespace App\Tests\Functional\Api\Category;
+declare(strict_types=1);
+
+namespace App\Tests\Functional\Api\Expense;
 
 use Symfony\Component\HttpFoundation\JsonResponse;
 
-class GetCategoryTest extends CategoryTestBase
+class GetExpenseTest extends ExpenseTestBase
 {
-    public function testGetCategoriesForAdmin(): void
+    public function testGetExpensesForAdmin(): void
     {
         self::$admin->request('GET', \sprintf('%s.%s', $this->endpoint, self::FORMAT));
 
@@ -17,7 +19,7 @@ class GetCategoryTest extends CategoryTestBase
         $this->assertCount(4, $responseData['hydra:member']);
     }
 
-    public function testGetCategoriesForUser(): void
+    public function testGetExpensesForUser(): void
     {
         self::$user->request('GET', \sprintf('%s.%s', $this->endpoint, self::FORMAT));
 
@@ -26,20 +28,20 @@ class GetCategoryTest extends CategoryTestBase
         $this->assertEquals(JsonResponse::HTTP_FORBIDDEN, $response->getStatusCode());
     }
 
-    public function testGetUserCategoriesWithAdmin(): void
+    public function testGetUserExpenseAsAdmin(): void
     {
-        self::$admin->request('GET', \sprintf('%s/%s.%s', $this->endpoint, self::IDS['user_category_id'], self::FORMAT));
+        self::$admin->request('GET', \sprintf('%s/%s.%s', $this->endpoint, self::IDS['user_expense_id'], self::FORMAT));
 
         $response = self::$admin->getResponse();
         $responseData = $this->getResponseData($response);
 
         $this->assertEquals(JsonResponse::HTTP_OK, $response->getStatusCode());
-        $this->assertEquals(self::IDS['user_category_id'], $responseData['id']);
+        $this->assertEquals(self::IDS['user_expense_id'], $responseData['id']);
     }
 
-    public function testGetUserCategoriesWithUser(): void
+    public function testGetAdminExpenseAsUser(): void
     {
-        self::$user->request('GET', \sprintf('%s/%s.%s', $this->endpoint, self::IDS['admin_category_id'], self::FORMAT));
+        self::$user->request('GET', \sprintf('%s/%s.%s', $this->endpoint, self::IDS['admin_expense_id'], self::FORMAT));
 
         $response = self::$user->getResponse();
 

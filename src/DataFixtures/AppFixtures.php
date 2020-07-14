@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\DataFixtures;
 
 use App\Entity\Category;
+use App\Entity\Expense;
 use App\Entity\Group;
 use App\Entity\User;
 use App\Security\Role;
@@ -33,21 +34,48 @@ class AppFixtures extends Fixture
             $user->setRoles($userData['roles']);
             $manager->persist($user);
 
+            foreach ($userData['categories'] as $categoryData) {
+                $category = new Category($categoryData['name'], $user, null, $categoryData['id']);
+
+                $manager->persist($category);
+
+                foreach ($categoryData['expenses'] as $expenseData) {
+                    $expense = new Expense(
+                        $category,
+                        $user,
+                        $expenseData['amount'],
+                        $expenseData['description'],
+                        null,
+                        $expenseData['id']
+                    );
+
+                    $manager->persist($expense);
+                }
+            }
+
             foreach ($userData['groups'] as $groupData) {
                 $group = new Group($groupData['name'], $user, $groupData['id']);
                 $group->addUser($user);
 
                 $manager->persist($group);
 
-                foreach ($userData['categories'] as $categoryData) {
-                    $category = new Category(
-                        $categoryData['name'],
-                        $user,
-                        $group,
-                        $categoryData['id']
-                    );
+                foreach ($groupData['categories'] as $categoryData) {
+                    $category = new Category($categoryData['name'], $user, $group, $categoryData['id']);
 
                     $manager->persist($category);
+
+                    foreach ($categoryData['expenses'] as $expenseData) {
+                        $expense = new Expense(
+                            $category,
+                            $user,
+                            $expenseData['amount'],
+                            $expenseData['description'],
+                            $group,
+                            $expenseData['id']
+                        );
+
+                        $manager->persist($expense);
+                    }
                 }
             }
         }
@@ -71,12 +99,32 @@ class AppFixtures extends Fixture
                     [
                         'id' => 'd781a25f-da6c-42ee-9261-7cc8ddd97003',
                         'name' => 'Admin\'s Group',
+                        'categories' => [
+                            [
+                                'id' => 'd781a25f-da6c-42ee-9261-7cc8ddd97007',
+                                'name' => 'Admin\'s Group category',
+                                'expenses' => [
+                                    [
+                                        'id' => 'd781a25f-da6c-42ee-9261-7cc8ddd97011',
+                                        'amount' => 200,
+                                        'description' => 'Admin\'s group expense description',
+                                    ],
+                                ],
+                            ],
+                        ],
                     ],
                 ],
                 'categories' => [
                     [
                         'id' => 'd781a25f-da6c-42ee-9261-7cc8ddd97005',
                         'name' => 'Admin\'s Category',
+                        'expenses' => [
+                            [
+                                'id' => 'd781a25f-da6c-42ee-9261-7cc8ddd97009',
+                                'amount' => 100,
+                                'description' => 'Admin expense description',
+                            ],
+                        ],
                     ],
                 ],
             ],
@@ -92,12 +140,32 @@ class AppFixtures extends Fixture
                     [
                         'id' => 'd781a25f-da6c-42ee-9261-7cc8ddd97004',
                         'name' => 'User\'s Group',
+                        'categories' => [
+                            [
+                                'id' => 'd781a25f-da6c-42ee-9261-7cc8ddd97008',
+                                'name' => 'User\'s Group category',
+                                'expenses' => [
+                                    [
+                                        'id' => 'd781a25f-da6c-42ee-9261-7cc8ddd97012',
+                                        'amount' => 400,
+                                        'description' => 'User\'s group expense description',
+                                    ],
+                                ],
+                            ],
+                        ],
                     ],
                 ],
                 'categories' => [
                     [
                         'id' => 'd781a25f-da6c-42ee-9261-7cc8ddd97006',
                         'name' => 'User\'s Category',
+                        'expenses' => [
+                            [
+                                'id' => 'd781a25f-da6c-42ee-9261-7cc8ddd97010',
+                                'amount' => 300,
+                                'description' => 'User expense description',
+                            ],
+                        ],
                     ],
                 ],
             ],

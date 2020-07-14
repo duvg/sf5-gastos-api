@@ -9205,3 +9205,825 @@ unison: started
 [2020-07-13 02:28:20 -0500] Sync Log:  [END] Deleting src/Api/Action/Group/Prueba.php
 [2020-07-13 02:28:20 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:28:19.73 on 13 Jul 2020
 [2020-07-13 02:28:20 -0500] Sync Log:  Synchronization complete at 02:28:19  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 02:30:48 -0500] Sync Log:  Error response from daemon: Bad response from Docker engine
+          ok  Starting native_osx for sync sf5-gastos-api-be-sync
+          ok  sf5-gastos-api-be-sync container still running, restarting unison in container
+unison: stopped
+unison: started
+     success  Sync container started
+     success  Showing unison logs from your sync container: sf5-gastos-api-be-sync
+[2020-07-13 11:57:42 -0500] Sync Log:  [BGN] Updating file src/Security/Authorization/Voter/ExpenseVoter.php from /app_sync to /host_sync
+[2020-07-13 11:57:42 -0500] Sync Log:  [END] Updating file src/Security/Authorization/Voter/ExpenseVoter.php
+[2020-07-13 11:57:42 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:28:18.65 on 13 Jul 2020
+[2020-07-13 11:57:42 -0500] Sync Log:  Synchronization incomplete at 02:28:18  (4 items transferred, 0 skipped, 1 failed)
+[2020-07-13 11:57:42 -0500] Sync Log:    failed: src/Api/Action/Group/Prueba.php
+[2020-07-13 11:57:42 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:28:19.73 on 13 Jul 2020
+[2020-07-13 11:57:42 -0500] Sync Log:  [BGN] Deleting src/Api/Action/Group/Prueba.php from /app_sync
+[2020-07-13 11:57:42 -0500] Sync Log:  [END] Deleting src/Api/Action/Group/Prueba.php
+[2020-07-13 11:57:42 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:28:19.73 on 13 Jul 2020
+[2020-07-13 11:57:42 -0500] Sync Log:  Synchronization complete at 02:28:19  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 11:57:48 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 11:57:47.66 on 13 Jul 2020
+[2020-07-13 11:57:48 -0500] Sync Log:  [BGN] Updating file .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-07-13 11:57:48 -0500] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2020-07-13 11:57:48 -0500] Sync Log:  [BGN] Updating file .docker-sync/daemon.pid from /host_sync to /app_sync
+[2020-07-13 11:57:48 -0500] Sync Log:  [END] Updating file .docker-sync/daemon.pid
+[2020-07-13 11:57:48 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 11:57:47.72 on 13 Jul 2020
+[2020-07-13 11:57:48 -0500] Sync Log:  Synchronization complete at 11:57:47  (2 items transferred, 0 skipped, 0 failed)
+[2020-07-13 12:34:23 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 12:34:23.70 on 13 Jul 2020
+[2020-07-13 12:34:23 -0500] Sync Log:  [BGN] Updating file src/DataFixtures/AppFixtures.php from /host_sync to /app_sync
+[2020-07-13 12:34:23 -0500] Sync Log:  [END] Updating file src/DataFixtures/AppFixtures.php
+[2020-07-13 12:34:23 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 12:34:23.73 on 13 Jul 2020
+[2020-07-13 12:34:24 -0500] Sync Log:  Synchronization complete at 12:34:23  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 12:35:36 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 12:35:36.44 on 13 Jul 2020
+[2020-07-13 12:35:36 -0500] Sync Log:  [BGN] Updating file src/DataFixtures/AppFixtures.php from /host_sync to /app_sync
+[2020-07-13 12:35:36 -0500] Sync Log:  [END] Updating file src/DataFixtures/AppFixtures.php
+[2020-07-13 12:35:36 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 12:35:36.46 on 13 Jul 2020
+[2020-07-13 12:35:36 -0500] Sync Log:  Synchronization complete at 12:35:36  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 12:35:56 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 12:35:56.38 on 13 Jul 2020
+[2020-07-13 12:35:56 -0500] Sync Log:  [BGN] Updating file src/DataFixtures/AppFixtures.php from /host_sync to /app_sync
+[2020-07-13 12:35:56 -0500] Sync Log:  [END] Updating file src/DataFixtures/AppFixtures.php
+[2020-07-13 12:35:56 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 12:35:56.39 on 13 Jul 2020
+[2020-07-13 12:35:56 -0500] Sync Log:  Synchronization complete at 12:35:56  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 12:41:37 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 12:41:36.81 on 13 Jul 2020
+[2020-07-13 12:41:37 -0500] Sync Log:  [BGN] Updating file src/DataFixtures/AppFixtures.php from /host_sync to /app_sync
+[2020-07-13 12:41:37 -0500] Sync Log:  [END] Updating file src/DataFixtures/AppFixtures.php
+[2020-07-13 12:41:37 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 12:41:36.82 on 13 Jul 2020
+[2020-07-13 12:41:37 -0500] Sync Log:  Synchronization complete at 12:41:36  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 13:25:50 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 13:25:50.07 on 13 Jul 2020
+[2020-07-13 13:25:50 -0500] Sync Log:  [BGN] Updating file src/DataFixtures/AppFixtures.php from /host_sync to /app_sync
+[2020-07-13 13:25:50 -0500] Sync Log:  [END] Updating file src/DataFixtures/AppFixtures.php
+[2020-07-13 13:25:50 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 13:25:50.09 on 13 Jul 2020
+[2020-07-13 13:25:50 -0500] Sync Log:  Synchronization complete at 13:25:50  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 13:26:30 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 13:26:30.20 on 13 Jul 2020
+[2020-07-13 13:26:30 -0500] Sync Log:  [BGN] Updating file src/DataFixtures/AppFixtures.php from /host_sync to /app_sync
+[2020-07-13 13:26:30 -0500] Sync Log:  [END] Updating file src/DataFixtures/AppFixtures.php
+[2020-07-13 13:26:30 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 13:26:30.21 on 13 Jul 2020
+[2020-07-13 13:26:30 -0500] Sync Log:  Synchronization complete at 13:26:30  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 13:28:24 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 13:28:24.25 on 13 Jul 2020
+[2020-07-13 13:28:24 -0500] Sync Log:  [BGN] Updating file src/DataFixtures/AppFixtures.php from /host_sync to /app_sync
+[2020-07-13 13:28:24 -0500] Sync Log:  [END] Updating file src/DataFixtures/AppFixtures.php
+[2020-07-13 13:28:24 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 13:28:24.26 on 13 Jul 2020
+[2020-07-13 13:28:24 -0500] Sync Log:  Synchronization complete at 13:28:24  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 13:30:25 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 13:30:25.29 on 13 Jul 2020
+[2020-07-13 13:30:25 -0500] Sync Log:  [BGN] Updating file src/DataFixtures/AppFixtures.php from /host_sync to /app_sync
+[2020-07-13 13:30:25 -0500] Sync Log:  [END] Updating file src/DataFixtures/AppFixtures.php
+[2020-07-13 13:30:25 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 13:30:25.30 on 13 Jul 2020
+[2020-07-13 13:30:25 -0500] Sync Log:  Synchronization complete at 13:30:25  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 13:30:40 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 13:30:40.48 on 13 Jul 2020
+[2020-07-13 13:30:40 -0500] Sync Log:  [BGN] Updating file src/DataFixtures/AppFixtures.php from /host_sync to /app_sync
+[2020-07-13 13:30:40 -0500] Sync Log:  [END] Updating file src/DataFixtures/AppFixtures.php
+[2020-07-13 13:30:40 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 13:30:40.49 on 13 Jul 2020
+[2020-07-13 13:30:40 -0500] Sync Log:  Synchronization complete at 13:30:40  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 17:07:54 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:07:53.84 on 13 Jul 2020
+[2020-07-13 17:07:54 -0500] Sync Log:  [BGN] Updating file src/DataFixtures/AppFixtures.php from /host_sync to /app_sync
+[2020-07-13 17:07:54 -0500] Sync Log:  [END] Updating file src/DataFixtures/AppFixtures.php
+[2020-07-13 17:07:54 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:07:53.85 on 13 Jul 2020
+[2020-07-13 17:07:54 -0500] Sync Log:  Synchronization complete at 17:07:53  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 17:08:19 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:08:19.18 on 13 Jul 2020
+[2020-07-13 17:08:19 -0500] Sync Log:  [BGN] Updating file src/DataFixtures/AppFixtures.php from /host_sync to /app_sync
+[2020-07-13 17:08:19 -0500] Sync Log:  [END] Updating file src/DataFixtures/AppFixtures.php
+[2020-07-13 17:08:19 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:08:19.19 on 13 Jul 2020
+[2020-07-13 17:08:19 -0500] Sync Log:  Synchronization complete at 17:08:19  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 17:08:50 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:08:50.43 on 13 Jul 2020
+[2020-07-13 17:08:50 -0500] Sync Log:  [BGN] Updating file src/DataFixtures/AppFixtures.php from /host_sync to /app_sync
+[2020-07-13 17:08:50 -0500] Sync Log:  [END] Updating file src/DataFixtures/AppFixtures.php
+[2020-07-13 17:08:50 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:08:50.46 on 13 Jul 2020
+[2020-07-13 17:08:50 -0500] Sync Log:  Synchronization complete at 17:08:50  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 17:09:05 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:09:05.16 on 13 Jul 2020
+[2020-07-13 17:09:05 -0500] Sync Log:  [BGN] Updating file src/DataFixtures/AppFixtures.php from /host_sync to /app_sync
+[2020-07-13 17:09:05 -0500] Sync Log:  [END] Updating file src/DataFixtures/AppFixtures.php
+[2020-07-13 17:09:05 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:09:05.17 on 13 Jul 2020
+[2020-07-13 17:09:05 -0500] Sync Log:  Synchronization complete at 17:09:05  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 17:09:23 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:09:22.57 on 13 Jul 2020
+[2020-07-13 17:09:23 -0500] Sync Log:  [BGN] Updating file src/DataFixtures/AppFixtures.php from /host_sync to /app_sync
+[2020-07-13 17:09:23 -0500] Sync Log:  [END] Updating file src/DataFixtures/AppFixtures.php
+[2020-07-13 17:09:23 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:09:22.57 on 13 Jul 2020
+[2020-07-13 17:09:23 -0500] Sync Log:  Synchronization complete at 17:09:22  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 17:12:50 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:12:50.22 on 13 Jul 2020
+[2020-07-13 17:12:50 -0500] Sync Log:  [BGN] Updating file src/DataFixtures/AppFixtures.php from /host_sync to /app_sync
+[2020-07-13 17:12:50 -0500] Sync Log:  [END] Updating file src/DataFixtures/AppFixtures.php
+[2020-07-13 17:12:50 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:12:50.23 on 13 Jul 2020
+[2020-07-13 17:12:50 -0500] Sync Log:  Synchronization complete at 17:12:50  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 17:14:15 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:14:14.21 on 13 Jul 2020
+[2020-07-13 17:14:15 -0500] Sync Log:  [BGN] Updating file src/DataFixtures/AppFixtures.php from /host_sync to /app_sync
+[2020-07-13 17:14:15 -0500] Sync Log:  [END] Updating file src/DataFixtures/AppFixtures.php
+[2020-07-13 17:14:15 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:14:14.22 on 13 Jul 2020
+[2020-07-13 17:14:15 -0500] Sync Log:  Synchronization complete at 17:14:14  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 17:18:14 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:18:14.04 on 13 Jul 2020
+[2020-07-13 17:18:14 -0500] Sync Log:  [BGN] Updating file src/DataFixtures/AppFixtures.php from /host_sync to /app_sync
+[2020-07-13 17:18:14 -0500] Sync Log:  [END] Updating file src/DataFixtures/AppFixtures.php
+[2020-07-13 17:18:14 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:18:14.04 on 13 Jul 2020
+[2020-07-13 17:18:14 -0500] Sync Log:  Synchronization complete at 17:18:14  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 17:18:44 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:18:44.17 on 13 Jul 2020
+[2020-07-13 17:18:44 -0500] Sync Log:  [BGN] Updating file src/DataFixtures/AppFixtures.php from /host_sync to /app_sync
+[2020-07-13 17:18:44 -0500] Sync Log:  [END] Updating file src/DataFixtures/AppFixtures.php
+[2020-07-13 17:18:44 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:18:44.18 on 13 Jul 2020
+[2020-07-13 17:18:44 -0500] Sync Log:  Synchronization complete at 17:18:44  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 17:19:01 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:19:00.41 on 13 Jul 2020
+[2020-07-13 17:19:01 -0500] Sync Log:  [BGN] Updating file src/DataFixtures/AppFixtures.php from /host_sync to /app_sync
+[2020-07-13 17:19:01 -0500] Sync Log:  [END] Updating file src/DataFixtures/AppFixtures.php
+[2020-07-13 17:19:01 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:19:00.42 on 13 Jul 2020
+[2020-07-13 17:19:01 -0500] Sync Log:  Synchronization complete at 17:19:00  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 17:20:13 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:20:12.70 on 13 Jul 2020
+[2020-07-13 17:20:13 -0500] Sync Log:  [BGN] Updating file src/DataFixtures/AppFixtures.php from /host_sync to /app_sync
+[2020-07-13 17:20:13 -0500] Sync Log:  [END] Updating file src/DataFixtures/AppFixtures.php
+[2020-07-13 17:20:13 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:20:12.71 on 13 Jul 2020
+[2020-07-13 17:20:13 -0500] Sync Log:  Synchronization complete at 17:20:12  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 17:22:52 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:22:51.60 on 13 Jul 2020
+[2020-07-13 17:22:52 -0500] Sync Log:  [BGN] Updating file .env.test from /host_sync to /app_sync
+[2020-07-13 17:22:52 -0500] Sync Log:  [END] Updating file .env.test
+[2020-07-13 17:22:52 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:22:51.61 on 13 Jul 2020
+[2020-07-13 17:22:52 -0500] Sync Log:  Synchronization complete at 17:22:51  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 17:23:06 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:23:05.69 on 13 Jul 2020
+[2020-07-13 17:23:06 -0500] Sync Log:  [BGN] Updating file .env.test from /host_sync to /app_sync
+[2020-07-13 17:23:06 -0500] Sync Log:  [END] Updating file .env.test
+[2020-07-13 17:23:06 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:23:05.69 on 13 Jul 2020
+[2020-07-13 17:23:06 -0500] Sync Log:  Synchronization complete at 17:23:05  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 17:26:03 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:26:03.71 on 13 Jul 2020
+[2020-07-13 17:26:03 -0500] Sync Log:  [BGN] Updating file src/DataFixtures/AppFixtures.php from /host_sync to /app_sync
+[2020-07-13 17:26:03 -0500] Sync Log:  [END] Updating file src/DataFixtures/AppFixtures.php
+[2020-07-13 17:26:03 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:26:03.72 on 13 Jul 2020
+[2020-07-13 17:26:03 -0500] Sync Log:  Synchronization complete at 17:26:03  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 17:26:16 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:26:16.01 on 13 Jul 2020
+[2020-07-13 17:26:16 -0500] Sync Log:  [BGN] Updating file src/DataFixtures/AppFixtures.php from /host_sync to /app_sync
+[2020-07-13 17:26:16 -0500] Sync Log:  [END] Updating file src/DataFixtures/AppFixtures.php
+[2020-07-13 17:26:16 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:26:16.02 on 13 Jul 2020
+[2020-07-13 17:26:16 -0500] Sync Log:  Synchronization complete at 17:26:16  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 17:40:45 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:40:44.66 on 13 Jul 2020
+[2020-07-13 17:40:45 -0500] Sync Log:  [BGN] Copying tests/Functional/Api/Expense from /host_sync to /app_sync
+[2020-07-13 17:40:45 -0500] Sync Log:  [END] Copying tests/Functional/Api/Expense
+[2020-07-13 17:40:45 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:40:44.66 on 13 Jul 2020
+[2020-07-13 17:40:45 -0500] Sync Log:  Synchronization complete at 17:40:44  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 17:40:54 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:40:53.44 on 13 Jul 2020
+[2020-07-13 17:40:54 -0500] Sync Log:  [BGN] Copying tests/Functional/Api/Expense/ExpenseTestBase.php from /host_sync to /app_sync
+[2020-07-13 17:40:54 -0500] Sync Log:  [END] Copying tests/Functional/Api/Expense/ExpenseTestBase.php
+[2020-07-13 17:40:54 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:40:53.45 on 13 Jul 2020
+[2020-07-13 17:40:54 -0500] Sync Log:  Synchronization complete at 17:40:53  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 17:41:49 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 17:41:48.96 on 13 Jul 2020
+[2020-07-13 17:41:49 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/ExpenseTestBase.php from /host_sync to /app_sync
+[2020-07-13 17:41:49 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/ExpenseTestBase.php
+[2020-07-13 17:41:49 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 17:41:48.98 on 13 Jul 2020
+[2020-07-13 17:41:49 -0500] Sync Log:  Synchronization complete at 17:41:48  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 18:56:42 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:56:41.18 on 13 Jul 2020
+[2020-07-13 18:56:42 -0500] Sync Log:  [BGN] Copying tests/Functional/Api/Expense/GetExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 18:56:42 -0500] Sync Log:  [END] Copying tests/Functional/Api/Expense/GetExpenseTest.php
+[2020-07-13 18:56:42 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:56:41.20 on 13 Jul 2020
+[2020-07-13 18:56:42 -0500] Sync Log:  Synchronization complete at 18:56:41  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 18:59:16 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 18:59:15.74 on 13 Jul 2020
+[2020-07-13 18:59:16 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/GetExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 18:59:16 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/GetExpenseTest.php
+[2020-07-13 18:59:16 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:59:15.75 on 13 Jul 2020
+[2020-07-13 18:59:16 -0500] Sync Log:  Synchronization complete at 18:59:15  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 19:00:29 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:00:29.14 on 13 Jul 2020
+[2020-07-13 19:00:29 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/GetExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 19:00:29 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/GetExpenseTest.php
+[2020-07-13 19:00:29 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:00:29.15 on 13 Jul 2020
+[2020-07-13 19:00:29 -0500] Sync Log:  Synchronization complete at 19:00:29  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 19:02:06 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:02:05.77 on 13 Jul 2020
+[2020-07-13 19:02:06 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/GetExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 19:02:06 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/GetExpenseTest.php
+[2020-07-13 19:02:06 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:02:05.79 on 13 Jul 2020
+[2020-07-13 19:02:06 -0500] Sync Log:  Synchronization complete at 19:02:05  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 19:02:14 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:02:13.63 on 13 Jul 2020
+[2020-07-13 19:02:14 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/GetExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 19:02:14 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/GetExpenseTest.php
+[2020-07-13 19:02:14 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:02:13.64 on 13 Jul 2020
+[2020-07-13 19:02:14 -0500] Sync Log:  Synchronization complete at 19:02:13  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 19:02:51 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:02:50.82 on 13 Jul 2020
+[2020-07-13 19:02:51 -0500] Sync Log:  [BGN] Updating file .env.test from /host_sync to /app_sync
+[2020-07-13 19:02:51 -0500] Sync Log:  [END] Updating file .env.test
+[2020-07-13 19:02:51 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:02:50.83 on 13 Jul 2020
+[2020-07-13 19:02:51 -0500] Sync Log:  Synchronization complete at 19:02:50  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 19:03:30 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:03:29.65 on 13 Jul 2020
+[2020-07-13 19:03:30 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/ExpenseTestBase.php from /host_sync to /app_sync
+[2020-07-13 19:03:30 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/ExpenseTestBase.php
+[2020-07-13 19:03:30 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:03:29.66 on 13 Jul 2020
+[2020-07-13 19:03:30 -0500] Sync Log:  Synchronization complete at 19:03:29  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 19:04:14 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:04:14.59 on 13 Jul 2020
+[2020-07-13 19:04:14 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/GetExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 19:04:14 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/GetExpenseTest.php
+[2020-07-13 19:04:14 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:04:14.60 on 13 Jul 2020
+[2020-07-13 19:04:14 -0500] Sync Log:  Synchronization complete at 19:04:14  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 19:05:40 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:05:40.55 on 13 Jul 2020
+[2020-07-13 19:05:40 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/GetExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 19:05:40 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/GetExpenseTest.php
+[2020-07-13 19:05:40 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:05:40.56 on 13 Jul 2020
+[2020-07-13 19:05:40 -0500] Sync Log:  Synchronization complete at 19:05:40  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 19:05:49 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:05:49.07 on 13 Jul 2020
+[2020-07-13 19:05:49 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/GetExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 19:05:49 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/GetExpenseTest.php
+[2020-07-13 19:05:49 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:05:49.08 on 13 Jul 2020
+[2020-07-13 19:05:49 -0500] Sync Log:  Synchronization complete at 19:05:49  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 19:07:20 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:07:20.49 on 13 Jul 2020
+[2020-07-13 19:07:20 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/GetExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 19:07:20 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/GetExpenseTest.php
+[2020-07-13 19:07:20 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:07:20.50 on 13 Jul 2020
+[2020-07-13 19:07:20 -0500] Sync Log:  Synchronization complete at 19:07:20  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 19:09:23 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:09:22.57 on 13 Jul 2020
+[2020-07-13 19:09:23 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/GetExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 19:09:23 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/GetExpenseTest.php
+[2020-07-13 19:09:23 -0500] Sync Log:  [BGN] Updating file tests/Functional/TestBase.php from /host_sync to /app_sync
+[2020-07-13 19:09:23 -0500] Sync Log:  [END] Updating file tests/Functional/TestBase.php
+[2020-07-13 19:09:23 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:09:22.59 on 13 Jul 2020
+[2020-07-13 19:09:23 -0500] Sync Log:  Synchronization complete at 19:09:22  (2 items transferred, 0 skipped, 0 failed)
+[2020-07-13 19:09:53 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:09:52.38 on 13 Jul 2020
+[2020-07-13 19:09:53 -0500] Sync Log:  [BGN] Updating file tests/Functional/TestBase.php from /host_sync to /app_sync
+[2020-07-13 19:09:53 -0500] Sync Log:  [END] Updating file tests/Functional/TestBase.php
+[2020-07-13 19:09:53 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:09:52.39 on 13 Jul 2020
+[2020-07-13 19:09:53 -0500] Sync Log:  Synchronization complete at 19:09:52  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 19:10:18 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:10:17.42 on 13 Jul 2020
+[2020-07-13 19:10:18 -0500] Sync Log:  [BGN] Updating file tests/Functional/TestBase.php from /host_sync to /app_sync
+[2020-07-13 19:10:18 -0500] Sync Log:  [END] Updating file tests/Functional/TestBase.php
+[2020-07-13 19:10:18 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:10:17.43 on 13 Jul 2020
+[2020-07-13 19:10:18 -0500] Sync Log:  Synchronization complete at 19:10:17  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 19:10:24 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:10:23.72 on 13 Jul 2020
+[2020-07-13 19:10:24 -0500] Sync Log:  [BGN] Updating file tests/Functional/TestBase.php from /host_sync to /app_sync
+[2020-07-13 19:10:24 -0500] Sync Log:  [END] Updating file tests/Functional/TestBase.php
+[2020-07-13 19:10:24 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:10:23.73 on 13 Jul 2020
+[2020-07-13 19:10:24 -0500] Sync Log:  Synchronization complete at 19:10:23  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 19:10:41 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:10:40.75 on 13 Jul 2020
+[2020-07-13 19:10:41 -0500] Sync Log:  [BGN] Updating file tests/Functional/TestBase.php from /host_sync to /app_sync
+[2020-07-13 19:10:41 -0500] Sync Log:  [END] Updating file tests/Functional/TestBase.php
+[2020-07-13 19:10:41 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:10:40.76 on 13 Jul 2020
+[2020-07-13 19:10:41 -0500] Sync Log:  Synchronization complete at 19:10:40  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 19:12:56 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:12:55.87 on 13 Jul 2020
+[2020-07-13 19:12:56 -0500] Sync Log:  [BGN] Updating file tests/Functional/TestBase.php from /host_sync to /app_sync
+[2020-07-13 19:12:56 -0500] Sync Log:  [END] Updating file tests/Functional/TestBase.php
+[2020-07-13 19:12:56 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:12:55.88 on 13 Jul 2020
+[2020-07-13 19:12:56 -0500] Sync Log:  Synchronization complete at 19:12:55  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 19:43:50 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:43:49.70 on 13 Jul 2020
+[2020-07-13 19:43:50 -0500] Sync Log:  [BGN] Updating file tests/Functional/TestBase.php from /host_sync to /app_sync
+[2020-07-13 19:43:50 -0500] Sync Log:  [END] Updating file tests/Functional/TestBase.php
+[2020-07-13 19:43:50 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:43:49.71 on 13 Jul 2020
+[2020-07-13 19:43:50 -0500] Sync Log:  Synchronization complete at 19:43:49  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 19:44:10 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:44:10.03 on 13 Jul 2020
+[2020-07-13 19:44:10 -0500] Sync Log:  [BGN] Updating file tests/Functional/TestBase.php from /host_sync to /app_sync
+[2020-07-13 19:44:10 -0500] Sync Log:  [END] Updating file tests/Functional/TestBase.php
+[2020-07-13 19:44:10 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:44:10.04 on 13 Jul 2020
+[2020-07-13 19:44:10 -0500] Sync Log:  Synchronization complete at 19:44:10  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 19:44:34 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:44:33.32 on 13 Jul 2020
+[2020-07-13 19:44:34 -0500] Sync Log:  [BGN] Updating file src/DataFixtures/AppFixtures.php from /host_sync to /app_sync
+[2020-07-13 19:44:34 -0500] Sync Log:  [END] Updating file src/DataFixtures/AppFixtures.php
+[2020-07-13 19:44:34 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:44:33.33 on 13 Jul 2020
+[2020-07-13 19:44:34 -0500] Sync Log:  Synchronization complete at 19:44:33  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 20:43:24 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:43:24.11 on 13 Jul 2020
+[2020-07-13 20:43:24 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/GetExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 20:43:25 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/GetExpenseTest.php
+[2020-07-13 20:43:25 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:43:24.13 on 13 Jul 2020
+[2020-07-13 20:43:25 -0500] Sync Log:  Synchronization complete at 20:43:24  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 20:45:17 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:45:17.11 on 13 Jul 2020
+[2020-07-13 20:45:17 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/GetExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 20:45:17 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/GetExpenseTest.php
+[2020-07-13 20:45:17 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:45:17.12 on 13 Jul 2020
+[2020-07-13 20:45:17 -0500] Sync Log:  Synchronization complete at 20:45:17  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 20:47:07 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:47:06.93 on 13 Jul 2020
+[2020-07-13 20:47:07 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/GetExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 20:47:07 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/GetExpenseTest.php
+[2020-07-13 20:47:07 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:47:06.94 on 13 Jul 2020
+[2020-07-13 20:47:07 -0500] Sync Log:  Synchronization complete at 20:47:06  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 20:47:52 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 20:47:51.41 on 13 Jul 2020
+[2020-07-13 20:47:52 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/GetExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 20:47:52 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/GetExpenseTest.php
+[2020-07-13 20:47:52 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 20:47:51.42 on 13 Jul 2020
+[2020-07-13 20:47:52 -0500] Sync Log:  Synchronization complete at 20:47:51  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 22:17:14 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:17:14.05 on 13 Jul 2020
+[2020-07-13 22:17:14 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/GetExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 22:17:14 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/GetExpenseTest.php
+[2020-07-13 22:17:14 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:17:14.05 on 13 Jul 2020
+[2020-07-13 22:17:14 -0500] Sync Log:  Synchronization complete at 22:17:14  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 22:18:31 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:18:30.60 on 13 Jul 2020
+[2020-07-13 22:18:31 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/GetExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 22:18:31 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/GetExpenseTest.php
+[2020-07-13 22:18:31 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:18:30.61 on 13 Jul 2020
+[2020-07-13 22:18:31 -0500] Sync Log:  Synchronization complete at 22:18:30  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 22:19:06 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:19:06.60 on 13 Jul 2020
+[2020-07-13 22:19:06 -0500] Sync Log:  [BGN] Copying tests/Functional/Api/Expense/PostExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 22:19:06 -0500] Sync Log:  [END] Copying tests/Functional/Api/Expense/PostExpenseTest.php
+[2020-07-13 22:19:06 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:19:06.61 on 13 Jul 2020
+[2020-07-13 22:19:06 -0500] Sync Log:  Synchronization complete at 22:19:06  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 22:20:35 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:20:34.88 on 13 Jul 2020
+[2020-07-13 22:20:35 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PostExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 22:20:35 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PostExpenseTest.php
+[2020-07-13 22:20:35 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:20:34.88 on 13 Jul 2020
+[2020-07-13 22:20:35 -0500] Sync Log:  Synchronization complete at 22:20:34  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 22:20:53 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:20:53.05 on 13 Jul 2020
+[2020-07-13 22:20:53 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PostExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 22:20:53 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PostExpenseTest.php
+[2020-07-13 22:20:53 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:20:53.06 on 13 Jul 2020
+[2020-07-13 22:20:53 -0500] Sync Log:  Synchronization complete at 22:20:53  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 22:21:46 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:21:46.28 on 13 Jul 2020
+[2020-07-13 22:21:46 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PostExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 22:21:46 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PostExpenseTest.php
+[2020-07-13 22:21:46 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:21:46.30 on 13 Jul 2020
+[2020-07-13 22:21:46 -0500] Sync Log:  Synchronization complete at 22:21:46  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 22:23:25 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:23:25.85 on 13 Jul 2020
+[2020-07-13 22:23:25 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PostExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 22:23:25 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PostExpenseTest.php
+[2020-07-13 22:23:25 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:23:25.85 on 13 Jul 2020
+[2020-07-13 22:23:25 -0500] Sync Log:  Synchronization complete at 22:23:25  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 22:24:18 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:24:17.37 on 13 Jul 2020
+[2020-07-13 22:24:18 -0500] Sync Log:  [BGN] Updating file src/Api/Listener/Expense/ExpensePreWriteListener.php from /host_sync to /app_sync
+[2020-07-13 22:24:18 -0500] Sync Log:  [END] Updating file src/Api/Listener/Expense/ExpensePreWriteListener.php
+[2020-07-13 22:24:18 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:24:17.39 on 13 Jul 2020
+[2020-07-13 22:24:18 -0500] Sync Log:  Synchronization complete at 22:24:17  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 22:24:45 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:24:45.05 on 13 Jul 2020
+[2020-07-13 22:24:45 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PostExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 22:24:46 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PostExpenseTest.php
+[2020-07-13 22:24:46 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:24:45.08 on 13 Jul 2020
+[2020-07-13 22:24:46 -0500] Sync Log:  Synchronization complete at 22:24:45  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 22:25:45 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:25:44.89 on 13 Jul 2020
+[2020-07-13 22:25:45 -0500] Sync Log:  [BGN] Updating file src/Api/Listener/Expense/ExpensePreWriteListener.php from /host_sync to /app_sync
+[2020-07-13 22:25:45 -0500] Sync Log:  [END] Updating file src/Api/Listener/Expense/ExpensePreWriteListener.php
+[2020-07-13 22:25:45 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:25:44.90 on 13 Jul 2020
+[2020-07-13 22:25:45 -0500] Sync Log:  Synchronization complete at 22:25:44  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 22:25:51 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:25:50.66 on 13 Jul 2020
+[2020-07-13 22:25:51 -0500] Sync Log:  [BGN] Updating file src/Api/Listener/Expense/ExpensePreWriteListener.php from /host_sync to /app_sync
+[2020-07-13 22:25:51 -0500] Sync Log:  [END] Updating file src/Api/Listener/Expense/ExpensePreWriteListener.php
+[2020-07-13 22:25:51 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:25:50.67 on 13 Jul 2020
+[2020-07-13 22:25:51 -0500] Sync Log:  Synchronization complete at 22:25:50  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 22:28:38 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:28:37.49 on 13 Jul 2020
+[2020-07-13 22:28:38 -0500] Sync Log:  [BGN] Updating file src/DataFixtures/AppFixtures.php from /host_sync to /app_sync
+[2020-07-13 22:28:38 -0500] Sync Log:  [END] Updating file src/DataFixtures/AppFixtures.php
+[2020-07-13 22:28:38 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:28:37.52 on 13 Jul 2020
+[2020-07-13 22:28:38 -0500] Sync Log:  Synchronization complete at 22:28:37  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 22:28:57 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:28:57.13 on 13 Jul 2020
+[2020-07-13 22:28:57 -0500] Sync Log:  [BGN] Updating file .env.test from /host_sync to /app_sync
+[2020-07-13 22:28:57 -0500] Sync Log:  [END] Updating file .env.test
+[2020-07-13 22:28:57 -0500] Sync Log:  [BGN] Updating file src/DataFixtures/AppFixtures.php from /host_sync to /app_sync
+[2020-07-13 22:28:57 -0500] Sync Log:  [END] Updating file src/DataFixtures/AppFixtures.php
+[2020-07-13 22:28:57 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:28:57.15 on 13 Jul 2020
+[2020-07-13 22:28:57 -0500] Sync Log:  Synchronization complete at 22:28:57  (2 items transferred, 0 skipped, 0 failed)
+[2020-07-13 22:29:31 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:29:30.68 on 13 Jul 2020
+[2020-07-13 22:29:31 -0500] Sync Log:  [BGN] Updating file src/Doctrine/Mapping/Entity/Expense.orm.yml from /host_sync to /app_sync
+[2020-07-13 22:29:31 -0500] Sync Log:  [END] Updating file src/Doctrine/Mapping/Entity/Expense.orm.yml
+[2020-07-13 22:29:31 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:29:30.69 on 13 Jul 2020
+[2020-07-13 22:29:31 -0500] Sync Log:  Synchronization complete at 22:29:30  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 22:30:42 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:30:42.26 on 13 Jul 2020
+[2020-07-13 22:30:42 -0500] Sync Log:  [BGN] Updating file src/DataFixtures/AppFixtures.php from /host_sync to /app_sync
+[2020-07-13 22:30:42 -0500] Sync Log:  [END] Updating file src/DataFixtures/AppFixtures.php
+[2020-07-13 22:30:42 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:30:42.28 on 13 Jul 2020
+[2020-07-13 22:30:42 -0500] Sync Log:  Synchronization complete at 22:30:42  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 22:31:01 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:31:00.72 on 13 Jul 2020
+[2020-07-13 22:31:01 -0500] Sync Log:  [BGN] Updating file src/DataFixtures/AppFixtures.php from /host_sync to /app_sync
+[2020-07-13 22:31:01 -0500] Sync Log:  [END] Updating file src/DataFixtures/AppFixtures.php
+[2020-07-13 22:31:01 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:31:00.73 on 13 Jul 2020
+[2020-07-13 22:31:01 -0500] Sync Log:  Synchronization complete at 22:31:00  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 22:34:59 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:34:58.77 on 13 Jul 2020
+[2020-07-13 22:34:59 -0500] Sync Log:  [BGN] Updating file migrations/Version20200713015107.php from /host_sync to /app_sync
+[2020-07-13 22:34:59 -0500] Sync Log:  [END] Updating file migrations/Version20200713015107.php
+[2020-07-13 22:34:59 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:34:58.78 on 13 Jul 2020
+[2020-07-13 22:34:59 -0500] Sync Log:  Synchronization complete at 22:34:58  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 22:42:16 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:42:15.51 on 13 Jul 2020
+[2020-07-13 22:42:16 -0500] Sync Log:  [BGN] Updating file src/DataFixtures/AppFixtures.php from /host_sync to /app_sync
+[2020-07-13 22:42:16 -0500] Sync Log:  [END] Updating file src/DataFixtures/AppFixtures.php
+[2020-07-13 22:42:16 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:42:15.52 on 13 Jul 2020
+[2020-07-13 22:42:16 -0500] Sync Log:  Synchronization complete at 22:42:15  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 22:44:06 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:44:05.77 on 13 Jul 2020
+[2020-07-13 22:44:06 -0500] Sync Log:  [BGN] Updating file .env.test from /host_sync to /app_sync
+[2020-07-13 22:44:06 -0500] Sync Log:  [END] Updating file .env.test
+[2020-07-13 22:44:06 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:44:05.78 on 13 Jul 2020
+[2020-07-13 22:44:06 -0500] Sync Log:  Synchronization complete at 22:44:05  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 22:44:47 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:44:46.84 on 13 Jul 2020
+[2020-07-13 22:44:47 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PostExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 22:44:47 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PostExpenseTest.php
+[2020-07-13 22:44:47 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:44:46.85 on 13 Jul 2020
+[2020-07-13 22:44:47 -0500] Sync Log:  Synchronization complete at 22:44:46  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 22:45:10 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:45:09.73 on 13 Jul 2020
+[2020-07-13 22:45:10 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PostExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 22:45:10 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PostExpenseTest.php
+[2020-07-13 22:45:10 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:45:09.73 on 13 Jul 2020
+[2020-07-13 22:45:10 -0500] Sync Log:  Synchronization complete at 22:45:09  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 22:47:20 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:47:20.08 on 13 Jul 2020
+[2020-07-13 22:47:20 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PostExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 22:47:20 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PostExpenseTest.php
+[2020-07-13 22:47:20 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:47:20.08 on 13 Jul 2020
+[2020-07-13 22:47:20 -0500] Sync Log:  Synchronization complete at 22:47:20  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 22:48:03 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:48:03.07 on 13 Jul 2020
+[2020-07-13 22:48:03 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PostExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 22:48:03 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PostExpenseTest.php
+[2020-07-13 22:48:03 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:48:03.08 on 13 Jul 2020
+[2020-07-13 22:48:03 -0500] Sync Log:  Synchronization complete at 22:48:03  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 22:51:28 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:51:27.81 on 13 Jul 2020
+[2020-07-13 22:51:28 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PostExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 22:51:28 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PostExpenseTest.php
+[2020-07-13 22:51:28 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:51:27.82 on 13 Jul 2020
+[2020-07-13 22:51:28 -0500] Sync Log:  Synchronization complete at 22:51:27  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 22:51:45 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:51:44.80 on 13 Jul 2020
+[2020-07-13 22:51:45 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PostExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 22:51:45 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PostExpenseTest.php
+[2020-07-13 22:51:45 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:51:44.82 on 13 Jul 2020
+[2020-07-13 22:51:45 -0500] Sync Log:  Synchronization complete at 22:51:44  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 22:52:42 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:52:42.25 on 13 Jul 2020
+[2020-07-13 22:52:42 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PostExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 22:52:42 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PostExpenseTest.php
+[2020-07-13 22:52:42 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:52:42.27 on 13 Jul 2020
+[2020-07-13 22:52:42 -0500] Sync Log:  Synchronization complete at 22:52:42  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 22:57:03 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:57:02.60 on 13 Jul 2020
+[2020-07-13 22:57:03 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PostExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 22:57:03 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PostExpenseTest.php
+[2020-07-13 22:57:03 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:57:02.61 on 13 Jul 2020
+[2020-07-13 22:57:03 -0500] Sync Log:  Synchronization complete at 22:57:02  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 22:57:17 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:57:16.35 on 13 Jul 2020
+[2020-07-13 22:57:17 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PostExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 22:57:17 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PostExpenseTest.php
+[2020-07-13 22:57:17 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:57:16.36 on 13 Jul 2020
+[2020-07-13 22:57:17 -0500] Sync Log:  Synchronization complete at 22:57:16  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 22:57:55 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:57:55.10 on 13 Jul 2020
+[2020-07-13 22:57:55 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PostExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 22:57:55 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PostExpenseTest.php
+[2020-07-13 22:57:55 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:57:55.10 on 13 Jul 2020
+[2020-07-13 22:57:55 -0500] Sync Log:  Synchronization complete at 22:57:55  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-13 22:59:45 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 22:59:44.85 on 13 Jul 2020
+[2020-07-13 22:59:45 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PostExpenseTest.php from /host_sync to /app_sync
+[2020-07-13 22:59:45 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PostExpenseTest.php
+[2020-07-13 22:59:45 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 22:59:44.85 on 13 Jul 2020
+[2020-07-13 22:59:45 -0500] Sync Log:  Synchronization complete at 22:59:44  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:01:58 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:01:57.90 on 14 Jul 2020
+[2020-07-14 00:01:58 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PostExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 00:01:58 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PostExpenseTest.php
+[2020-07-14 00:01:58 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:01:57.92 on 14 Jul 2020
+[2020-07-14 00:01:58 -0500] Sync Log:  Synchronization complete at 00:01:57  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:18:10 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:18:10.77 on 14 Jul 2020
+[2020-07-14 00:18:10 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PostExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 00:18:11 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PostExpenseTest.php
+[2020-07-14 00:18:11 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:18:10.78 on 14 Jul 2020
+[2020-07-14 00:18:11 -0500] Sync Log:  Synchronization complete at 00:18:10  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:19:35 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:19:35.17 on 14 Jul 2020
+[2020-07-14 00:19:35 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PostExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 00:19:35 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PostExpenseTest.php
+[2020-07-14 00:19:35 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:19:35.18 on 14 Jul 2020
+[2020-07-14 00:19:35 -0500] Sync Log:  Synchronization complete at 00:19:35  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:20:14 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:20:14.18 on 14 Jul 2020
+[2020-07-14 00:20:14 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PostExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 00:20:14 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PostExpenseTest.php
+[2020-07-14 00:20:14 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:20:14.19 on 14 Jul 2020
+[2020-07-14 00:20:14 -0500] Sync Log:  Synchronization complete at 00:20:14  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:20:40 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:20:40.25 on 14 Jul 2020
+[2020-07-14 00:20:40 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PostExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 00:20:40 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PostExpenseTest.php
+[2020-07-14 00:20:40 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:20:40.26 on 14 Jul 2020
+[2020-07-14 00:20:40 -0500] Sync Log:  Synchronization complete at 00:20:40  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:21:32 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:21:32.43 on 14 Jul 2020
+[2020-07-14 00:21:32 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PostExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 00:21:32 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PostExpenseTest.php
+[2020-07-14 00:21:32 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:21:32.43 on 14 Jul 2020
+[2020-07-14 00:21:32 -0500] Sync Log:  Synchronization complete at 00:21:32  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:22:28 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:22:28.15 on 14 Jul 2020
+[2020-07-14 00:22:28 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PostExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 00:22:28 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PostExpenseTest.php
+[2020-07-14 00:22:28 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:22:28.17 on 14 Jul 2020
+[2020-07-14 00:22:28 -0500] Sync Log:  Synchronization complete at 00:22:28  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:24:39 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:24:38.91 on 14 Jul 2020
+[2020-07-14 00:24:39 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PostExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 00:24:39 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PostExpenseTest.php
+[2020-07-14 00:24:39 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:24:38.92 on 14 Jul 2020
+[2020-07-14 00:24:39 -0500] Sync Log:  Synchronization complete at 00:24:38  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:25:23 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:25:22.89 on 14 Jul 2020
+[2020-07-14 00:25:23 -0500] Sync Log:  [BGN] Copying tests/Functional/Api/Expense/PutExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 00:25:23 -0500] Sync Log:  [END] Copying tests/Functional/Api/Expense/PutExpenseTest.php
+[2020-07-14 00:25:23 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:25:22.90 on 14 Jul 2020
+[2020-07-14 00:25:23 -0500] Sync Log:  Synchronization complete at 00:25:22  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:25:32 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:25:31.82 on 14 Jul 2020
+[2020-07-14 00:25:32 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PutExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 00:25:32 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PutExpenseTest.php
+[2020-07-14 00:25:32 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:25:31.83 on 14 Jul 2020
+[2020-07-14 00:25:32 -0500] Sync Log:  Synchronization complete at 00:25:31  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:27:36 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:27:36.00 on 14 Jul 2020
+[2020-07-14 00:27:36 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PutExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 00:27:36 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PutExpenseTest.php
+[2020-07-14 00:27:36 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:27:36.01 on 14 Jul 2020
+[2020-07-14 00:27:36 -0500] Sync Log:  Synchronization complete at 00:27:36  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:29:04 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:29:04.33 on 14 Jul 2020
+[2020-07-14 00:29:04 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PutExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 00:29:04 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PutExpenseTest.php
+[2020-07-14 00:29:04 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:29:04.34 on 14 Jul 2020
+[2020-07-14 00:29:04 -0500] Sync Log:  Synchronization complete at 00:29:04  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:29:43 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:29:43.33 on 14 Jul 2020
+[2020-07-14 00:29:43 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PutExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 00:29:43 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PutExpenseTest.php
+[2020-07-14 00:29:43 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:29:43.36 on 14 Jul 2020
+[2020-07-14 00:29:43 -0500] Sync Log:  Synchronization complete at 00:29:43  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:31:21 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:31:21.06 on 14 Jul 2020
+[2020-07-14 00:31:21 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PutExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 00:31:21 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PutExpenseTest.php
+[2020-07-14 00:31:21 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:31:21.07 on 14 Jul 2020
+[2020-07-14 00:31:21 -0500] Sync Log:  Synchronization complete at 00:31:21  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:32:27 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:32:26.90 on 14 Jul 2020
+[2020-07-14 00:32:27 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PutExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 00:32:27 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PutExpenseTest.php
+[2020-07-14 00:32:27 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:32:26.91 on 14 Jul 2020
+[2020-07-14 00:32:27 -0500] Sync Log:  Synchronization complete at 00:32:26  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:33:16 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:33:16.76 on 14 Jul 2020
+[2020-07-14 00:33:16 -0500] Sync Log:  [BGN] Updating file src/Api/Listener/Expense/ExpensePreWriteListener.php from /host_sync to /app_sync
+[2020-07-14 00:33:16 -0500] Sync Log:  [END] Updating file src/Api/Listener/Expense/ExpensePreWriteListener.php
+[2020-07-14 00:33:16 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:33:16.77 on 14 Jul 2020
+[2020-07-14 00:33:16 -0500] Sync Log:  Synchronization complete at 00:33:16  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:34:03 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:34:02.90 on 14 Jul 2020
+[2020-07-14 00:34:03 -0500] Sync Log:  [BGN] Updating file src/Api/Listener/Expense/ExpensePreWriteListener.php from /host_sync to /app_sync
+[2020-07-14 00:34:03 -0500] Sync Log:  [END] Updating file src/Api/Listener/Expense/ExpensePreWriteListener.php
+[2020-07-14 00:34:03 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:34:02.91 on 14 Jul 2020
+[2020-07-14 00:34:03 -0500] Sync Log:  Synchronization complete at 00:34:02  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:34:15 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:34:15.36 on 14 Jul 2020
+[2020-07-14 00:34:15 -0500] Sync Log:  [BGN] Updating file src/Api/Listener/Expense/ExpensePreWriteListener.php from /host_sync to /app_sync
+[2020-07-14 00:34:15 -0500] Sync Log:  [END] Updating file src/Api/Listener/Expense/ExpensePreWriteListener.php
+[2020-07-14 00:34:15 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:34:15.37 on 14 Jul 2020
+[2020-07-14 00:34:15 -0500] Sync Log:  Synchronization complete at 00:34:15  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:34:30 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:34:30.07 on 14 Jul 2020
+[2020-07-14 00:34:30 -0500] Sync Log:  [BGN] Updating file src/Api/Listener/Expense/ExpensePreWriteListener.php from /host_sync to /app_sync
+[2020-07-14 00:34:30 -0500] Sync Log:  [END] Updating file src/Api/Listener/Expense/ExpensePreWriteListener.php
+[2020-07-14 00:34:30 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:34:30.07 on 14 Jul 2020
+[2020-07-14 00:34:30 -0500] Sync Log:  Synchronization complete at 00:34:30  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:34:41 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:34:41.83 on 14 Jul 2020
+[2020-07-14 00:34:41 -0500] Sync Log:  [BGN] Updating file src/Api/Listener/Expense/ExpensePreWriteListener.php from /host_sync to /app_sync
+[2020-07-14 00:34:41 -0500] Sync Log:  [END] Updating file src/Api/Listener/Expense/ExpensePreWriteListener.php
+[2020-07-14 00:34:41 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:34:41.84 on 14 Jul 2020
+[2020-07-14 00:34:41 -0500] Sync Log:  Synchronization complete at 00:34:41  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:34:51 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:34:50.93 on 14 Jul 2020
+[2020-07-14 00:34:51 -0500] Sync Log:  [BGN] Updating file src/Api/Listener/Expense/ExpensePreWriteListener.php from /host_sync to /app_sync
+[2020-07-14 00:34:51 -0500] Sync Log:  [END] Updating file src/Api/Listener/Expense/ExpensePreWriteListener.php
+[2020-07-14 00:34:51 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:34:50.93 on 14 Jul 2020
+[2020-07-14 00:34:51 -0500] Sync Log:  Synchronization complete at 00:34:50  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:35:05 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:35:05.57 on 14 Jul 2020
+[2020-07-14 00:35:05 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PutExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 00:35:05 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PutExpenseTest.php
+[2020-07-14 00:35:05 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:35:05.58 on 14 Jul 2020
+[2020-07-14 00:35:05 -0500] Sync Log:  Synchronization complete at 00:35:05  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:35:12 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:35:11.91 on 14 Jul 2020
+[2020-07-14 00:35:12 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PutExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 00:35:12 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PutExpenseTest.php
+[2020-07-14 00:35:12 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:35:11.91 on 14 Jul 2020
+[2020-07-14 00:35:12 -0500] Sync Log:  Synchronization complete at 00:35:11  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:39:29 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:39:28.98 on 14 Jul 2020
+[2020-07-14 00:39:29 -0500] Sync Log:  [BGN] Copying tests/Functional/Api/Expense/DeleteExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 00:39:29 -0500] Sync Log:  [END] Copying tests/Functional/Api/Expense/DeleteExpenseTest.php
+[2020-07-14 00:39:29 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:39:29.00 on 14 Jul 2020
+[2020-07-14 00:39:29 -0500] Sync Log:  Synchronization complete at 00:39:29  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:39:49 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:39:48.49 on 14 Jul 2020
+[2020-07-14 00:39:49 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/DeleteExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 00:39:49 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/DeleteExpenseTest.php
+[2020-07-14 00:39:49 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:39:48.49 on 14 Jul 2020
+[2020-07-14 00:39:49 -0500] Sync Log:  Synchronization complete at 00:39:48  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:42:04 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:42:03.86 on 14 Jul 2020
+[2020-07-14 00:42:04 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/DeleteExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 00:42:04 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/DeleteExpenseTest.php
+[2020-07-14 00:42:04 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:42:03.87 on 14 Jul 2020
+[2020-07-14 00:42:04 -0500] Sync Log:  Synchronization complete at 00:42:03  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:42:28 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:42:27.58 on 14 Jul 2020
+[2020-07-14 00:42:28 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/DeleteExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 00:42:28 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/DeleteExpenseTest.php
+[2020-07-14 00:42:28 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:42:27.59 on 14 Jul 2020
+[2020-07-14 00:42:28 -0500] Sync Log:  Synchronization complete at 00:42:27  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:45:02 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:45:02.17 on 14 Jul 2020
+[2020-07-14 00:45:02 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/DeleteExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 00:45:02 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/DeleteExpenseTest.php
+[2020-07-14 00:45:02 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:45:02.18 on 14 Jul 2020
+[2020-07-14 00:45:02 -0500] Sync Log:  Synchronization complete at 00:45:02  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:48:07 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:48:06.91 on 14 Jul 2020
+[2020-07-14 00:48:07 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/DeleteExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 00:48:07 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/DeleteExpenseTest.php
+[2020-07-14 00:48:07 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:48:06.92 on 14 Jul 2020
+[2020-07-14 00:48:07 -0500] Sync Log:  Synchronization complete at 00:48:06  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:49:05 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:49:04.97 on 14 Jul 2020
+[2020-07-14 00:49:05 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/DeleteExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 00:49:05 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/DeleteExpenseTest.php
+[2020-07-14 00:49:05 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:49:04.98 on 14 Jul 2020
+[2020-07-14 00:49:05 -0500] Sync Log:  Synchronization complete at 00:49:04  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:51:25 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:51:24.25 on 14 Jul 2020
+[2020-07-14 00:51:25 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/DeleteExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 00:51:25 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/DeleteExpenseTest.php
+[2020-07-14 00:51:25 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:51:24.26 on 14 Jul 2020
+[2020-07-14 00:51:25 -0500] Sync Log:  Synchronization complete at 00:51:24  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:51:47 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:51:46.11 on 14 Jul 2020
+[2020-07-14 00:51:47 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/DeleteExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 00:51:47 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/DeleteExpenseTest.php
+[2020-07-14 00:51:47 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:51:46.13 on 14 Jul 2020
+[2020-07-14 00:51:47 -0500] Sync Log:  Synchronization complete at 00:51:46  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:52:13 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:52:13.09 on 14 Jul 2020
+[2020-07-14 00:52:13 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/DeleteExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 00:52:13 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/DeleteExpenseTest.php
+[2020-07-14 00:52:13 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:52:13.10 on 14 Jul 2020
+[2020-07-14 00:52:13 -0500] Sync Log:  Synchronization complete at 00:52:13  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:54:01 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:54:00.87 on 14 Jul 2020
+[2020-07-14 00:54:01 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PutExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 00:54:01 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PutExpenseTest.php
+[2020-07-14 00:54:01 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:54:00.88 on 14 Jul 2020
+[2020-07-14 00:54:01 -0500] Sync Log:  Synchronization complete at 00:54:00  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:54:47 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:54:46.36 on 14 Jul 2020
+[2020-07-14 00:54:47 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PutExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 00:54:47 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PutExpenseTest.php
+[2020-07-14 00:54:47 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:54:46.37 on 14 Jul 2020
+[2020-07-14 00:54:47 -0500] Sync Log:  Synchronization complete at 00:54:46  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:57:18 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:57:18.15 on 14 Jul 2020
+[2020-07-14 00:57:18 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PutExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 00:57:18 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PutExpenseTest.php
+[2020-07-14 00:57:18 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:57:18.16 on 14 Jul 2020
+[2020-07-14 00:57:18 -0500] Sync Log:  Synchronization complete at 00:57:18  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:58:09 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:58:09.37 on 14 Jul 2020
+[2020-07-14 00:58:09 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PutExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 00:58:09 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PutExpenseTest.php
+[2020-07-14 00:58:09 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:58:09.38 on 14 Jul 2020
+[2020-07-14 00:58:09 -0500] Sync Log:  Synchronization complete at 00:58:09  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 00:59:05 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 00:59:04.68 on 14 Jul 2020
+[2020-07-14 00:59:05 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PutExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 00:59:05 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PutExpenseTest.php
+[2020-07-14 00:59:05 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 00:59:04.69 on 14 Jul 2020
+[2020-07-14 00:59:05 -0500] Sync Log:  Synchronization complete at 00:59:04  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 01:00:06 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:00:05.41 on 14 Jul 2020
+[2020-07-14 01:00:06 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PutExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 01:00:06 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PutExpenseTest.php
+[2020-07-14 01:00:06 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:00:05.41 on 14 Jul 2020
+[2020-07-14 01:00:06 -0500] Sync Log:  Synchronization complete at 01:00:05  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 01:00:53 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:00:52.98 on 14 Jul 2020
+[2020-07-14 01:00:53 -0500] Sync Log:  [BGN] Copying tests/Functional/Api/User/GetUserExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 01:00:53 -0500] Sync Log:  [END] Copying tests/Functional/Api/User/GetUserExpenseTest.php
+[2020-07-14 01:00:53 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:00:52.99 on 14 Jul 2020
+[2020-07-14 01:00:53 -0500] Sync Log:  Synchronization complete at 01:00:53  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 01:01:50 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:01:50.08 on 14 Jul 2020
+[2020-07-14 01:01:50 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/User/GetUserExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 01:01:50 -0500] Sync Log:  [END] Updating file tests/Functional/Api/User/GetUserExpenseTest.php
+[2020-07-14 01:01:50 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:01:50.12 on 14 Jul 2020
+[2020-07-14 01:01:50 -0500] Sync Log:  Synchronization complete at 01:01:50  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 01:03:46 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:03:45.57 on 14 Jul 2020
+[2020-07-14 01:03:46 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/User/GetUserExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 01:03:46 -0500] Sync Log:  [END] Updating file tests/Functional/Api/User/GetUserExpenseTest.php
+[2020-07-14 01:03:46 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:03:45.58 on 14 Jul 2020
+[2020-07-14 01:03:46 -0500] Sync Log:  Synchronization complete at 01:03:45  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 01:10:55 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:10:54.89 on 14 Jul 2020
+[2020-07-14 01:10:55 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/User/GetUserExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 01:10:55 -0500] Sync Log:  [END] Updating file tests/Functional/Api/User/GetUserExpenseTest.php
+[2020-07-14 01:10:55 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:10:54.89 on 14 Jul 2020
+[2020-07-14 01:10:55 -0500] Sync Log:  Synchronization complete at 01:10:54  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 01:12:27 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:12:27.62 on 14 Jul 2020
+[2020-07-14 01:12:27 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/User/GetUserExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 01:12:27 -0500] Sync Log:  [END] Updating file tests/Functional/Api/User/GetUserExpenseTest.php
+[2020-07-14 01:12:27 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:12:27.63 on 14 Jul 2020
+[2020-07-14 01:12:27 -0500] Sync Log:  Synchronization complete at 01:12:27  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 01:14:18 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:14:17.29 on 14 Jul 2020
+[2020-07-14 01:14:18 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/User/GetUserExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 01:14:18 -0500] Sync Log:  [END] Updating file tests/Functional/Api/User/GetUserExpenseTest.php
+[2020-07-14 01:14:18 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:14:17.30 on 14 Jul 2020
+[2020-07-14 01:14:18 -0500] Sync Log:  Synchronization complete at 01:14:17  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 01:15:09 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:15:09.09 on 14 Jul 2020
+[2020-07-14 01:15:09 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/User/GetUserExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 01:15:09 -0500] Sync Log:  [END] Updating file tests/Functional/Api/User/GetUserExpenseTest.php
+[2020-07-14 01:15:09 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:15:09.10 on 14 Jul 2020
+[2020-07-14 01:15:09 -0500] Sync Log:  Synchronization complete at 01:15:09  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 01:16:28 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:16:27.95 on 14 Jul 2020
+[2020-07-14 01:16:28 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/User/GetUserExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 01:16:28 -0500] Sync Log:  [END] Updating file tests/Functional/Api/User/GetUserExpenseTest.php
+[2020-07-14 01:16:28 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:16:27.97 on 14 Jul 2020
+[2020-07-14 01:16:28 -0500] Sync Log:  Synchronization complete at 01:16:27  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 01:21:33 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:21:33.15 on 14 Jul 2020
+[2020-07-14 01:21:33 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/User/GetUserExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 01:21:33 -0500] Sync Log:  [END] Updating file tests/Functional/Api/User/GetUserExpenseTest.php
+[2020-07-14 01:21:33 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:21:33.17 on 14 Jul 2020
+[2020-07-14 01:21:33 -0500] Sync Log:  Synchronization complete at 01:21:33  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 01:27:02 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:27:02.32 on 14 Jul 2020
+[2020-07-14 01:27:02 -0500] Sync Log:  [BGN] Updating file src/Doctrine/Extension/DoctrineUserExtension.php from /host_sync to /app_sync
+[2020-07-14 01:27:02 -0500] Sync Log:  [END] Updating file src/Doctrine/Extension/DoctrineUserExtension.php
+[2020-07-14 01:27:02 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:27:02.34 on 14 Jul 2020
+[2020-07-14 01:27:02 -0500] Sync Log:  Synchronization complete at 01:27:02  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 01:27:30 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:27:30.08 on 14 Jul 2020
+[2020-07-14 01:27:30 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/User/GetUserExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 01:27:30 -0500] Sync Log:  [END] Updating file tests/Functional/Api/User/GetUserExpenseTest.php
+[2020-07-14 01:27:30 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:27:30.09 on 14 Jul 2020
+[2020-07-14 01:27:30 -0500] Sync Log:  Synchronization complete at 01:27:30  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 01:28:25 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:28:25.08 on 14 Jul 2020
+[2020-07-14 01:28:25 -0500] Sync Log:  [BGN] Updating file .env.test from /host_sync to /app_sync
+[2020-07-14 01:28:25 -0500] Sync Log:  [END] Updating file .env.test
+[2020-07-14 01:28:25 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:28:25.09 on 14 Jul 2020
+[2020-07-14 01:28:25 -0500] Sync Log:  Synchronization complete at 01:28:25  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 01:28:26 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:28:26.11 on 14 Jul 2020
+[2020-07-14 01:28:26 -0500] Sync Log:  [BGN] Updating file .env.test from /host_sync to /app_sync
+[2020-07-14 01:28:26 -0500] Sync Log:  [END] Updating file .env.test
+[2020-07-14 01:28:26 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:28:26.12 on 14 Jul 2020
+[2020-07-14 01:28:26 -0500] Sync Log:  Synchronization complete at 01:28:26  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 01:30:42 -0500] Sync Log:  Error response from daemon: Bad response from Docker engine
+          ok  Starting native_osx for sync sf5-gastos-api-be-sync
+          ok  sf5-gastos-api-be-sync container still running, restarting unison in container
+unison: stopped
+unison: started
+     success  Sync container started
+     success  Showing unison logs from your sync container: sf5-gastos-api-be-sync
+[2020-07-14 01:51:26 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:51:21.59 on 14 Jul 2020
+[2020-07-14 01:51:26 -0500] Sync Log:  [BGN] Updating file .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-07-14 01:51:26 -0500] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2020-07-14 01:51:26 -0500] Sync Log:  [BGN] Copying .docker-sync/daemon.pid from /host_sync to /app_sync
+[2020-07-14 01:51:26 -0500] Sync Log:  [END] Copying .docker-sync/daemon.pid
+[2020-07-14 01:51:26 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:51:21.62 on 14 Jul 2020
+[2020-07-14 01:51:26 -0500] Sync Log:  Synchronization complete at 01:51:21  (2 items transferred, 0 skipped, 0 failed)
+[2020-07-14 01:51:31 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:51:31.01 on 14 Jul 2020
+[2020-07-14 01:51:31 -0500] Sync Log:  [BGN] Updating file .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-07-14 01:51:31 -0500] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2020-07-14 01:51:31 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:51:31.03 on 14 Jul 2020
+[2020-07-14 01:51:31 -0500] Sync Log:  Synchronization complete at 01:51:31  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 01:56:53 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:56:52.71 on 14 Jul 2020
+[2020-07-14 01:56:53 -0500] Sync Log:  [BGN] Updating file .env.test from /host_sync to /app_sync
+[2020-07-14 01:56:53 -0500] Sync Log:  [END] Updating file .env.test
+[2020-07-14 01:56:53 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:56:52.72 on 14 Jul 2020
+[2020-07-14 01:56:53 -0500] Sync Log:  Synchronization complete at 01:56:52  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 01:58:08 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:58:08.31 on 14 Jul 2020
+[2020-07-14 01:58:08 -0500] Sync Log:  [BGN] Copying tests/Functional/Api/Group/GetGroupExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 01:58:08 -0500] Sync Log:  [END] Copying tests/Functional/Api/Group/GetGroupExpenseTest.php
+[2020-07-14 01:58:08 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:58:08.32 on 14 Jul 2020
+[2020-07-14 01:58:08 -0500] Sync Log:  Synchronization complete at 01:58:08  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 01:58:42 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:58:42.06 on 14 Jul 2020
+[2020-07-14 01:58:42 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Group/GetGroupExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 01:58:42 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Group/GetGroupExpenseTest.php
+[2020-07-14 01:58:42 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:58:42.07 on 14 Jul 2020
+[2020-07-14 01:58:42 -0500] Sync Log:  Synchronization complete at 01:58:42  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 01:59:08 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:59:08.37 on 14 Jul 2020
+[2020-07-14 01:59:08 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Group/GetGroupExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 01:59:08 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Group/GetGroupExpenseTest.php
+[2020-07-14 01:59:08 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:59:08.38 on 14 Jul 2020
+[2020-07-14 01:59:08 -0500] Sync Log:  Synchronization complete at 01:59:08  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 01:59:58 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 01:59:58.17 on 14 Jul 2020
+[2020-07-14 01:59:58 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Group/GetGroupExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 01:59:58 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Group/GetGroupExpenseTest.php
+[2020-07-14 01:59:58 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 01:59:58.18 on 14 Jul 2020
+[2020-07-14 01:59:58 -0500] Sync Log:  Synchronization complete at 01:59:58  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 02:04:03 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:04:03.50 on 14 Jul 2020
+[2020-07-14 02:04:04 -0500] Sync Log:  [BGN] Updating file src/DataFixtures/AppFixtures.php from /host_sync to /app_sync
+[2020-07-14 02:04:04 -0500] Sync Log:  [END] Updating file src/DataFixtures/AppFixtures.php
+[2020-07-14 02:04:04 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:04:03.51 on 14 Jul 2020
+[2020-07-14 02:04:04 -0500] Sync Log:  Synchronization complete at 02:04:03  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 02:04:11 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:04:11.78 on 14 Jul 2020
+[2020-07-14 02:04:11 -0500] Sync Log:  [BGN] Updating file .env.test from /host_sync to /app_sync
+[2020-07-14 02:04:11 -0500] Sync Log:  [END] Updating file .env.test
+[2020-07-14 02:04:11 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:04:11.79 on 14 Jul 2020
+[2020-07-14 02:04:11 -0500] Sync Log:  Synchronization complete at 02:04:11  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 02:04:51 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:04:50.78 on 14 Jul 2020
+[2020-07-14 02:04:51 -0500] Sync Log:  [BGN] Updating file .env.test from /host_sync to /app_sync
+[2020-07-14 02:04:51 -0500] Sync Log:  [END] Updating file .env.test
+[2020-07-14 02:04:51 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:04:50.78 on 14 Jul 2020
+[2020-07-14 02:04:51 -0500] Sync Log:  Synchronization complete at 02:04:50  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 02:05:08 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:05:07.76 on 14 Jul 2020
+[2020-07-14 02:05:08 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Group/GetGroupExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 02:05:08 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Group/GetGroupExpenseTest.php
+[2020-07-14 02:05:08 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:05:07.77 on 14 Jul 2020
+[2020-07-14 02:05:08 -0500] Sync Log:  Synchronization complete at 02:05:07  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 02:05:18 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:05:17.27 on 14 Jul 2020
+[2020-07-14 02:05:18 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Group/GetGroupExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 02:05:18 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Group/GetGroupExpenseTest.php
+[2020-07-14 02:05:18 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:05:17.28 on 14 Jul 2020
+[2020-07-14 02:05:18 -0500] Sync Log:  Synchronization complete at 02:05:17  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 02:05:49 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:05:48.63 on 14 Jul 2020
+[2020-07-14 02:05:49 -0500] Sync Log:  [BGN] Updating file src/DataFixtures/AppFixtures.php from /app_sync to /host_sync
+[2020-07-14 02:05:49 -0500] Sync Log:  [END] Updating file src/DataFixtures/AppFixtures.php
+[2020-07-14 02:05:49 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:05:48.70 on 14 Jul 2020
+[2020-07-14 02:05:49 -0500] Sync Log:  Synchronization complete at 02:05:48  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 02:05:50 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:05:49.72 on 14 Jul 2020
+[2020-07-14 02:05:50 -0500] Sync Log:  [BGN] Updating file .php_cs.cache from /app_sync to /host_sync
+[2020-07-14 02:05:50 -0500] Sync Log:  [END] Updating file .php_cs.cache
+[2020-07-14 02:05:50 -0500] Sync Log:  [BGN] Updating file src/Api/Listener/Expense/ExpensePreWriteListener.php from /app_sync to /host_sync
+[2020-07-14 02:05:50 -0500] Sync Log:  [END] Updating file src/Api/Listener/Expense/ExpensePreWriteListener.php
+[2020-07-14 02:05:50 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/DeleteExpenseTest.php from /app_sync to /host_sync
+[2020-07-14 02:05:50 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/DeleteExpenseTest.php
+[2020-07-14 02:05:50 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/ExpenseTestBase.php from /app_sync to /host_sync
+[2020-07-14 02:05:50 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/ExpenseTestBase.php
+[2020-07-14 02:05:50 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/GetExpenseTest.php from /app_sync to /host_sync
+[2020-07-14 02:05:50 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/GetExpenseTest.php
+[2020-07-14 02:05:50 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PostExpenseTest.php from /app_sync to /host_sync
+[2020-07-14 02:05:50 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PostExpenseTest.php
+[2020-07-14 02:05:50 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Expense/PutExpenseTest.php from /app_sync to /host_sync
+[2020-07-14 02:05:50 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Expense/PutExpenseTest.php
+[2020-07-14 02:05:50 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Group/GetGroupExpenseTest.php from /app_sync to /host_sync
+[2020-07-14 02:05:51 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Group/GetGroupExpenseTest.php
+[2020-07-14 02:05:51 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/User/GetUserExpenseTest.php from /app_sync to /host_sync
+[2020-07-14 02:05:51 -0500] Sync Log:  [END] Updating file tests/Functional/Api/User/GetUserExpenseTest.php
+[2020-07-14 02:05:51 -0500] Sync Log:  [BGN] Updating file tests/Functional/TestBase.php from /app_sync to /host_sync
+[2020-07-14 02:05:51 -0500] Sync Log:  [END] Updating file tests/Functional/TestBase.php
+[2020-07-14 02:05:51 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:05:50.11 on 14 Jul 2020
+[2020-07-14 02:05:51 -0500] Sync Log:  Synchronization complete at 02:05:50  (10 items transferred, 0 skipped, 0 failed)
+[2020-07-14 02:07:52 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:07:51.60 on 14 Jul 2020
+[2020-07-14 02:07:52 -0500] Sync Log:  [BGN] Updating file .DS_Store from /host_sync to /app_sync
+[2020-07-14 02:07:52 -0500] Sync Log:  [END] Updating file .DS_Store
+[2020-07-14 02:07:52 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:07:51.69 on 14 Jul 2020
+[2020-07-14 02:07:52 -0500] Sync Log:  Synchronization complete at 02:07:51  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 02:08:07 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:08:06.85 on 14 Jul 2020
+[2020-07-14 02:08:07 -0500] Sync Log:  [BGN] Updating file .DS_Store from /host_sync to /app_sync
+[2020-07-14 02:08:07 -0500] Sync Log:  [END] Updating file .DS_Store
+[2020-07-14 02:08:07 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:08:06.86 on 14 Jul 2020
+[2020-07-14 02:08:07 -0500] Sync Log:  Synchronization complete at 02:08:06  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 02:08:15 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:08:15.01 on 14 Jul 2020
+[2020-07-14 02:08:15 -0500] Sync Log:  [BGN] Updating file .DS_Store from /host_sync to /app_sync
+[2020-07-14 02:08:15 -0500] Sync Log:  [END] Updating file .DS_Store
+[2020-07-14 02:08:15 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:08:15.02 on 14 Jul 2020
+[2020-07-14 02:08:15 -0500] Sync Log:  Synchronization complete at 02:08:15  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 02:14:34 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:14:34.22 on 14 Jul 2020
+[2020-07-14 02:14:34 -0500] Sync Log:  [BGN] Updating file src/Doctrine/Mapping/Entity/Category.orm.yml from /host_sync to /app_sync
+[2020-07-14 02:14:34 -0500] Sync Log:  [END] Updating file src/Doctrine/Mapping/Entity/Category.orm.yml
+[2020-07-14 02:14:34 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:14:34.24 on 14 Jul 2020
+[2020-07-14 02:14:34 -0500] Sync Log:  Synchronization complete at 02:14:34  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 02:14:45 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:14:44.77 on 14 Jul 2020
+[2020-07-14 02:14:45 -0500] Sync Log:  [BGN] Updating file src/Doctrine/Mapping/Entity/Category.orm.yml from /host_sync to /app_sync
+[2020-07-14 02:14:45 -0500] Sync Log:  [END] Updating file src/Doctrine/Mapping/Entity/Category.orm.yml
+[2020-07-14 02:14:45 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:14:44.78 on 14 Jul 2020
+[2020-07-14 02:14:45 -0500] Sync Log:  Synchronization complete at 02:14:44  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 02:15:40 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:15:40.34 on 14 Jul 2020
+[2020-07-14 02:15:40 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Category/GetCategoryTest.php from /host_sync to /app_sync
+[2020-07-14 02:15:40 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Category/GetCategoryTest.php
+[2020-07-14 02:15:40 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/User/GetUserExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 02:15:40 -0500] Sync Log:  [END] Updating file tests/Functional/Api/User/GetUserExpenseTest.php
+[2020-07-14 02:15:40 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:15:40.36 on 14 Jul 2020
+[2020-07-14 02:15:40 -0500] Sync Log:  Synchronization complete at 02:15:40  (2 items transferred, 0 skipped, 0 failed)
