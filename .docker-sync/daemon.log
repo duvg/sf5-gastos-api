@@ -10027,3 +10027,59 @@ unison: started
 [2020-07-14 02:15:40 -0500] Sync Log:  [END] Updating file tests/Functional/Api/User/GetUserExpenseTest.php
 [2020-07-14 02:15:40 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:15:40.36 on 14 Jul 2020
 [2020-07-14 02:15:40 -0500] Sync Log:  Synchronization complete at 02:15:40  (2 items transferred, 0 skipped, 0 failed)
+[2020-07-14 02:22:21 -0500] Sync Log:  Error response from daemon: Bad response from Docker engine
+          ok  Starting native_osx for sync sf5-gastos-api-be-sync
+          ok  sf5-gastos-api-be-sync container still running, restarting unison in container
+unison: stopped
+unison: started
+     success  Sync container started
+     success  Showing unison logs from your sync container: sf5-gastos-api-be-sync
+[2020-07-14 13:18:29 -0500] Sync Log:  [END] Updating file src/Doctrine/Mapping/Entity/Category.orm.yml
+[2020-07-14 13:18:29 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:14:44.78 on 14 Jul 2020
+[2020-07-14 13:18:29 -0500] Sync Log:  Synchronization complete at 02:14:44  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 13:18:29 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 02:15:40.34 on 14 Jul 2020
+[2020-07-14 13:18:29 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Category/GetCategoryTest.php from /host_sync to /app_sync
+[2020-07-14 13:18:29 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Category/GetCategoryTest.php
+[2020-07-14 13:18:29 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/User/GetUserExpenseTest.php from /host_sync to /app_sync
+[2020-07-14 13:18:29 -0500] Sync Log:  [END] Updating file tests/Functional/Api/User/GetUserExpenseTest.php
+[2020-07-14 13:18:29 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 02:15:40.36 on 14 Jul 2020
+[2020-07-14 13:18:29 -0500] Sync Log:  Synchronization complete at 02:15:40  (2 items transferred, 0 skipped, 0 failed)
+[2020-07-14 13:18:33 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 13:18:33.83 on 14 Jul 2020
+[2020-07-14 13:18:33 -0500] Sync Log:  [BGN] Updating file .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-07-14 13:18:34 -0500] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2020-07-14 13:18:34 -0500] Sync Log:  [BGN] Updating file .docker-sync/daemon.pid from /host_sync to /app_sync
+[2020-07-14 13:18:34 -0500] Sync Log:  [END] Updating file .docker-sync/daemon.pid
+[2020-07-14 13:18:34 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 13:18:33.86 on 14 Jul 2020
+[2020-07-14 13:18:34 -0500] Sync Log:  Synchronization complete at 13:18:33  (2 items transferred, 0 skipped, 0 failed)
+[2020-07-14 13:37:30 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 13:37:30.00 on 14 Jul 2020
+[2020-07-14 13:37:30 -0500] Sync Log:  [BGN] Updating file src/Api/Listener/Expense/ExpensePreWriteListener.php from /host_sync to /app_sync
+[2020-07-14 13:37:30 -0500] Sync Log:  [END] Updating file src/Api/Listener/Expense/ExpensePreWriteListener.php
+[2020-07-14 13:37:30 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 13:37:30.01 on 14 Jul 2020
+[2020-07-14 13:37:30 -0500] Sync Log:  Synchronization complete at 13:37:30  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 13:38:18 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 13:38:18.29 on 14 Jul 2020
+[2020-07-14 13:38:18 -0500] Sync Log:  [BGN] Updating file src/Exception/Common/CannotAddAnotherUserAsOwnerException.php from /host_sync to /app_sync
+[2020-07-14 13:38:18 -0500] Sync Log:  [END] Updating file src/Exception/Common/CannotAddAnotherUserAsOwnerException.php
+[2020-07-14 13:38:18 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 13:38:18.30 on 14 Jul 2020
+[2020-07-14 13:38:18 -0500] Sync Log:  Synchronization complete at 13:38:18  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 13:39:10 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 13:39:09.77 on 14 Jul 2020
+[2020-07-14 13:39:10 -0500] Sync Log:  [BGN] Updating file src/Exception/Group/CannotAddUsersToGroupException.php from /host_sync to /app_sync
+[2020-07-14 13:39:10 -0500] Sync Log:  [END] Updating file src/Exception/Group/CannotAddUsersToGroupException.php
+[2020-07-14 13:39:10 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 13:39:09.78 on 14 Jul 2020
+[2020-07-14 13:39:10 -0500] Sync Log:  Synchronization complete at 13:39:09  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 13:46:55 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 13:46:54.31 on 14 Jul 2020
+[2020-07-14 13:46:55 -0500] Sync Log:  [BGN] Updating file tests/Functional/Api/Category/PostCategoryTest.php from /host_sync to /app_sync
+[2020-07-14 13:46:55 -0500] Sync Log:  [END] Updating file tests/Functional/Api/Category/PostCategoryTest.php
+[2020-07-14 13:46:55 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 13:46:54.32 on 14 Jul 2020
+[2020-07-14 13:46:55 -0500] Sync Log:  Synchronization complete at 13:46:54  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 15:50:03 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 15:50:02.59 on 14 Jul 2020
+[2020-07-14 15:50:03 -0500] Sync Log:  [BGN] Updating file .php_cs.cache from /app_sync to /host_sync
+[2020-07-14 15:50:03 -0500] Sync Log:  Failed: The source file /app_sync/.php_cs.cache
+[2020-07-14 15:50:03 -0500] Sync Log:  has been modified during synchronization.  Transfer aborted.
+[2020-07-14 15:50:03 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 15:50:02.67 on 14 Jul 2020
+[2020-07-14 15:50:03 -0500] Sync Log:  Synchronization incomplete at 15:50:02  (0 items transferred, 0 skipped, 1 failed)
+[2020-07-14 15:50:03 -0500] Sync Log:    failed: .php_cs.cache
+[2020-07-14 15:50:04 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 15:50:03.69 on 14 Jul 2020
+[2020-07-14 15:50:04 -0500] Sync Log:  [BGN] Updating file .php_cs.cache from /app_sync to /host_sync
+[2020-07-14 15:50:04 -0500] Sync Log:  [END] Updating file .php_cs.cache
+[2020-07-14 15:50:04 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 15:50:03.75 on 14 Jul 2020
+[2020-07-14 15:50:04 -0500] Sync Log:  Synchronization complete at 15:50:03  (1 item transferred, 0 skipped, 0 failed)

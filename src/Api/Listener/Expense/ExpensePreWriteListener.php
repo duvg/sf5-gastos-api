@@ -52,6 +52,8 @@ class ExpensePreWriteListener implements PreWriteListener
                 if (!$expense->getCategory()->isOwnedByGroup($group)) {
                     throw CannotAddCategoryException::create();
                 }
+
+                return;
             }
 
             if ($expense->getUser()->getId() !== $tokenUser->getId()) {
@@ -71,6 +73,8 @@ class ExpensePreWriteListener implements PreWriteListener
                 if (!$expense->getCategory()->isOwnedByGroup($group)) {
                     throw CannotAddCategoryException::create();
                 }
+
+                return;
             }
 
             if (!$expense->getCategory()->isOwnedBy($tokenUser)) {
