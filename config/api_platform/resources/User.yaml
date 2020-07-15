@@ -5,7 +5,7 @@ App\Entity\User:
     denormalization_context:
       groups: ['user_write']
     filters:
-      - ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\SearchFilter
+      - app.user.search_filter
       - ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\DateFilter
       - ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\BooleanFilter
 

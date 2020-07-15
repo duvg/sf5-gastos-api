@@ -3,6 +3,7 @@ App\Entity\Expense:
     normalization_context:
       groups: ['expense_read']
     filters:
+      - app.expense.search_filter
       - ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\NumericFilter
       - ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\RangeFilter
       - ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\ExistsFilter

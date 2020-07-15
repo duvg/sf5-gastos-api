@@ -10285,3 +10285,57 @@ unison: started
 [2020-07-14 18:51:07 -0500] Sync Log:  [END] Updating file .php_cs.cache
 [2020-07-14 18:51:07 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 18:51:06.90 on 14 Jul 2020
 [2020-07-14 18:51:07 -0500] Sync Log:  Synchronization complete at 18:51:06  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 19:42:39 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:42:38.39 on 14 Jul 2020
+[2020-07-14 19:42:39 -0500] Sync Log:  [BGN] Copying config/api_platform/filters from /host_sync to /app_sync
+[2020-07-14 19:42:39 -0500] Sync Log:  [END] Copying config/api_platform/filters
+[2020-07-14 19:42:39 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:42:38.39 on 14 Jul 2020
+[2020-07-14 19:42:39 -0500] Sync Log:  Synchronization complete at 19:42:38  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 19:44:00 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:43:59.60 on 14 Jul 2020
+[2020-07-14 19:44:00 -0500] Sync Log:  [BGN] Copying config/api_platform/filters/user-custom-filter.yaml from /host_sync to /app_sync
+[2020-07-14 19:44:00 -0500] Sync Log:  [END] Copying config/api_platform/filters/user-custom-filter.yaml
+[2020-07-14 19:44:00 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:43:59.60 on 14 Jul 2020
+[2020-07-14 19:44:00 -0500] Sync Log:  Synchronization complete at 19:43:59  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 19:44:53 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:44:52.72 on 14 Jul 2020
+[2020-07-14 19:44:53 -0500] Sync Log:  [BGN] Updating file config/services.yaml from /host_sync to /app_sync
+[2020-07-14 19:44:53 -0500] Sync Log:  [END] Updating file config/services.yaml
+[2020-07-14 19:44:53 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:44:52.75 on 14 Jul 2020
+[2020-07-14 19:44:53 -0500] Sync Log:  Synchronization complete at 19:44:52  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 19:49:26 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:49:25.89 on 14 Jul 2020
+[2020-07-14 19:49:26 -0500] Sync Log:  [BGN] Updating file config/api_platform/filters/user-custom-filter.yaml from /host_sync to /app_sync
+[2020-07-14 19:49:26 -0500] Sync Log:  [END] Updating file config/api_platform/filters/user-custom-filter.yaml
+[2020-07-14 19:49:26 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:49:25.89 on 14 Jul 2020
+[2020-07-14 19:49:26 -0500] Sync Log:  Synchronization complete at 19:49:25  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 19:49:55 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:49:54.20 on 14 Jul 2020
+[2020-07-14 19:49:55 -0500] Sync Log:  [BGN] Updating file config/api_platform/resources/User.yaml from /host_sync to /app_sync
+[2020-07-14 19:49:55 -0500] Sync Log:  [END] Updating file config/api_platform/resources/User.yaml
+[2020-07-14 19:49:55 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:49:54.22 on 14 Jul 2020
+[2020-07-14 19:49:55 -0500] Sync Log:  Synchronization complete at 19:49:54  (1 item transferred, 0 skipped, 0 failed)
+          ok  Starting native_osx for sync sf5-gastos-api-be-sync
+          ok  sf5-gastos-api-be-sync container still running, restarting unison in container
+unison: stopped
+unison: started
+     success  Sync container started
+     success  Showing unison logs from your sync container: sf5-gastos-api-be-sync
+[2020-07-14 23:11:23 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:49:25.89 on 14 Jul 2020
+[2020-07-14 23:11:23 -0500] Sync Log:  [BGN] Updating file config/api_platform/filters/user-custom-filter.yaml from /host_sync to /app_sync
+[2020-07-14 23:11:23 -0500] Sync Log:  [END] Updating file config/api_platform/filters/user-custom-filter.yaml
+[2020-07-14 23:11:23 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:49:25.89 on 14 Jul 2020
+[2020-07-14 23:11:23 -0500] Sync Log:  Synchronization complete at 19:49:25  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 23:11:23 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 19:49:54.20 on 14 Jul 2020
+[2020-07-14 23:11:23 -0500] Sync Log:  [BGN] Updating file config/api_platform/resources/User.yaml from /host_sync to /app_sync
+[2020-07-14 23:11:23 -0500] Sync Log:  [END] Updating file config/api_platform/resources/User.yaml
+[2020-07-14 23:11:23 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 19:49:54.22 on 14 Jul 2020
+[2020-07-14 23:11:23 -0500] Sync Log:  Synchronization complete at 19:49:54  (1 item transferred, 0 skipped, 0 failed)
+[2020-07-14 23:11:28 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) started propagating changes at 23:11:28.70 on 14 Jul 2020
+[2020-07-14 23:11:28 -0500] Sync Log:  [BGN] Updating file .docker-sync/daemon.log from /host_sync to /app_sync
+[2020-07-14 23:11:28 -0500] Sync Log:  [END] Updating file .docker-sync/daemon.log
+[2020-07-14 23:11:28 -0500] Sync Log:  [BGN] Updating file .docker-sync/daemon.pid from /host_sync to /app_sync
+[2020-07-14 23:11:28 -0500] Sync Log:  [END] Updating file .docker-sync/daemon.pid
+[2020-07-14 23:11:28 -0500] Sync Log:  [BGN] Copying config/api_platform/filters/expense-custom-filter.yaml from /host_sync to /app_sync
+[2020-07-14 23:11:28 -0500] Sync Log:  [END] Copying config/api_platform/filters/expense-custom-filter.yaml
+[2020-07-14 23:11:28 -0500] Sync Log:  [BGN] Updating file config/api_platform/resources/Expense.yaml from /host_sync to /app_sync
+[2020-07-14 23:11:28 -0500] Sync Log:  [END] Updating file config/api_platform/resources/Expense.yaml
+[2020-07-14 23:11:28 -0500] Sync Log:  [BGN] Updating file config/services.yaml from /host_sync to /app_sync
+[2020-07-14 23:11:28 -0500] Sync Log:  [END] Updating file config/services.yaml
+[2020-07-14 23:11:28 -0500] Sync Log:  UNISON 2.51.2 (OCAML 4.06.1) finished propagating changes at 23:11:28.76 on 14 Jul 2020
+[2020-07-14 23:11:28 -0500] Sync Log:  Synchronization complete at 23:11:28  (5 items transferred, 0 skipped, 0 failed)

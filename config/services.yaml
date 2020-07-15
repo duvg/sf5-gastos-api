@@ -1,3 +1,7 @@
+imports:
+    - { resource: api_platform/filters/user-custom-filter.yaml }
+    - { resource: api_platform/filters/expense-custom-filter.yaml }
+
 services:
     _defaults:
         autowire: true

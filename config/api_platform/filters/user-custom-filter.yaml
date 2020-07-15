@@ -1,0 +1,9 @@
+services:
+  app.user.search_filter:
+    parent: 'api_platform.doctrine.orm.search_filter'
+    arguments:
+      - { id: exact, name: partial }
+    tags:
+      - { name: 'api_platform.filter', id: 'app.user.search_filter' }
+    autowire: false
+    autoconfigure: false
