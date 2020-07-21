@@ -73,7 +73,7 @@ class PutExpenseTest extends ExpenseTestBase
 
         $this->assertEquals(JsonResponse::HTTP_OK, $response->getStatusCode());
         $this->assertEquals($payload['amount'], $responseData['amount']);
-        $this->assertEquals($payload['category'], $responseData['category']);
+        $this->assertEquals($payload['category'], $responseData['category']['@id']);
     }
 
     public function testPutAnotherUserGroupExpense(): void

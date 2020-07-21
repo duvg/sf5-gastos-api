@@ -11,7 +11,7 @@ final class Version20200701174336 extends AbstractMigration
 {
     public function getDescription() : string
     {
-        return 'Create `user_group` and `user-group_user tables';
+        return 'Create `user_group` and `user_group_user tables';
     }
 
     public function up(Schema $schema) : void

@@ -1,0 +1,16 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/duviel/.bitnami/stackman/machines/xampp/volumes/root/htdocs/phppoo"
+		},
+		{
+			"path": "."
+		}
+	],
+    "setting": {
+        "xdebug": {
+            "url": "http://localhost:200/",
+        }
+    }
+}

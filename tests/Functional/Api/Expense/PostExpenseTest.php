@@ -30,7 +30,7 @@ class PostExpenseTest extends ExpenseTestBase
 
         $this->assertEquals(JsonResponse::HTTP_CREATED, $response->getStatusCode());
         $this->assertEquals($payload['amount'], $responseData['amount']);
-        $this->assertEquals($payload['user'], $responseData['user']);
+        $this->assertEquals($payload['user'], $responseData['user']['@id']);
     }
 
     public function testCreateExpenseWithAnotherUserCategory(): void
@@ -100,7 +100,7 @@ class PostExpenseTest extends ExpenseTestBase
 
         $this->assertEquals(JsonResponse::HTTP_CREATED, $response->getStatusCode());
         $this->assertEquals($payload['amount'], $responseData['amount']);
-        $this->assertEquals($payload['user'], $responseData['user']);
+        $this->assertEquals($payload['user'], $responseData['user']['@id']);
         $this->assertEquals($payload['group'], $responseData['group']);
     }
 
