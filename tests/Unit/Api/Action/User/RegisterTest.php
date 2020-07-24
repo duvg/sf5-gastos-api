@@ -4,41 +4,31 @@ declare(strict_types=1);
 
 namespace App\Tests\Unit\Api\Action\User;
 
-use App\Api\Action\User\Register;
 use App\Entity\User;
-use App\Exception\User\UserAlreadyExistException;
-use App\Service\Password\EncoderService;
-use App\Tests\Unit\TestBase;
-use Lexik\Bundle\JWTAuthenticationBundle\Services\JWTTokenManagerInterface;
 use Prophecy\Argument;
-use Prophecy\Prophecy\ObjectProphecy;
-use Symfony\Component\HttpFoundation\JsonResponse;
+use App\Tests\Unit\TestBase;
+use App\Api\Action\User\Register;
+use App\Service\Password\EncoderService;
+use PHPUnit\Framework\MockObject\MockObject;
 use Symfony\Component\HttpFoundation\Request;
+use App\Exception\User\UserAlreadyExistException;
+
 
 class RegisterTest extends TestBase
 {
-    /** @var ObjectProphecy|JWTTokenManagerInterface */
-    private $JWTTokenManagerProphecy;
-
-    private JWTTokenManagerInterface $JWTTokenManager;
-
-    /** @var ObjectProphecy|EncoderService */
-    private $encoderServiceProphecy;
-
-    private EncoderService $encoderService;
+    /** @var EncoderService|MockObject */
+    private $encoderService;
 
     private Register $action;
 
     public function setUp(): void
     {
         parent::setUp();
-        $this->JWTTokenManagerProphecy = $this->prophesize(JWTTokenManagerInterface::class);
-        $this->JWTTokenManager = $this->JWTTokenManagerProphecy->reveal();
 
-        $this->encoderServiceProphecy = $this->prophesize(EncoderService::class);
-        $this->encoderService = $this->encoderServiceProphecy->reveal();
+        $this->encoderService = $this->getMockBuilder(EncoderService::class)
+            ->disableOriginalConstructor()->getMock();
 
-        $this->action = new Register($this->userRepository, $this->JWTTokenManager, $this->encoderService);
+        $this->action = new Register($this->userRepository, $this->encoderService);
     }
 
     /**
@@ -54,30 +44,25 @@ class RegisterTest extends TestBase
 
         $request = new Request([], [], [], [], [], [], \json_encode($payload));
 
-        $this->userRepositoryProphecy->findOneByEmail($payload['email'])->willReturn(null);
+        $this->userRepository
+            ->expects($this->exactly(1))
+            ->method('findOneByEmail')
+            ->with($payload['email'])
+            ->willReturn(null);
 
-        $this->encoderServiceProphecy->generateEncodedPasswordForUser(
-            Argument::that(function (User $user): bool {
-                return true;
-            }),
-            Argument::type('string')
-        )->shouldBeCalledOnce();
+        $this->encoderService
+            ->expects($this->exactly(1))
+            ->method('generateEncodedPasswordForUser')
+            ->with($this->isType('object'), $this->isType('string'));
 
-        $this->userRepositoryProphecy->save(
-            Argument::that(function (User $user): bool {
-                return true;
-            })
-        )->shouldBeCalledOnce();
-
-        $this->JWTTokenManagerProphecy->create(
-            Argument::that(function (User $user): bool {
-                return true;
-            })
-        )->shouldBeCalledOnce();
+        $this->userRepository
+            ->expects($this->exactly(1))
+            ->method('save')
+            ->with($this->isType('object'));
 
         $response = $this->action->__invoke($request);
 
-        $this->assertEquals(JsonResponse::HTTP_OK, $response->getStatusCode());
+        $this->assertInstanceOf(User::class, $response);
     }
 
     public function testCreateUserForExistingEmail(): void
@@ -92,7 +77,11 @@ class RegisterTest extends TestBase
 
         $user = new User($payload['name'], $payload['email']);
 
-        $this->userRepositoryProphecy->findOneByEmail($payload['email'])->willReturn($user);
+        $this->userRepository
+            ->expects($this->exactly(1))
+            ->method('findOneByEmail')
+            ->with($payload['email'])
+            ->willReturn($user);
 
         $this->expectException(UserAlreadyExistException::class);
 

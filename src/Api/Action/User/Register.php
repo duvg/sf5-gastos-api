@@ -4,44 +4,33 @@ declare(strict_types=1);
 
 namespace App\Api\Action\User;
 
-use App\Api\Action\RequestTransformer;
 use App\Entity\User;
-use App\Exception\User\UserAlreadyExistException;
 use App\Repository\UserRepository;
+use App\Api\Action\RequestTransformer;
 use App\Service\Password\EncoderService;
-use Lexik\Bundle\JWTAuthenticationBundle\Services\JWTTokenManagerInterface;
-use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\Routing\Annotation\Route;
+use App\Exception\User\UserAlreadyExistException;
+use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\Security\Core\Encoder\EncoderFactoryInterface;
+use Lexik\Bundle\JWTAuthenticationBundle\Services\JWTTokenManagerInterface;
 
 class Register
 {
     private UserRepository $userRepository;
 
-    private JWTTokenManagerInterface $JWTTokenManager;
-
     private EncoderFactoryInterface $encoderFactory;
-    /**
-     * @var EncoderService
-     */
-    private $encoderService;
 
-    public function __construct(UserRepository $userRepository, JWTTokenManagerInterface $JWTTokenManager, EncoderService $encoderService)
+    public function __construct(UserRepository $userRepository, EncoderService $encoderService)
     {
         $this->userRepository = $userRepository;
-        $this->JWTTokenManager = $JWTTokenManager;
         $this->encoderService = $encoderService;
     }
 
     /**
-     * @Route("/users/register", methods={"POST"})
-     *
      * @throws \Exception
      */
-    public function __invoke(Request $request): JsonResponse
+    public function __invoke(Request $request): User
     {
-        phpinfo();
         $name = RequestTransformer::getRequiredField($request, 'name');
         $email = RequestTransformer::getRequiredField($request, 'email');
         $password = RequestTransformer::getRequiredField($request, 'password');
@@ -59,9 +48,6 @@ class Register
 
         $this->userRepository->save($user);
 
-        // Generate Token
-        $jwt = $this->JWTTokenManager->create($user);
-
-        return new JsonResponse(['token' => $jwt]);
+        return $user;
     }
 }

@@ -25,12 +25,13 @@ class GroupPreWriteListener implements PreWriteListener
     /** @var User */
     public function onKernelView(ViewEvent $event): void
     {
-        /** @var User $tokenUser */
-        $tokenUser = $this->tokenStorage->getToken()->getUser();
 
         $request = $event->getRequest();
 
         if (self::POST_GROUP === $request->get('_route')) {
+            /** @var User $tokenUser */
+            $tokenUser = $this->tokenStorage->getToken()->getUser();
+
             /** @var Group $group */
             $group = $event->getControllerResult();
 

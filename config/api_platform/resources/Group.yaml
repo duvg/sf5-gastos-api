@@ -11,21 +11,17 @@ App\Entity\Group:
       security: 'is_granted("GROUP_CREATE")'
       denormalization_context:
         groups: ['group_post']
-      swagger_context:
-        parameters:
-          - in: body
-            name: group
-            description: The group to create
-            schema:
-              type: object
-              required:
-                - name
-                - owner
-              properties:
-                name:
-                  type: string
-                owner:
-                  type: string
+      openapi_context:
+        requestBody:
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  name:
+                    type: string
+                  owner:
+                    type: string
 
   itemOperations:
     get:
@@ -36,18 +32,15 @@ App\Entity\Group:
       security: 'is_granted("GROUP_UPDATE", object)'
       denormalization_context:
         groups: ['group_put']
-      swagger_context:
-        parameters:
-          - in: body
-            name: group
-            description: The group to update
-            schema:
-              type: object
-              required:
-                - name
-              properties:
-                name:
-                  type: string
+      openapi_context:
+        requestBody:
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  name:
+                    type: string
 
     delete:
       method: 'DELETE'

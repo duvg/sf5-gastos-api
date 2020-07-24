@@ -22,6 +22,9 @@ class GroupServiceTest extends TestBase
         $this->groupService = new GroupService($this->groupRepository, $this->userRepository);
     }
 
+    /**
+     * @throws \Exception
+     */
     public function testAddUserToGroup(): void
     {
         $groupId = 'group_id_123';
@@ -31,20 +34,37 @@ class GroupServiceTest extends TestBase
         $newUser = new User('new', 'new.user@api.com');
         $group = new Group('group', $user);
 
-        $this->groupRepositoryProphecy->findOneById($groupId)->willReturn($group);
-        $this->groupRepositoryProphecy->userIsMember($group, $user)->willReturn(true);
-        $this->userRepositoryProphecy->findOneById($userId)->willReturn($newUser);
-        $this->groupRepositoryProphecy->userIsMember($group, $newUser)->willReturn(true);
+        $this->groupRepository
+            ->expects($this->exactly(1))
+            ->method('findOneById')
+            ->with($groupId)
+            ->willReturn($group);
 
-        $this->groupRepositoryProphecy->save(
-            Argument::that(function (Group $group): bool {
-                return true;
-            })
-        )->shouldBeCalledOnce();
+        $this->groupRepository
+            ->expects($this->exactly(2))
+            ->method('userIsMember')
+            ->with($this->isType('object'), $this->isType('object'))
+            ->willReturn(true, false);
+
+        $this->userRepository
+            ->expects($this->exactly(1))
+            ->method('findOneById')
+            ->with($userId)
+            ->willReturn($newUser);
+
+
+        $this->groupRepository
+            ->expects($this->exactly(1))
+            ->method('save')
+            ->with($this->isType('object'))
+            ->willReturn(true);
 
         $this->groupService->addUserToGroup($groupId, $userId, $user);
     }
 
+    /**
+     * @throws \Exception
+     */
     public function testRemoveUserFromGroup()
     {
         $groupId = 'group_id_123';
@@ -54,16 +74,31 @@ class GroupServiceTest extends TestBase
         $newUser = new User('new', 'new.user@api.com');
         $group = new Group('group', $user);
 
-        $this->groupRepositoryProphecy->findOneById($groupId)->willReturn($group);
-        $this->groupRepositoryProphecy->userIsMember($group, $user)->willReturn(true);
-        $this->userRepositoryProphecy->findOneById($userId)->willReturn($newUser);
-        $this->groupRepositoryProphecy->userIsMember($group, $newUser)->willReturn(true);
+        $this->groupRepository
+            ->expects($this->exactly(1))
+            ->method('findOneById')
+            ->with($groupId)
+            ->willReturn($group);
 
-        $this->groupRepositoryProphecy->save(
-            Argument::that(function (Group $group): bool {
-                return true;
-            })
-        )->shouldBeCalledOnce();
+        $this->groupRepository
+            ->expects($this->exactly(2))
+            ->method('userIsMember')
+            ->with($this->isType('object'), $this->isType('object'))
+            ->willReturn(true, true);
+
+        $this->userRepository
+            ->expects($this->exactly(1))
+            ->method('findOneById')
+            ->with($userId)
+            ->willReturn($newUser);
+
+
+
+        $this->groupRepository
+            ->expects($this->exactly(1))
+            ->method('save')
+            ->with($this->isType('object'))
+            ->willReturn(true);
 
         $this->groupService->removeUserFromGroup($groupId, $userId, $user);
     }
@@ -71,13 +106,16 @@ class GroupServiceTest extends TestBase
     public function testGroupNotExist(): void
     {
         $groupId = 'group_id_123';
-        $userId = 'user_id:_432';
+        $userId = 'user_id_432';
 
         $user = new User('user', 'user@api.com');
         $group = new Group('group', $user);
 
-        $this->groupRepositoryProphecy->findOneById($groupId)->willReturn(null);
-        $this->groupRepositoryProphecy->userIsMember($group, $user)->willReturn(true);
+        $this->groupRepository
+            ->expects($this->exactly(1))
+            ->method('findOneById')
+            ->with($groupId)
+            ->willReturn(null);
 
         $this->expectException(GroupDoesNotExistException::class);
         $this->groupService->addUserToGroup($groupId, $userId, $user);
@@ -92,8 +130,17 @@ class GroupServiceTest extends TestBase
         $newUser = new User('new', 'new.user@api-.com');
         $group = new Group('group', $user);
 
-        $this->groupRepositoryProphecy->findOneById($groupId)->willReturn($group);
-        $this->groupRepositoryProphecy->userIsMember($group, $user)->willReturn(false);
+        $this->groupRepository
+            ->expects($this->exactly(1))
+            ->method('findOneById')
+            ->with($groupId)
+            ->willReturn($group);
+
+        $this->groupRepository
+            ->expects($this->exactly(1))
+            ->method('userIsMember')
+            ->with($this->isType('object'), $this->isType('object'))
+            ->willReturn(false);
 
         $this->expectException(CannotAddUsersToGroupException::class);
 
@@ -108,9 +155,23 @@ class GroupServiceTest extends TestBase
         $user = new User('user', 'user@api.com');
         $group = new Group('group', $user);
 
-        $this->groupRepositoryProphecy->findOneById($groupId)->willReturn($group);
-        $this->groupRepositoryProphecy->userIsMember($group, $user)->willReturn(true);
-        $this->userRepositoryProphecy->findOneById($userId)->willReturn(null);
+        $this->groupRepository
+            ->expects($this->exactly(1))
+            ->method('findOneById')
+            ->with($groupId)
+            ->willReturn($group);
+
+        $this->groupRepository
+            ->expects($this->exactly(1))
+            ->method('userIsMember')
+            ->with($this->isType('object'), $this->isType('object'))
+            ->willReturn(true);
+
+        $this->userRepository
+            ->expects($this->exactly(1))
+            ->method('findOneById')
+            ->with($userId)
+            ->willReturn(null);
 
         $this->expectException(UserDoesNotExistException::class);
 

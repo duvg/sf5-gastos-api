@@ -29,12 +29,13 @@ class CategoryPreWriteListener implements PreWriteListener
 
     public function onKernelView(ViewEvent $event): void
     {
-        /** @var User $tokenUser */
-        $tokenUser = $this->tokenStorage->getToken()->getUser();
 
         $request = $event->getRequest();
 
         if (self::POST_CATEGORY === $request->get('_route')) {
+            /** @var User $tokenUser */
+            $tokenUser = $this->tokenStorage->getToken()->getUser();
+
             /** @var Category $category */
             $category = $event->getControllerResult();
 

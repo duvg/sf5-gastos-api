@@ -2,8 +2,6 @@ App\Entity\User:
   attributes:
     normalization_context:
       groups: ['user_read']
-    denormalization_context:
-      groups: ['user_write']
     filters:
       - app.user.search_filter
       - ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\DateFilter
@@ -13,6 +11,26 @@ App\Entity\User:
     get:
       method: 'GET'
       security: 'is_granted("USER_READ")'
+    register:
+      method: 'POST'
+      path: '/users/register'
+      controller: 'App\Api\Action\User\Register'
+      denormalization_context:
+        groups: ['user_post']
+      openapi_context:
+        requestBody:
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  name:
+                    type: string
+                  email:
+                    type: string
+                  password:
+                    type: string
+
   itemOperations:
     get:
       method: 'GET'
@@ -20,26 +38,23 @@ App\Entity\User:
     put:
       method: 'PUT'
       security: 'is_granted("USER_UPDATE", object)'
-      swagger_context:
-        parameters:
-          - in: body
-            name: user
-            description: The user to update
-            schema:
-              type: object
-              required:
-                - name
-                - email
-                - roles
-              properties:
-                name:
-                  type: string
-                email:
-                  type: string
-                roles:
-                  type: array
-                  items:
+      denormalization_context:
+        groups: ['user_put']
+      openapi_context:
+        requestBody:
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  name:
                     type: string
+                  email:
+                    type: string
+                  roles:
+                    type: array
+                    items:
+                      type: string
     delete:
       method: 'DELETE'
       security: 'is_granted("USER_DELETE", object)'

@@ -5,12 +5,14 @@
 			"path": "/Users/duviel/.bitnami/stackman/machines/xampp/volumes/root/htdocs/phppoo"
 		},
 		{
-			"path": "."
+			"path": "/Users/duviel/.bitnami/stackman/machines/xampp/volumes/root/htdocs/conceptos"
 		}
 	],
-    "setting": {
-        "xdebug": {
-            "url": "http://localhost:200/",
-        }
-    }
+	"setting":
+	{
+		"xdebug":
+		{
+			"url": "http://localhost:200/"
+		}
+	}
 }

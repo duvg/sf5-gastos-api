@@ -37,7 +37,7 @@ class GroupService
         $userToAdd = $this->getUserFromId($userId);
 
         // Check if user is not member
-        $this->checkUserIsMemberOlAlreadyExistInGroup($group, $userToAdd, 'add');
+        $this->checkUserNotMemberOfGroupException($group, $userToAdd);
 
         $group->addUser($userToAdd);
 
@@ -53,7 +53,7 @@ class GroupService
 
         $userToRemove = $this->getUserFromId($userId);
 
-        $this->checkUserIsMemberOlAlreadyExistInGroup($group, $userToRemove, 'remove');
+        $this->checkUserIsMemberOlAlreadyExistInGroup($group, $userToRemove);
 
         $group->removeUser($userToRemove);
 
@@ -85,16 +85,20 @@ class GroupService
         throw UserDoesNotExistException::fromUserId($userId);
     }
 
-    private function checkUserIsMemberOlAlreadyExistInGroup(Group $group, User $user, string $type): void
+    private function checkUserIsMemberOlAlreadyExistInGroup(Group $group, User $user): void
     {
-        if (!$this->groupRepository->userIsMember($group, $user)) {
-            if ('add' === type) {
-                throw UserAlreadyMemberOfGroupException::fromUserId($user->getId());
-            }
 
-            if ('remove' === $type) {
-                throw UserNotMemberOfGroupException::create();
-            }
+        if (!$this->groupRepository->userIsMember($group, $user)) {
+            throw UserNotMemberOfGroupException::create();
+
         }
+    }
+
+    private function checkUserNotMemberOfGroupException(Group $group, User $user): void
+    {
+        if ($this->groupRepository->userIsMember($group, $user)) {
+            throw UserAlreadyMemberOfGroupException::fromUserId($user->getId());
+        }
+
     }
 }

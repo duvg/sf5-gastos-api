@@ -4,27 +4,23 @@ namespace App\Tests\Unit;
 
 use App\Repository\GroupRepository;
 use App\Repository\UserRepository;
+use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use Prophecy\Prophecy\ObjectProphecy;
 
 class TestBase extends TestCase
 {
-    /** @var ObjectProphecy|UserRepository */
-    protected $userRepositoryProphecy;
+    /** @var UserRepository|MockObject */
+    protected $userRepository;
 
-    protected UserRepository $userRepository;
-
-    /** @var ObjectProphecy|GroupRepository */
-    protected $groupRepositoryProphecy;
-
-    protected GroupRepository $groupRepository;
+    /** @var GroupRepository|MockObject */
+    protected $groupRepository;
 
     public function setUp()
     {
-        $this->userRepositoryProphecy = $this->prophesize(UserRepository::class);
-        $this->userRepository = $this->userRepositoryProphecy->reveal();
-
-        $this->groupRepositoryProphecy = $this->prophesize(GroupRepository::class);
-        $this->groupRepository = $this->groupRepositoryProphecy->reveal();
+        $this->userRepository = $this->getMockBuilder(UserRepository::class)
+            ->disableOriginalConstructor()->getMock();
+        $this->groupRepository = $this->getMockBuilder(GroupRepository::class)
+            ->disableOriginalConstructor()->getMock();
     }
 }

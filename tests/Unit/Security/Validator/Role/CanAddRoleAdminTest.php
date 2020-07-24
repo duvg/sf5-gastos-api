@@ -7,6 +7,7 @@ namespace App\Tests\Unit\Security\Validator\Role;
 use App\Exception\Role\RequiredRoleToAddRoleAdminNotFoundException;
 use App\Security\Role;
 use App\Security\Validator\Role\CanAddRoleAdmin;
+use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use Prophecy\Prophecy\ObjectProphecy;
 use Symfony\Component\HttpFoundation\Request;
@@ -14,17 +15,15 @@ use Symfony\Component\Security\Core\Security;
 
 class CanAddRoleAdminTest extends TestCase
 {
-    /** @var ObjectProphecy|Security */
-    private $securityProphecy;
-
+    /** @var Security|MockObject */
     private Security $security;
 
     private CanAddRoleAdmin $validator;
 
     public function setUp(): void
     {
-        $this->securityProphecy = $this->prophesize(Security::class);
-        $this->security = $this->securityProphecy->reveal();
+        $this->security = $this->getMockBuilder(Security::class)
+            ->disableOriginalConstructor()->getMock();
 
         $this->validator = new CanAddRoleAdmin($this->security);
     }
@@ -40,7 +39,11 @@ class CanAddRoleAdminTest extends TestCase
 
         $request = new Request([], [], [], [], [], [], \json_encode($payload));
 
-        $this->securityProphecy->isGranted(Role::ROLE_ADMIN)->willReturn(true);
+        $this->security
+            ->expects($this->exactly(1))
+            ->method('isGranted')
+            ->with(Role::ROLE_ADMIN)
+            ->willReturn(true);
 
         $response = $this->validator->validate($request);
 
@@ -58,7 +61,11 @@ class CanAddRoleAdminTest extends TestCase
 
         $request = new Request([], [], [], [], [], [], \json_encode($payload));
 
-        $this->securityProphecy->isGranted(Role::ROLE_ADMIN)->willReturn(false);
+        $this->security
+            ->expects($this->exactly(1))
+            ->method('isGranted')
+            ->with(Role::ROLE_ADMIN)
+            ->willReturn(false);
 
         $this->expectException(RequiredRoleToAddRoleAdminNotFoundException::class);
         $this->expectExceptionMessage('ROLE_ADMIN require to perform this operation');

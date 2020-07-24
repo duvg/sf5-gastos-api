@@ -31,12 +31,13 @@ class ExpensePreWriteListener implements PreWriteListener
 
     public function onKernelView(ViewEvent $event): void
     {
-        /** @var User $tokenUser */
-        $tokenUser = $this->tokenStorage->getToken()->getUser();
 
         $request = $event->getRequest();
 
         if (self::POST_EXPENSE === $request->get('_route')) {
+            /** @var User $tokenUser */
+            $tokenUser = $this->tokenStorage->getToken()->getUser();
+
             /** @var Expense $expense */
             $expense = $event->getControllerResult();
 
@@ -66,6 +67,10 @@ class ExpensePreWriteListener implements PreWriteListener
         }
 
         if (self::PUT_EXPENSE === $request->get('_route')) {
+
+            /** @var User $tokenUser */
+            $tokenUser = $this->tokenStorage->getToken()->getUser();
+
             /** @var Expense $expense */
             $expense = $event->getControllerResult();
 

@@ -17,31 +17,24 @@ App\Entity\Expense:
       security: 'is_granted("EXPENSE_CREATE")'
       denormalization_context:
         groups: ['expense_post']
-      swagger_context:
-        parameters:
-          - in: body
-            name: expense
-            description: The expense to create
-            schema:
-              type: object
-              required:
-                - category
-                - user
-                - group
-                - amount
-                - description
-              properties:
-                category:
-                  type: string
-                user:
-                  type: string
-                group:
-                  type: string
-                amount:
-                  type: number
-                  format: float
-                description:
-                  type: string
+      openapi_context:
+        requestBody:
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  category:
+                    type: string
+                  user:
+                    type: string
+                  group:
+                    type: string
+                  amount:
+                    type: number
+                    format: float
+                  description:
+                    type: string
 
   itemOperations:
     get:
@@ -52,17 +45,11 @@ App\Entity\Expense:
       security: 'is_granted("EXPENSE_UPDATE", object)'
       denormalization_context:
         groups: ['expense_put']
-      swagger_context:
-        parameters:
-          - in: body
-            name: expense
-            description: The expense to update
+      openapi_context:
+        content:
+          application/json:
             schema:
               type: object
-              required:
-                - category
-                - amount
-                - description
               properties:
                 category:
                   type: string
