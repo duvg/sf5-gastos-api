@@ -9,6 +9,7 @@ services:
 
         bind:
             $roleValidators: !tagged app.role_validator
+            $mediaPath:      '%env(resolve:MEDIA_PATH)%'
     App\:
         resource: '../src/*'
         exclude: '../src/{DependencyInjection,Entity,Migrations,Tests,Kernel.php}'

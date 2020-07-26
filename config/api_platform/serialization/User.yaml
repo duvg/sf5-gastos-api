@@ -10,6 +10,8 @@ App\Entity\User:
       groups: ['user_post']
     roles:
       groups: ['user_read', 'user_put']
+    avatar:
+      groups: ['user_read']
     createdAt:
       groups: ['user_read']
     updatedAt:

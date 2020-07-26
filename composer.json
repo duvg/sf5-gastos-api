@@ -9,6 +9,7 @@
         "ext-iconv": "*",
         "ext-json": "*",
         "api-platform/api-pack": "^1.2",
+        "league/flysystem-bundle": "^1.5",
         "lexik/jwt-authentication-bundle": "^2.8",
         "ramsey/uuid-doctrine": "^1.6",
         "symfony/console": "5.0.*",
